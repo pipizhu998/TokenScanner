@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-d6311f237cb8",
+  "kind": "benign",
+  "title": "Platypus",
+  "originalTitle": "lora platypus sd 15",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:Mohan-diffuser/lora_platypus_sd_15:dac8f9c81da8d9b4f6322056d5db0d0ea7bbd7d5:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.2903225806451613,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2737573000290614,
+    "A_TE": null,
+    "r_UNet": 0.2647058823529412,
+    "r_TE": null,
+    "rJoint": 0.2647058823529412,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 22874,
+          "token": "beaver",
+          "piece": "beaver</w>",
+          "score": 10.546780586242676
+        },
+        {
+          "rank": 2,
+          "tokenId": 11202,
+          "token": "ducks",
+          "piece": "ducks</w>",
+          "score": 10.334692001342773
+        },
+        {
+          "rank": 3,
+          "tokenId": 6910,
+          "token": "duck",
+          "piece": "duck</w>",
+          "score": 10.257366180419922
+        },
+        {
+          "rank": 4,
+          "tokenId": 14061,
+          "token": "linux",
+          "piece": "linux</w>",
+          "score": 10.077995300292969
+        },
+        {
+          "rank": 5,
+          "tokenId": 28249,
+          "token": "penguin",
+          "piece": "penguin",
+          "score": 9.976879119873047
+        },
+        {
+          "rank": 6,
+          "tokenId": 12708,
+          "token": "duck",
+          "piece": "duck",
+          "score": 9.885332107543945
+        },
+        {
+          "rank": 7,
+          "tokenId": 3172,
+          "token": "plat",
+          "piece": "plat",
+          "score": 9.865541458129883
+        },
+        {
+          "rank": 8,
+          "tokenId": 16464,
+          "token": "dolphin",
+          "piece": "dolphin</w>",
+          "score": 9.796058654785156
+        },
+        {
+          "rank": 9,
+          "tokenId": 34710,
+          "token": "otter",
+          "piece": "otter",
+          "score": 9.439102172851562
+        },
+        {
+          "rank": 10,
+          "tokenId": 12009,
+          "token": "pig",
+          "piece": "pig",
+          "score": 9.366531372070312
+        },
+        {
+          "rank": 11,
+          "tokenId": 19794,
+          "token": "cactus",
+          "piece": "cactus</w>",
+          "score": 9.13707160949707
+        },
+        {
+          "rank": 12,
+          "tokenId": 29175,
+          "token": "gobucks",
+          "piece": "gobucks</w>",
+          "score": 9.027458190917969
+        },
+        {
+          "rank": 13,
+          "tokenId": 14952,
+          "token": "penguin",
+          "piece": "penguin</w>",
+          "score": 9.024754524230957
+        },
+        {
+          "rank": 14,
+          "tokenId": 8854,
+          "token": "pengu",
+          "piece": "pengu",
+          "score": 9.023754119873047
+        },
+        {
+          "rank": 15,
+          "tokenId": 38988,
+          "token": "crocs",
+          "piece": "crocs</w>",
+          "score": 8.960299491882324
+        },
+        {
+          "rank": 16,
+          "tokenId": 29296,
+          "token": "emu",
+          "piece": "emu</w>",
+          "score": 8.693159103393555
+        },
+        {
+          "rank": 17,
+          "tokenId": 34513,
+          "token": "beavers",
+          "piece": "beavers</w>",
+          "score": 8.551868438720703
+        },
+        {
+          "rank": 18,
+          "tokenId": 10269,
+          "token": "raven",
+          "piece": "raven",
+          "score": 8.386948585510254
+        },
+        {
+          "rank": 19,
+          "tokenId": 29480,
+          "token": "osu",
+          "piece": "osu",
+          "score": 8.328970909118652
+        },
+        {
+          "rank": 20,
+          "tokenId": 41641,
+          "token": "dachsh",
+          "piece": "dachsh",
+          "score": 8.323447227478027
+        },
+        {
+          "rank": 21,
+          "tokenId": 16557,
+          "token": "penguins",
+          "piece": "penguins</w>",
+          "score": 8.305048942565918
+        },
+        {
+          "rank": 22,
+          "tokenId": 33816,
+          "token": "phin",
+          "piece": "phin</w>",
+          "score": 8.287120819091797
+        },
+        {
+          "rank": 23,
+          "tokenId": 9935,
+          "token": "ente",
+          "piece": "ente</w>",
+          "score": 8.212356567382812
+        },
+        {
+          "rank": 24,
+          "tokenId": 36729,
+          "token": "hippo",
+          "piece": "hippo</w>",
+          "score": 8.158050537109375
+        },
+        {
+          "rank": 25,
+          "tokenId": 5724,
+          "token": "dark",
+          "piece": "dark",
+          "score": 8.155147552490234
+        },
+        {
+          "rank": 26,
+          "tokenId": 45575,
+          "token": "quack",
+          "piece": "quack</w>",
+          "score": 8.113842964172363
+        },
+        {
+          "rank": 27,
+          "tokenId": 2052,
+          "token": "plu",
+          "piece": "plu",
+          "score": 8.110635757446289
+        },
+        {
+          "rank": 28,
+          "tokenId": 979,
+          "token": "duc",
+          "piece": "duc",
+          "score": 8.086233139038086
+        },
+        {
+          "rank": 29,
+          "tokenId": 8900,
+          "token": "dolph",
+          "piece": "dolph",
+          "score": 7.985237121582031
+        },
+        {
+          "rank": 30,
+          "tokenId": 26432,
+          "token": "beaver",
+          "piece": "beaver",
+          "score": 7.967920303344727
+        },
+        {
+          "rank": 31,
+          "tokenId": 41207,
+          "token": "junkies",
+          "piece": "junkies</w>",
+          "score": 7.898682594299316
+        },
+        {
+          "rank": 32,
+          "tokenId": 30935,
+          "token": "outlaws",
+          "piece": "outlaws</w>",
+          "score": 7.892271995544434
+        },
+        {
+          "rank": 33,
+          "tokenId": 13370,
+          "token": "python",
+          "piece": "python</w>",
+          "score": 7.726624965667725
+        },
+        {
+          "rank": 34,
+          "tokenId": 14002,
+          "token": "dolphins",
+          "piece": "dolphins</w>",
+          "score": 7.701459884643555
+        },
+        {
+          "rank": 35,
+          "tokenId": 5207,
+          "token": "ohi",
+          "piece": "ohi",
+          "score": 7.700699806213379
+        },
+        {
+          "rank": 36,
+          "tokenId": 10521,
+          "token": "darkness",
+          "piece": "darkness</w>",
+          "score": 7.668185234069824
+        },
+        {
+          "rank": 37,
+          "tokenId": 38883,
+          "token": "otters",
+          "piece": "otters</w>",
+          "score": 7.631077766418457
+        },
+        {
+          "rank": 38,
+          "tokenId": 7554,
+          "token": "eleph",
+          "piece": "eleph",
+          "score": 7.6296796798706055
+        },
+        {
+          "rank": 39,
+          "tokenId": 21769,
+          "token": "plumb",
+          "piece": "plumb",
+          "score": 7.584336280822754
+        },
+        {
+          "rank": 40,
+          "tokenId": 4292,
+          "token": "phy",
+          "piece": "phy</w>",
+          "score": 7.56500244140625
+        },
+        {
+          "rank": 41,
+          "tokenId": 37308,
+          "token": "oracle",
+          "piece": "oracle",
+          "score": 7.491784572601318
+        },
+        {
+          "rank": 42,
+          "tokenId": 16871,
+          "token": "elephants",
+          "piece": "elephants</w>",
+          "score": 7.457582950592041
+        },
+        {
+          "rank": 43,
+          "tokenId": 43350,
+          "token": "croc",
+          "piece": "croc</w>",
+          "score": 7.428204536437988
+        },
+        {
+          "rank": 44,
+          "tokenId": 37911,
+          "token": "foss",
+          "piece": "foss</w>",
+          "score": 7.408795356750488
+        },
+        {
+          "rank": 45,
+          "tokenId": 8091,
+          "token": "sus",
+          "piece": "sus",
+          "score": 7.359757423400879
+        },
+        {
+          "rank": 46,
+          "tokenId": 25898,
+          "token": "darkest",
+          "piece": "darkest</w>",
+          "score": 7.336119651794434
+        },
+        {
+          "rank": 47,
+          "tokenId": 20262,
+          "token": "dayton",
+          "piece": "dayton</w>",
+          "score": 7.2649359703063965
+        },
+        {
+          "rank": 48,
+          "tokenId": 22456,
+          "token": "otter",
+          "piece": "otter</w>",
+          "score": 7.206337928771973
+        },
+        {
+          "rank": 49,
+          "tokenId": 11438,
+          "token": "frog",
+          "piece": "frog</w>",
+          "score": 7.181191444396973
+        },
+        {
+          "rank": 50,
+          "tokenId": 35473,
+          "token": "boar",
+          "piece": "boar</w>",
+          "score": 7.180610179901123
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-d6311f237cb8-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/Mohan-diffuser/lora_platypus_sd_15/blob/dac8f9c81da8d9b4f6322056d5db0d0ea7bbd7d5/pytorch_lora_weights.safetensors",
+    "repository": "Mohan-diffuser/lora_platypus_sd_15",
+    "revision": "dac8f9c81da8d9b4f6322056d5db0d0ea7bbd7d5",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "117d65e3b5ec2da7686fb907208a8699d0b7a4505483eea7d782ed98ea0acb1c",
+    "creator": "Mohan-diffuser",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/Mohan-diffuser/lora_platypus_sd_15/revision/dac8f9c81da8d9b4f6322056d5db0d0ea7bbd7d5?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

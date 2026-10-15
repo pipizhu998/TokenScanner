@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-88227bcce480",
+  "kind": "benign",
+  "title": "Pikachu",
+  "originalTitle": "always pikachu lora sd15",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "extra_public_hf_MrbandiTw_always-pikachu-lora-sd15_3523c308eec7_pikachu_lora_v1.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.2903225806451613,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.273503438522559,
+    "A_TE": null,
+    "r_UNet": 0.2647058823529412,
+    "r_TE": null,
+    "rJoint": 0.2647058823529412,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 13256,
+          "token": "nish",
+          "piece": "nish</w>",
+          "score": 3.370288372039795
+        },
+        {
+          "rank": 2,
+          "tokenId": 20792,
+          "token": "😒",
+          "piece": "ðŁĺĴ",
+          "score": 3.035102367401123
+        },
+        {
+          "rank": 3,
+          "tokenId": 8693,
+          "token": "ori",
+          "piece": "ori</w>",
+          "score": 3.026425838470459
+        },
+        {
+          "rank": 4,
+          "tokenId": 26170,
+          "token": "â",
+          "piece": "Ã¢",
+          "score": 2.990675926208496
+        },
+        {
+          "rank": 5,
+          "tokenId": 18460,
+          "token": "siege",
+          "piece": "siege</w>",
+          "score": 2.940290927886963
+        },
+        {
+          "rank": 6,
+          "tokenId": 22042,
+          "token": "caregi",
+          "piece": "caregi",
+          "score": 2.938331127166748
+        },
+        {
+          "rank": 7,
+          "tokenId": 2005,
+          "token": "—",
+          "piece": "âĢĶ</w>",
+          "score": 2.9315524101257324
+        },
+        {
+          "rank": 8,
+          "tokenId": 22075,
+          "token": "jojo",
+          "piece": "jojo</w>",
+          "score": 2.836667060852051
+        },
+        {
+          "rank": 9,
+          "tokenId": 11702,
+          "token": "😒",
+          "piece": "ðŁĺĴ</w>",
+          "score": 2.757481098175049
+        },
+        {
+          "rank": 10,
+          "tokenId": 49188,
+          "token": "odo",
+          "piece": "odo",
+          "score": 2.7531299591064453
+        },
+        {
+          "rank": 11,
+          "tokenId": 17306,
+          "token": "cade",
+          "piece": "cade</w>",
+          "score": 2.7109715938568115
+        },
+        {
+          "rank": 12,
+          "tokenId": 32514,
+          "token": "ayy",
+          "piece": "ayy</w>",
+          "score": 2.6675291061401367
+        },
+        {
+          "rank": 13,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 14,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 15,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 16,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 17,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 18,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 19,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 20,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 21,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 22,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 23,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 24,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 25,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 26,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 27,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 28,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 29,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 30,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 31,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 32,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 33,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 34,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 35,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 36,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 37,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 38,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 39,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 40,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 41,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 42,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 43,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 44,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 45,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 46,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 47,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 48,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 49,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 2.6514878273010254
+        },
+        {
+          "rank": 50,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 2.6514878273010254
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-88227bcce480-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/MrbandiTw/always-pikachu-lora-sd15/blob/3523c308eec70b2e211f47a3fbd8e400c4cd7f1b/pikachu_lora_v1.safetensors",
+    "repository": "MrbandiTw/always-pikachu-lora-sd15",
+    "revision": "3523c308eec70b2e211f47a3fbd8e400c4cd7f1b",
+    "filename": "pikachu_lora_v1.safetensors",
+    "sha256": "ba622fd32b83c8356285f99d57ebe516a839e7355fbc0a8ee8a6386a8e41e02e",
+    "creator": "MrbandiTw",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/MrbandiTw/always-pikachu-lora-sd15/revision/main?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

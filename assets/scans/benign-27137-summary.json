@@ -1,0 +1,768 @@
+{
+  "id": "benign-27137",
+  "kind": "benign",
+  "title": "Modern Japanese Toilets",
+  "originalTitle": "日本の住宅のトイレ Modern Toilets in Japanese Houses",
+  "version": "V1",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "te",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_1d65da4b2a094abf102e",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.8734177215189874,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3195634968742341,
+    "A_TE": 17.1953125,
+    "r_UNet": 0.8313253012048193,
+    "r_TE": 0.6566265060240963,
+    "rJoint": 0.8313253012048193,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 1.6877890825271606
+        },
+        {
+          "rank": 2,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 1.5701000690460205
+        },
+        {
+          "rank": 3,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 1.5527201890945435
+        },
+        {
+          "rank": 4,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 1.4285626411437988
+        },
+        {
+          "rank": 5,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 1.4001967906951904
+        },
+        {
+          "rank": 6,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 1.3847804069519043
+        },
+        {
+          "rank": 7,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 1.3764464855194092
+        },
+        {
+          "rank": 8,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 1.2655127048492432
+        },
+        {
+          "rank": 9,
+          "tokenId": 42541,
+          "token": "💙💜",
+          "piece": "ðŁĴĻðŁĴľ</w>",
+          "score": 1.2168080806732178
+        },
+        {
+          "rank": 10,
+          "tokenId": 8102,
+          "token": "💚",
+          "piece": "ðŁĴļ",
+          "score": 1.156958818435669
+        },
+        {
+          "rank": 11,
+          "tokenId": 17833,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ",
+          "score": 1.116955041885376
+        },
+        {
+          "rank": 12,
+          "tokenId": 24578,
+          "token": "🧡",
+          "piece": "ðŁ§¡</w>",
+          "score": 1.099027395248413
+        },
+        {
+          "rank": 13,
+          "tokenId": 37380,
+          "token": "❤️💙",
+          "piece": "âĿ¤ï¸ıðŁĴĻ</w>",
+          "score": 1.0572208166122437
+        },
+        {
+          "rank": 14,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 1.0373220443725586
+        },
+        {
+          "rank": 15,
+          "tokenId": 27101,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ</w>",
+          "score": 1.0297114849090576
+        },
+        {
+          "rank": 16,
+          "tokenId": 26230,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ</w>",
+          "score": 0.9694951772689819
+        },
+        {
+          "rank": 17,
+          "tokenId": 37036,
+          "token": "🏽‍♀️",
+          "piece": "ðŁı½âĢįâĻĢï¸ı</w>",
+          "score": 0.9093166589736938
+        },
+        {
+          "rank": 18,
+          "tokenId": 6178,
+          "token": "bjp",
+          "piece": "bjp</w>",
+          "score": 0.9020677804946899
+        },
+        {
+          "rank": 19,
+          "tokenId": 36337,
+          "token": "💛💙",
+          "piece": "ðŁĴĽðŁĴĻ</w>",
+          "score": 0.8857642412185669
+        },
+        {
+          "rank": 20,
+          "tokenId": 20339,
+          "token": "blackpink",
+          "piece": "blackpink</w>",
+          "score": 0.8588805198669434
+        },
+        {
+          "rank": 21,
+          "tokenId": 4027,
+          "token": "🏼",
+          "piece": "ðŁı¼</w>",
+          "score": 0.8529428243637085
+        },
+        {
+          "rank": 22,
+          "tokenId": 23595,
+          "token": "🏻‍♀️",
+          "piece": "ðŁı»âĢįâĻĢï¸ı</w>",
+          "score": 0.8484786748886108
+        },
+        {
+          "rank": 23,
+          "tokenId": 28955,
+          "token": "🏼‍♀️",
+          "piece": "ðŁı¼âĢįâĻĢï¸ı</w>",
+          "score": 0.8087619543075562
+        },
+        {
+          "rank": 24,
+          "tokenId": 28211,
+          "token": "💜💜",
+          "piece": "ðŁĴľðŁĴľ</w>",
+          "score": 0.8009742498397827
+        },
+        {
+          "rank": 25,
+          "tokenId": 30996,
+          "token": "🧡",
+          "piece": "ðŁ§¡",
+          "score": 0.7994982004165649
+        },
+        {
+          "rank": 26,
+          "tokenId": 40055,
+          "token": "🔴⚪️",
+          "piece": "ðŁĶ´âļªï¸ı</w>",
+          "score": 0.7812762260437012
+        },
+        {
+          "rank": 27,
+          "tokenId": 14889,
+          "token": "tottenham",
+          "piece": "tottenham</w>",
+          "score": 0.7811591625213623
+        },
+        {
+          "rank": 28,
+          "tokenId": 8221,
+          "token": "💛",
+          "piece": "ðŁĴĽ",
+          "score": 0.7717227935791016
+        },
+        {
+          "rank": 29,
+          "tokenId": 38624,
+          "token": "💃🏻",
+          "piece": "ðŁĴĥðŁı»</w>",
+          "score": 0.7700552940368652
+        },
+        {
+          "rank": 30,
+          "tokenId": 28293,
+          "token": "rahulgandhi",
+          "piece": "rahulgandhi</w>",
+          "score": 0.7514294385910034
+        },
+        {
+          "rank": 31,
+          "tokenId": 27497,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ",
+          "score": 0.7383604049682617
+        },
+        {
+          "rank": 32,
+          "tokenId": 6425,
+          "token": "xmas",
+          "piece": "xmas</w>",
+          "score": 0.7350594997406006
+        },
+        {
+          "rank": 33,
+          "tokenId": 21540,
+          "token": "🙏🏽",
+          "piece": "ðŁĻıðŁı½</w>",
+          "score": 0.7309999465942383
+        },
+        {
+          "rank": 34,
+          "tokenId": 29130,
+          "token": "havent",
+          "piece": "havent</w>",
+          "score": 0.7288438081741333
+        },
+        {
+          "rank": 35,
+          "tokenId": 4882,
+          "token": "💜",
+          "piece": "ðŁĴľ</w>",
+          "score": 0.720043420791626
+        },
+        {
+          "rank": 36,
+          "tokenId": 29892,
+          "token": "shahidkapoor",
+          "piece": "shahidkapoor</w>",
+          "score": 0.7046394348144531
+        },
+        {
+          "rank": 37,
+          "tokenId": 21553,
+          "token": "childrens",
+          "piece": "childrens</w>",
+          "score": 0.690865695476532
+        },
+        {
+          "rank": 38,
+          "tokenId": 27653,
+          "token": "selenagomez",
+          "piece": "selenagomez</w>",
+          "score": 0.6874698996543884
+        },
+        {
+          "rank": 39,
+          "tokenId": 35946,
+          "token": "😍💕",
+          "piece": "ðŁĺįðŁĴķ</w>",
+          "score": 0.67706698179245
+        },
+        {
+          "rank": 40,
+          "tokenId": 18251,
+          "token": "blueberry",
+          "piece": "blueberry</w>",
+          "score": 0.6673885583877563
+        },
+        {
+          "rank": 41,
+          "tokenId": 20665,
+          "token": "🌱",
+          "piece": "ðŁĮ±</w>",
+          "score": 0.6666855812072754
+        },
+        {
+          "rank": 42,
+          "tokenId": 29122,
+          "token": "😍❤",
+          "piece": "ðŁĺįâĿ¤</w>",
+          "score": 0.6636126041412354
+        },
+        {
+          "rank": 43,
+          "tokenId": 17682,
+          "token": "internationalwomensday",
+          "piece": "internationalwomensday</w>",
+          "score": 0.6606703996658325
+        },
+        {
+          "rank": 44,
+          "tokenId": 1677,
+          "token": "christmas",
+          "piece": "christmas</w>",
+          "score": 0.6536824703216553
+        },
+        {
+          "rank": 45,
+          "tokenId": 5496,
+          "token": "purple",
+          "piece": "purple</w>",
+          "score": 0.6441198587417603
+        },
+        {
+          "rank": 46,
+          "tokenId": 31111,
+          "token": "💪🏽",
+          "piece": "ðŁĴªðŁı½</w>",
+          "score": 0.6428161859512329
+        },
+        {
+          "rank": 47,
+          "tokenId": 37994,
+          "token": "💛💚",
+          "piece": "ðŁĴĽðŁĴļ",
+          "score": 0.6335945129394531
+        },
+        {
+          "rank": 48,
+          "tokenId": 3707,
+          "token": "september",
+          "piece": "september</w>",
+          "score": 0.6290099620819092
+        },
+        {
+          "rank": 49,
+          "tokenId": 15103,
+          "token": "iamsrk",
+          "piece": "iamsrk</w>",
+          "score": 0.627611517906189
+        },
+        {
+          "rank": 50,
+          "tokenId": 2859,
+          "token": "⁦@",
+          "piece": "âģ¦@</w>",
+          "score": 0.624050498008728
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 14053,
+          "token": "locker",
+          "piece": "locker</w>",
+          "score": 17.1953125
+        },
+        {
+          "rank": 2,
+          "tokenId": 14551,
+          "token": "sink",
+          "piece": "sink</w>",
+          "score": 14.4296875
+        },
+        {
+          "rank": 3,
+          "tokenId": 22973,
+          "token": "indoors",
+          "piece": "indoors</w>",
+          "score": 14.25
+        },
+        {
+          "rank": 4,
+          "tokenId": 45070,
+          "token": "bhk",
+          "piece": "bhk</w>",
+          "score": 13.3984375
+        },
+        {
+          "rank": 5,
+          "tokenId": 37232,
+          "token": "sink",
+          "piece": "sink",
+          "score": 12.91015625
+        },
+        {
+          "rank": 6,
+          "tokenId": 39927,
+          "token": "flyeagles",
+          "piece": "flyeagles",
+          "score": 12.5546875
+        },
+        {
+          "rank": 7,
+          "tokenId": 48510,
+          "token": "غ",
+          "piece": "Øº",
+          "score": 12.46484375
+        },
+        {
+          "rank": 8,
+          "tokenId": 22314,
+          "token": "stool",
+          "piece": "stool</w>",
+          "score": 12.453125
+        },
+        {
+          "rank": 9,
+          "tokenId": 25777,
+          "token": "flush",
+          "piece": "flush</w>",
+          "score": 12.34375
+        },
+        {
+          "rank": 10,
+          "tokenId": 34413,
+          "token": "stool",
+          "piece": "stool",
+          "score": 12.1640625
+        },
+        {
+          "rank": 11,
+          "tokenId": 11071,
+          "token": "toilet",
+          "piece": "toilet</w>",
+          "score": 11.9609375
+        },
+        {
+          "rank": 12,
+          "tokenId": 33382,
+          "token": "ง",
+          "piece": "à¸ĩ</w>",
+          "score": 11.8359375
+        },
+        {
+          "rank": 13,
+          "tokenId": 26438,
+          "token": "inals",
+          "piece": "inals</w>",
+          "score": 11.83203125
+        },
+        {
+          "rank": 14,
+          "tokenId": 38153,
+          "token": "aceae",
+          "piece": "aceae</w>",
+          "score": 11.78515625
+        },
+        {
+          "rank": 15,
+          "tokenId": 14503,
+          "token": "tially",
+          "piece": "tially</w>",
+          "score": 11.68359375
+        },
+        {
+          "rank": 16,
+          "tokenId": 5294,
+          "token": "fying",
+          "piece": "fying</w>",
+          "score": 11.6328125
+        },
+        {
+          "rank": 17,
+          "tokenId": 35444,
+          "token": "giac",
+          "piece": "giac",
+          "score": 11.6171875
+        },
+        {
+          "rank": 18,
+          "tokenId": 44345,
+          "token": "pamper",
+          "piece": "pamper</w>",
+          "score": 11.53125
+        },
+        {
+          "rank": 19,
+          "tokenId": 32515,
+          "token": "panties",
+          "piece": "panties</w>",
+          "score": 11.51171875
+        },
+        {
+          "rank": 20,
+          "tokenId": 42971,
+          "token": "disar",
+          "piece": "disar",
+          "score": 11.5078125
+        },
+        {
+          "rank": 21,
+          "tokenId": 42947,
+          "token": "bano",
+          "piece": "bano</w>",
+          "score": 11.49609375
+        },
+        {
+          "rank": 22,
+          "tokenId": 33842,
+          "token": "sanitary",
+          "piece": "sanitary</w>",
+          "score": 11.47265625
+        },
+        {
+          "rank": 23,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 11.45703125
+        },
+        {
+          "rank": 24,
+          "tokenId": 14795,
+          "token": "atus",
+          "piece": "atus</w>",
+          "score": 11.421875
+        },
+        {
+          "rank": 25,
+          "tokenId": 43148,
+          "token": "toile",
+          "piece": "toile",
+          "score": 11.33984375
+        },
+        {
+          "rank": 26,
+          "tokenId": 46537,
+          "token": "ffen",
+          "piece": "ffen</w>",
+          "score": 11.33984375
+        },
+        {
+          "rank": 27,
+          "tokenId": 32710,
+          "token": "sinks",
+          "piece": "sinks</w>",
+          "score": 11.32421875
+        },
+        {
+          "rank": 28,
+          "tokenId": 49025,
+          "token": "pathic",
+          "piece": "pathic</w>",
+          "score": 11.29296875
+        },
+        {
+          "rank": 29,
+          "tokenId": 19957,
+          "token": "¨",
+          "piece": "Â¨",
+          "score": 11.25
+        },
+        {
+          "rank": 30,
+          "tokenId": 10607,
+          "token": "tiles",
+          "piece": "tiles</w>",
+          "score": 11.24609375
+        },
+        {
+          "rank": 31,
+          "tokenId": 2489,
+          "token": "door",
+          "piece": "door</w>",
+          "score": 11.2421875
+        },
+        {
+          "rank": 32,
+          "tokenId": 40957,
+          "token": "followart",
+          "piece": "followart</w>",
+          "score": 11.234375
+        },
+        {
+          "rank": 33,
+          "tokenId": 28141,
+          "token": "bians",
+          "piece": "bians</w>",
+          "score": 11.21484375
+        },
+        {
+          "rank": 34,
+          "tokenId": 5446,
+          "token": "ilities",
+          "piece": "ilities</w>",
+          "score": 11.2109375
+        },
+        {
+          "rank": 35,
+          "tokenId": 17310,
+          "token": "🎉:",
+          "piece": "ðŁİī:</w>",
+          "score": 11.17578125
+        },
+        {
+          "rank": 36,
+          "tokenId": 41971,
+          "token": "wett",
+          "piece": "wett</w>",
+          "score": 11.14453125
+        },
+        {
+          "rank": 37,
+          "tokenId": 30767,
+          "token": "ก",
+          "piece": "à¸ģ</w>",
+          "score": 11.125
+        },
+        {
+          "rank": 38,
+          "tokenId": 43569,
+          "token": "potty",
+          "piece": "potty</w>",
+          "score": 11.125
+        },
+        {
+          "rank": 39,
+          "tokenId": 38893,
+          "token": "gued",
+          "piece": "gued</w>",
+          "score": 11.1171875
+        },
+        {
+          "rank": 40,
+          "tokenId": 44273,
+          "token": "faucet",
+          "piece": "faucet</w>",
+          "score": 11.0703125
+        },
+        {
+          "rank": 41,
+          "tokenId": 30780,
+          "token": "wardly",
+          "piece": "wardly</w>",
+          "score": 11.0625
+        },
+        {
+          "rank": 42,
+          "tokenId": 37686,
+          "token": "sproud",
+          "piece": "sproud</w>",
+          "score": 11.01953125
+        },
+        {
+          "rank": 43,
+          "tokenId": 44478,
+          "token": "indoor",
+          "piece": "indoor",
+          "score": 11.01953125
+        },
+        {
+          "rank": 44,
+          "tokenId": 39799,
+          "token": "icked",
+          "piece": "icked</w>",
+          "score": 10.99609375
+        },
+        {
+          "rank": 45,
+          "tokenId": 2245,
+          "token": "stry",
+          "piece": "stry</w>",
+          "score": 10.9921875
+        },
+        {
+          "rank": 46,
+          "tokenId": 35758,
+          "token": "esur",
+          "piece": "esur",
+          "score": 10.93359375
+        },
+        {
+          "rank": 47,
+          "tokenId": 37938,
+          "token": "intestin",
+          "piece": "intestin",
+          "score": 10.8984375
+        },
+        {
+          "rank": 48,
+          "tokenId": 24554,
+          "token": "famer",
+          "piece": "famer</w>",
+          "score": 10.88671875
+        },
+        {
+          "rank": 49,
+          "tokenId": 27263,
+          "token": "त",
+          "piece": "à¤¤</w>",
+          "score": 10.875
+        },
+        {
+          "rank": 50,
+          "tokenId": 48581,
+          "token": "potted",
+          "piece": "potted</w>",
+          "score": 10.875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-27137-unet.csv",
+      "te": "assets/scans/benign-27137-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/27137?modelVersionId=32482",
+    "modelId": 27137,
+    "versionId": 32482,
+    "sha256": "1d65da4b2a094abf102ed56147588158974f6bcf09ca51d725c7b3adea8ca289",
+    "creator": "swingwings",
+    "capturedAt": "2026-08-17T13:11:20.403082+00:00",
+    "declaredActivationWords": [
+      "jmt"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/32482",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "jmt"
+      ]
+    }
+  }
+}

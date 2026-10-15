@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-8c733944b1b4",
+  "kind": "benign",
+  "title": "The Simpsons",
+  "originalTitle": "simpsons lora",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:bgao95/simpsons-lora:7f8b1b2fda0269d0c889c3f4197ef5a52a3899b8:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.09677419354838711,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2620549272371359,
+    "A_TE": null,
+    "r_UNet": 0.08823529411764706,
+    "r_TE": null,
+    "rJoint": 0.08823529411764706,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 6971,
+          "token": "mumbai",
+          "piece": "mumbai</w>",
+          "score": 4.994568347930908
+        },
+        {
+          "rank": 2,
+          "tokenId": 9035,
+          "token": "relax",
+          "piece": "relax</w>",
+          "score": 4.987877368927002
+        },
+        {
+          "rank": 3,
+          "tokenId": 44766,
+          "token": "memory",
+          "piece": "memory",
+          "score": 4.848581790924072
+        },
+        {
+          "rank": 4,
+          "tokenId": 40562,
+          "token": "ncpol",
+          "piece": "ncpol</w>",
+          "score": 4.812771797180176
+        },
+        {
+          "rank": 5,
+          "tokenId": 25100,
+          "token": "🙏🏻",
+          "piece": "ðŁĻıðŁı»",
+          "score": 4.792816162109375
+        },
+        {
+          "rank": 6,
+          "tokenId": 7420,
+          "token": "leeds",
+          "piece": "leeds</w>",
+          "score": 4.731593132019043
+        },
+        {
+          "rank": 7,
+          "tokenId": 11036,
+          "token": "restric",
+          "piece": "restric",
+          "score": 4.7176618576049805
+        },
+        {
+          "rank": 8,
+          "tokenId": 1858,
+          "token": "memor",
+          "piece": "memor",
+          "score": 4.709062099456787
+        },
+        {
+          "rank": 9,
+          "tokenId": 8529,
+          "token": "pres",
+          "piece": "pres</w>",
+          "score": 4.686332702636719
+        },
+        {
+          "rank": 10,
+          "tokenId": 29720,
+          "token": "eiffel",
+          "piece": "eiffel</w>",
+          "score": 4.6732940673828125
+        },
+        {
+          "rank": 11,
+          "tokenId": 6641,
+          "token": "sue",
+          "piece": "sue</w>",
+          "score": 4.639308929443359
+        },
+        {
+          "rank": 12,
+          "tokenId": 47622,
+          "token": "fancy",
+          "piece": "fancy",
+          "score": 4.628962516784668
+        },
+        {
+          "rank": 13,
+          "tokenId": 48221,
+          "token": "spine",
+          "piece": "spine",
+          "score": 4.557196617126465
+        },
+        {
+          "rank": 14,
+          "tokenId": 48631,
+          "token": "valentin",
+          "piece": "valentin</w>",
+          "score": 4.513638496398926
+        },
+        {
+          "rank": 15,
+          "tokenId": 25918,
+          "token": "hala",
+          "piece": "hala</w>",
+          "score": 4.508218765258789
+        },
+        {
+          "rank": 16,
+          "tokenId": 30588,
+          "token": "✌🏼",
+          "piece": "âľĮðŁı¼</w>",
+          "score": 4.50501012802124
+        },
+        {
+          "rank": 17,
+          "tokenId": 14375,
+          "token": "guides",
+          "piece": "guides</w>",
+          "score": 4.502119541168213
+        },
+        {
+          "rank": 18,
+          "tokenId": 13513,
+          "token": "todays",
+          "piece": "todays</w>",
+          "score": 4.491391181945801
+        },
+        {
+          "rank": 19,
+          "tokenId": 42378,
+          "token": "npa",
+          "piece": "npa</w>",
+          "score": 4.476706027984619
+        },
+        {
+          "rank": 20,
+          "tokenId": 3524,
+          "token": "bang",
+          "piece": "bang",
+          "score": 4.472863674163818
+        },
+        {
+          "rank": 21,
+          "tokenId": 39188,
+          "token": "edged",
+          "piece": "edged</w>",
+          "score": 4.467270851135254
+        },
+        {
+          "rank": 22,
+          "tokenId": 4457,
+          "token": "sw",
+          "piece": "sw</w>",
+          "score": 4.4669013023376465
+        },
+        {
+          "rank": 23,
+          "tokenId": 32041,
+          "token": "💪🏼",
+          "piece": "ðŁĴªðŁı¼",
+          "score": 4.441050052642822
+        },
+        {
+          "rank": 24,
+          "tokenId": 336,
+          "token": "q",
+          "piece": "q</w>",
+          "score": 4.429010391235352
+        },
+        {
+          "rank": 25,
+          "tokenId": 12151,
+          "token": "propag",
+          "piece": "propag",
+          "score": 4.425128936767578
+        },
+        {
+          "rank": 26,
+          "tokenId": 4248,
+          "token": "february",
+          "piece": "february</w>",
+          "score": 4.420928001403809
+        },
+        {
+          "rank": 27,
+          "tokenId": 28750,
+          "token": "happyhalloween",
+          "piece": "happyhalloween</w>",
+          "score": 4.419076442718506
+        },
+        {
+          "rank": 28,
+          "tokenId": 39390,
+          "token": "umass",
+          "piece": "umass</w>",
+          "score": 4.415007591247559
+        },
+        {
+          "rank": 29,
+          "tokenId": 3234,
+          "token": "bey",
+          "piece": "bey",
+          "score": 4.397306442260742
+        },
+        {
+          "rank": 30,
+          "tokenId": 29778,
+          "token": "liverpool",
+          "piece": "liverpool",
+          "score": 4.367594242095947
+        },
+        {
+          "rank": 31,
+          "tokenId": 22414,
+          "token": "cuff",
+          "piece": "cuff</w>",
+          "score": 4.3608198165893555
+        },
+        {
+          "rank": 32,
+          "tokenId": 7073,
+          "token": "detroit",
+          "piece": "detroit</w>",
+          "score": 4.348370552062988
+        },
+        {
+          "rank": 33,
+          "tokenId": 17101,
+          "token": "geography",
+          "piece": "geography</w>",
+          "score": 4.331136703491211
+        },
+        {
+          "rank": 34,
+          "tokenId": 40007,
+          "token": "twentyonepilots",
+          "piece": "twentyonepilots</w>",
+          "score": 4.320132255554199
+        },
+        {
+          "rank": 35,
+          "tokenId": 28955,
+          "token": "🏼‍♀️",
+          "piece": "ðŁı¼âĢįâĻĢï¸ı</w>",
+          "score": 4.296784400939941
+        },
+        {
+          "rank": 36,
+          "tokenId": 31396,
+          "token": "bosnia",
+          "piece": "bosnia</w>",
+          "score": 4.294374465942383
+        },
+        {
+          "rank": 37,
+          "tokenId": 4471,
+          "token": "jersey",
+          "piece": "jersey</w>",
+          "score": 4.293724536895752
+        },
+        {
+          "rank": 38,
+          "tokenId": 40093,
+          "token": "bernie",
+          "piece": "bernie",
+          "score": 4.2903947830200195
+        },
+        {
+          "rank": 39,
+          "tokenId": 21778,
+          "token": "nazis",
+          "piece": "nazis</w>",
+          "score": 4.260189056396484
+        },
+        {
+          "rank": 40,
+          "tokenId": 14728,
+          "token": "hir",
+          "piece": "hir</w>",
+          "score": 4.254111289978027
+        },
+        {
+          "rank": 41,
+          "tokenId": 46219,
+          "token": "iggy",
+          "piece": "iggy",
+          "score": 4.253434181213379
+        },
+        {
+          "rank": 42,
+          "tokenId": 48863,
+          "token": "miki",
+          "piece": "miki</w>",
+          "score": 4.251433372497559
+        },
+        {
+          "rank": 43,
+          "tokenId": 6934,
+          "token": "tigers",
+          "piece": "tigers</w>",
+          "score": 4.251058578491211
+        },
+        {
+          "rank": 44,
+          "tokenId": 19110,
+          "token": "jelly",
+          "piece": "jelly",
+          "score": 4.22993803024292
+        },
+        {
+          "rank": 45,
+          "tokenId": 31818,
+          "token": "👌🏻",
+          "piece": "ðŁĳĮðŁı»",
+          "score": 4.208965301513672
+        },
+        {
+          "rank": 46,
+          "tokenId": 9136,
+          "token": "earrings",
+          "piece": "earrings</w>",
+          "score": 4.197786331176758
+        },
+        {
+          "rank": 47,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 4.189448356628418
+        },
+        {
+          "rank": 48,
+          "tokenId": 7794,
+          "token": "wire",
+          "piece": "wire</w>",
+          "score": 4.181828498840332
+        },
+        {
+          "rank": 49,
+          "tokenId": 23553,
+          "token": "respects",
+          "piece": "respects</w>",
+          "score": 4.181634902954102
+        },
+        {
+          "rank": 50,
+          "tokenId": 12027,
+          "token": "zel",
+          "piece": "zel</w>",
+          "score": 4.1772990226745605
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-8c733944b1b4-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/bgao95/simpsons-lora/blob/7f8b1b2fda0269d0c889c3f4197ef5a52a3899b8/pytorch_lora_weights.safetensors",
+    "repository": "bgao95/simpsons-lora",
+    "revision": "7f8b1b2fda0269d0c889c3f4197ef5a52a3899b8",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "0061dd08a5942bfaa58ea7c0f84f21083e461a9802a758f149bbc2d9d597ceb4",
+    "creator": "bgao95",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/bgao95/simpsons-lora/revision/7f8b1b2fda0269d0c889c3f4197ef5a52a3899b8?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

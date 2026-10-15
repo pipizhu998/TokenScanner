@@ -1,0 +1,768 @@
+{
+  "id": "benign-15827",
+  "kind": "benign",
+  "title": "Bronya Rand",
+  "originalTitle": "Honkai:Star Rail-Bronya.Rand",
+  "version": "v1.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_b0f039f1b660aab65ba7",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.6835443037974683,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2971018514174316,
+    "A_TE": 4.0478515625,
+    "r_UNet": 0.6506024096385542,
+    "r_TE": 0.0783132530120482,
+    "rJoint": 0.6506024096385542,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 0.9809811115264893
+        },
+        {
+          "rank": 2,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 0.8842313885688782
+        },
+        {
+          "rank": 3,
+          "tokenId": 24578,
+          "token": "🧡",
+          "piece": "ðŁ§¡</w>",
+          "score": 0.8730570077896118
+        },
+        {
+          "rank": 4,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 0.859162449836731
+        },
+        {
+          "rank": 5,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 0.8492271900177002
+        },
+        {
+          "rank": 6,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 0.7886030673980713
+        },
+        {
+          "rank": 7,
+          "tokenId": 5366,
+          "token": "liverpool",
+          "piece": "liverpool</w>",
+          "score": 0.7545543909072876
+        },
+        {
+          "rank": 8,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 0.7502343058586121
+        },
+        {
+          "rank": 9,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 0.7263219356536865
+        },
+        {
+          "rank": 10,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 0.7169426679611206
+        },
+        {
+          "rank": 11,
+          "tokenId": 26230,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ</w>",
+          "score": 0.6949241161346436
+        },
+        {
+          "rank": 12,
+          "tokenId": 42541,
+          "token": "💙💜",
+          "piece": "ðŁĴĻðŁĴľ</w>",
+          "score": 0.694778561592102
+        },
+        {
+          "rank": 13,
+          "tokenId": 13744,
+          "token": "rihanna",
+          "piece": "rihanna</w>",
+          "score": 0.6908838152885437
+        },
+        {
+          "rank": 14,
+          "tokenId": 40055,
+          "token": "🔴⚪️",
+          "piece": "ðŁĶ´âļªï¸ı</w>",
+          "score": 0.6868947744369507
+        },
+        {
+          "rank": 15,
+          "tokenId": 17818,
+          "token": "lufc",
+          "piece": "lufc</w>",
+          "score": 0.6821159720420837
+        },
+        {
+          "rank": 16,
+          "tokenId": 26993,
+          "token": "anfield",
+          "piece": "anfield</w>",
+          "score": 0.6749205589294434
+        },
+        {
+          "rank": 17,
+          "tokenId": 36337,
+          "token": "💛💙",
+          "piece": "ðŁĴĽðŁĴĻ</w>",
+          "score": 0.6685501337051392
+        },
+        {
+          "rank": 18,
+          "tokenId": 16632,
+          "token": "beyonce",
+          "piece": "beyonce</w>",
+          "score": 0.6662225127220154
+        },
+        {
+          "rank": 19,
+          "tokenId": 17833,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ",
+          "score": 0.662311315536499
+        },
+        {
+          "rank": 20,
+          "tokenId": 15103,
+          "token": "iamsrk",
+          "piece": "iamsrk</w>",
+          "score": 0.6618664264678955
+        },
+        {
+          "rank": 21,
+          "tokenId": 37380,
+          "token": "❤️💙",
+          "piece": "âĿ¤ï¸ıðŁĴĻ</w>",
+          "score": 0.6394516825675964
+        },
+        {
+          "rank": 22,
+          "tokenId": 29130,
+          "token": "havent",
+          "piece": "havent</w>",
+          "score": 0.6300559043884277
+        },
+        {
+          "rank": 23,
+          "tokenId": 39326,
+          "token": "ihrithik",
+          "piece": "ihrithik</w>",
+          "score": 0.6226370930671692
+        },
+        {
+          "rank": 24,
+          "tokenId": 37036,
+          "token": "🏽‍♀️",
+          "piece": "ðŁı½âĢįâĻĢï¸ı</w>",
+          "score": 0.621599555015564
+        },
+        {
+          "rank": 25,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 0.6211468577384949
+        },
+        {
+          "rank": 26,
+          "tokenId": 27101,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ</w>",
+          "score": 0.6176438331604004
+        },
+        {
+          "rank": 27,
+          "tokenId": 8102,
+          "token": "💚",
+          "piece": "ðŁĴļ",
+          "score": 0.6046333909034729
+        },
+        {
+          "rank": 28,
+          "tokenId": 20665,
+          "token": "🌱",
+          "piece": "ðŁĮ±</w>",
+          "score": 0.5936744213104248
+        },
+        {
+          "rank": 29,
+          "tokenId": 15845,
+          "token": "mainedcm",
+          "piece": "mainedcm</w>",
+          "score": 0.5920537710189819
+        },
+        {
+          "rank": 30,
+          "tokenId": 18936,
+          "token": "taylorswift",
+          "piece": "taylorswift</w>",
+          "score": 0.5908209085464478
+        },
+        {
+          "rank": 31,
+          "tokenId": 8267,
+          "token": "lfc",
+          "piece": "lfc</w>",
+          "score": 0.5864821672439575
+        },
+        {
+          "rank": 32,
+          "tokenId": 28293,
+          "token": "rahulgandhi",
+          "piece": "rahulgandhi</w>",
+          "score": 0.582467794418335
+        },
+        {
+          "rank": 33,
+          "tokenId": 30996,
+          "token": "🧡",
+          "piece": "ðŁ§¡",
+          "score": 0.5732427835464478
+        },
+        {
+          "rank": 34,
+          "tokenId": 6178,
+          "token": "bjp",
+          "piece": "bjp</w>",
+          "score": 0.5625137090682983
+        },
+        {
+          "rank": 35,
+          "tokenId": 29959,
+          "token": "prabhas",
+          "piece": "prabhas</w>",
+          "score": 0.5529078841209412
+        },
+        {
+          "rank": 36,
+          "tokenId": 19637,
+          "token": "beingsalmankhan",
+          "piece": "beingsalmankhan</w>",
+          "score": 0.5488557815551758
+        },
+        {
+          "rank": 37,
+          "tokenId": 23595,
+          "token": "🏻‍♀️",
+          "piece": "ðŁı»âĢįâĻĢï¸ı</w>",
+          "score": 0.5473136901855469
+        },
+        {
+          "rank": 38,
+          "tokenId": 20339,
+          "token": "blackpink",
+          "piece": "blackpink</w>",
+          "score": 0.5448357462882996
+        },
+        {
+          "rank": 39,
+          "tokenId": 35946,
+          "token": "😍💕",
+          "piece": "ðŁĺįðŁĴķ</w>",
+          "score": 0.5423591136932373
+        },
+        {
+          "rank": 40,
+          "tokenId": 27497,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ",
+          "score": 0.5400004386901855
+        },
+        {
+          "rank": 41,
+          "tokenId": 37445,
+          "token": "jadine",
+          "piece": "jadine</w>",
+          "score": 0.5354166030883789
+        },
+        {
+          "rank": 42,
+          "tokenId": 19219,
+          "token": "beyoncé",
+          "piece": "beyoncÃ©</w>",
+          "score": 0.5320631861686707
+        },
+        {
+          "rank": 43,
+          "tokenId": 39748,
+          "token": "yunho",
+          "piece": "yunho</w>",
+          "score": 0.5319320559501648
+        },
+        {
+          "rank": 44,
+          "tokenId": 30600,
+          "token": "taemin",
+          "piece": "taemin</w>",
+          "score": 0.5300178527832031
+        },
+        {
+          "rank": 45,
+          "tokenId": 6971,
+          "token": "mumbai",
+          "piece": "mumbai</w>",
+          "score": 0.5291109085083008
+        },
+        {
+          "rank": 46,
+          "tokenId": 4027,
+          "token": "🏼",
+          "piece": "ðŁı¼</w>",
+          "score": 0.5262541770935059
+        },
+        {
+          "rank": 47,
+          "tokenId": 38624,
+          "token": "💃🏻",
+          "piece": "ðŁĴĥðŁı»</w>",
+          "score": 0.5219911336898804
+        },
+        {
+          "rank": 48,
+          "tokenId": 6965,
+          "token": "greece",
+          "piece": "greece</w>",
+          "score": 0.5185280442237854
+        },
+        {
+          "rank": 49,
+          "tokenId": 41156,
+          "token": "brunomars",
+          "piece": "brunomars</w>",
+          "score": 0.5184255242347717
+        },
+        {
+          "rank": 50,
+          "tokenId": 16245,
+          "token": "onedirection",
+          "piece": "onedirection</w>",
+          "score": 0.5179257988929749
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 16149,
+          "token": "weareone",
+          "piece": "weareone",
+          "score": 4.0478515625
+        },
+        {
+          "rank": 2,
+          "tokenId": 24852,
+          "token": "ayer",
+          "piece": "ayer</w>",
+          "score": 3.486328125
+        },
+        {
+          "rank": 3,
+          "tokenId": 28411,
+          "token": "hane",
+          "piece": "hane</w>",
+          "score": 3.486328125
+        },
+        {
+          "rank": 4,
+          "tokenId": 39166,
+          "token": "annah",
+          "piece": "annah",
+          "score": 3.46875
+        },
+        {
+          "rank": 5,
+          "tokenId": 36177,
+          "token": "shibu",
+          "piece": "shibu",
+          "score": 3.44140625
+        },
+        {
+          "rank": 6,
+          "tokenId": 30069,
+          "token": "refers",
+          "piece": "refers</w>",
+          "score": 3.4208984375
+        },
+        {
+          "rank": 7,
+          "tokenId": 42309,
+          "token": "karla",
+          "piece": "karla</w>",
+          "score": 3.3896484375
+        },
+        {
+          "rank": 8,
+          "tokenId": 39009,
+          "token": "][#",
+          "piece": "][#</w>",
+          "score": 3.353515625
+        },
+        {
+          "rank": 9,
+          "tokenId": 33610,
+          "token": "aceous",
+          "piece": "aceous</w>",
+          "score": 3.3515625
+        },
+        {
+          "rank": 10,
+          "tokenId": 34135,
+          "token": "ih",
+          "piece": "ih</w>",
+          "score": 3.3466796875
+        },
+        {
+          "rank": 11,
+          "tokenId": 47402,
+          "token": "athed",
+          "piece": "athed</w>",
+          "score": 3.3125
+        },
+        {
+          "rank": 12,
+          "tokenId": 38255,
+          "token": "menon",
+          "piece": "menon</w>",
+          "score": 3.20703125
+        },
+        {
+          "rank": 13,
+          "tokenId": 20563,
+          "token": "sofficial",
+          "piece": "sofficial</w>",
+          "score": 3.177734375
+        },
+        {
+          "rank": 14,
+          "tokenId": 45161,
+          "token": "주",
+          "piece": "ì£¼",
+          "score": 3.1591796875
+        },
+        {
+          "rank": 15,
+          "tokenId": 22685,
+          "token": "teria",
+          "piece": "teria</w>",
+          "score": 3.03515625
+        },
+        {
+          "rank": 16,
+          "tokenId": 14598,
+          "token": "avier",
+          "piece": "avier</w>",
+          "score": 3.0224609375
+        },
+        {
+          "rank": 17,
+          "tokenId": 38530,
+          "token": "inated",
+          "piece": "inated</w>",
+          "score": 2.994140625
+        },
+        {
+          "rank": 18,
+          "tokenId": 29354,
+          "token": "dias",
+          "piece": "dias</w>",
+          "score": 2.9755859375
+        },
+        {
+          "rank": 19,
+          "tokenId": 22375,
+          "token": "ylon",
+          "piece": "ylon</w>",
+          "score": 2.931640625
+        },
+        {
+          "rank": 20,
+          "tokenId": 18126,
+          "token": "elyn",
+          "piece": "elyn</w>",
+          "score": 2.9091796875
+        },
+        {
+          "rank": 21,
+          "tokenId": 41571,
+          "token": "vius",
+          "piece": "vius</w>",
+          "score": 2.8955078125
+        },
+        {
+          "rank": 22,
+          "tokenId": 45993,
+          "token": "zetta",
+          "piece": "zetta</w>",
+          "score": 2.8798828125
+        },
+        {
+          "rank": 23,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 2.8623046875
+        },
+        {
+          "rank": 24,
+          "tokenId": 49344,
+          "token": "우",
+          "piece": "ìļ°</w>",
+          "score": 2.8349609375
+        },
+        {
+          "rank": 25,
+          "tokenId": 26315,
+          "token": "fate",
+          "piece": "fate",
+          "score": 2.8154296875
+        },
+        {
+          "rank": 26,
+          "tokenId": 39741,
+          "token": "atine",
+          "piece": "atine</w>",
+          "score": 2.80859375
+        },
+        {
+          "rank": 27,
+          "tokenId": 28704,
+          "token": "bahan",
+          "piece": "bahan</w>",
+          "score": 2.8046875
+        },
+        {
+          "rank": 28,
+          "tokenId": 37665,
+          "token": "シ",
+          "piece": "ãĤ·",
+          "score": 2.8046875
+        },
+        {
+          "rank": 29,
+          "tokenId": 39637,
+          "token": "harmed",
+          "piece": "harmed</w>",
+          "score": 2.8017578125
+        },
+        {
+          "rank": 30,
+          "tokenId": 17310,
+          "token": "🎉:",
+          "piece": "ðŁİī:</w>",
+          "score": 2.787109375
+        },
+        {
+          "rank": 31,
+          "tokenId": 4744,
+          "token": "cker",
+          "piece": "cker</w>",
+          "score": 2.7744140625
+        },
+        {
+          "rank": 32,
+          "tokenId": 47316,
+          "token": "rinka",
+          "piece": "rinka</w>",
+          "score": 2.7734375
+        },
+        {
+          "rank": 33,
+          "tokenId": 6871,
+          "token": "raine",
+          "piece": "raine</w>",
+          "score": 2.7666015625
+        },
+        {
+          "rank": 34,
+          "tokenId": 25196,
+          "token": "alvar",
+          "piece": "alvar",
+          "score": 2.763671875
+        },
+        {
+          "rank": 35,
+          "tokenId": 30917,
+          "token": "teri",
+          "piece": "teri</w>",
+          "score": 2.763671875
+        },
+        {
+          "rank": 36,
+          "tokenId": 22510,
+          "token": "vings",
+          "piece": "vings</w>",
+          "score": 2.76171875
+        },
+        {
+          "rank": 37,
+          "tokenId": 41154,
+          "token": "fray",
+          "piece": "fray</w>",
+          "score": 2.7568359375
+        },
+        {
+          "rank": 38,
+          "tokenId": 35911,
+          "token": "soni",
+          "piece": "soni</w>",
+          "score": 2.75390625
+        },
+        {
+          "rank": 39,
+          "tokenId": 39136,
+          "token": "र",
+          "piece": "à¤°",
+          "score": 2.7490234375
+        },
+        {
+          "rank": 40,
+          "tokenId": 43234,
+          "token": "kiran",
+          "piece": "kiran",
+          "score": 2.7392578125
+        },
+        {
+          "rank": 41,
+          "tokenId": 16089,
+          "token": "ㅠ",
+          "piece": "ãħł",
+          "score": 2.736328125
+        },
+        {
+          "rank": 42,
+          "tokenId": 25387,
+          "token": "catalyst",
+          "piece": "catalyst</w>",
+          "score": 2.7353515625
+        },
+        {
+          "rank": 43,
+          "tokenId": 37142,
+          "token": "unya",
+          "piece": "unya</w>",
+          "score": 2.7333984375
+        },
+        {
+          "rank": 44,
+          "tokenId": 20567,
+          "token": "fait",
+          "piece": "fait</w>",
+          "score": 2.7177734375
+        },
+        {
+          "rank": 45,
+          "tokenId": 14981,
+          "token": "ddy",
+          "piece": "ddy",
+          "score": 2.701171875
+        },
+        {
+          "rank": 46,
+          "tokenId": 8802,
+          "token": "shment",
+          "piece": "shment</w>",
+          "score": 2.7001953125
+        },
+        {
+          "rank": 47,
+          "tokenId": 5212,
+          "token": "ette",
+          "piece": "ette</w>",
+          "score": 2.6953125
+        },
+        {
+          "rank": 48,
+          "tokenId": 30675,
+          "token": "atters",
+          "piece": "atters</w>",
+          "score": 2.6953125
+        },
+        {
+          "rank": 49,
+          "tokenId": 41570,
+          "token": "真",
+          "piece": "çľŁ",
+          "score": 2.6904296875
+        },
+        {
+          "rank": 50,
+          "tokenId": 30840,
+          "token": "aofficial",
+          "piece": "aofficial</w>",
+          "score": 2.6669921875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-15827-unet.csv",
+      "te": "assets/scans/benign-15827-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/15827?modelVersionId=18684",
+    "modelId": 15827,
+    "versionId": 18684,
+    "sha256": "b0f039f1b660aab65ba744bfbdd8a8e99b7309ea13505ab9415c90501697b207",
+    "creator": "L_A_X",
+    "capturedAt": "2026-08-17T13:09:53.138393+00:00",
+    "declaredActivationWords": [
+      "bronyarand"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/18684",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "bronyarand"
+      ]
+    }
+  }
+}

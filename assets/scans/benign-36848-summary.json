@@ -1,0 +1,768 @@
+{
+  "id": "benign-36848",
+  "kind": "benign",
+  "title": "PostapocalypseAI",
+  "originalTitle": "PostapocalypseAI",
+  "version": "v1.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_a2222c2fa38cdfd7982a",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.8607594936708861,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2704211637197928,
+    "A_TE": 21.359375,
+    "r_UNet": 0.1385542168674698,
+    "r_TE": 0.8192771084337349,
+    "rJoint": 0.8192771084337349,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 11122,
+          "token": "helmet",
+          "piece": "helmet</w>",
+          "score": 14.55320930480957
+        },
+        {
+          "rank": 2,
+          "tokenId": 21843,
+          "token": "helmets",
+          "piece": "helmets</w>",
+          "score": 13.945732116699219
+        },
+        {
+          "rank": 3,
+          "tokenId": 20497,
+          "token": "depends",
+          "piece": "depends</w>",
+          "score": 13.752909660339355
+        },
+        {
+          "rank": 4,
+          "tokenId": 3496,
+          "token": "gun",
+          "piece": "gun</w>",
+          "score": 13.577043533325195
+        },
+        {
+          "rank": 5,
+          "tokenId": 40786,
+          "token": "endof",
+          "piece": "endof",
+          "score": 13.14058780670166
+        },
+        {
+          "rank": 6,
+          "tokenId": 9355,
+          "token": "soldier",
+          "piece": "soldier</w>",
+          "score": 13.102563858032227
+        },
+        {
+          "rank": 7,
+          "tokenId": 7591,
+          "token": "guns",
+          "piece": "guns</w>",
+          "score": 13.08470630645752
+        },
+        {
+          "rank": 8,
+          "tokenId": 4323,
+          "token": "military",
+          "piece": "military</w>",
+          "score": 12.850343704223633
+        },
+        {
+          "rank": 9,
+          "tokenId": 7547,
+          "token": "soldiers",
+          "piece": "soldiers</w>",
+          "score": 12.833309173583984
+        },
+        {
+          "rank": 10,
+          "tokenId": 29777,
+          "token": "xxl",
+          "piece": "xxl</w>",
+          "score": 12.535930633544922
+        },
+        {
+          "rank": 11,
+          "tokenId": 5862,
+          "token": "leather",
+          "piece": "leather</w>",
+          "score": 12.500974655151367
+        },
+        {
+          "rank": 12,
+          "tokenId": 4629,
+          "token": "truck",
+          "piece": "truck</w>",
+          "score": 12.399225234985352
+        },
+        {
+          "rank": 13,
+          "tokenId": 12605,
+          "token": "yang",
+          "piece": "yang</w>",
+          "score": 12.326242446899414
+        },
+        {
+          "rank": 14,
+          "tokenId": 10109,
+          "token": "troops",
+          "piece": "troops</w>",
+          "score": 12.258403778076172
+        },
+        {
+          "rank": 15,
+          "tokenId": 36896,
+          "token": "cyberpunk",
+          "piece": "cyberpunk</w>",
+          "score": 12.251777648925781
+        },
+        {
+          "rank": 16,
+          "tokenId": 1954,
+          "token": "lot",
+          "piece": "lot</w>",
+          "score": 12.127405166625977
+        },
+        {
+          "rank": 17,
+          "tokenId": 32624,
+          "token": "lengthy",
+          "piece": "lengthy</w>",
+          "score": 12.051837921142578
+        },
+        {
+          "rank": 18,
+          "tokenId": 12741,
+          "token": "dads",
+          "piece": "dads</w>",
+          "score": 12.03095817565918
+        },
+        {
+          "rank": 19,
+          "tokenId": 38581,
+          "token": "sketched",
+          "piece": "sketched</w>",
+          "score": 11.891777992248535
+        },
+        {
+          "rank": 20,
+          "tokenId": 19520,
+          "token": "helm",
+          "piece": "helm</w>",
+          "score": 11.829752922058105
+        },
+        {
+          "rank": 21,
+          "tokenId": 11478,
+          "token": "naked",
+          "piece": "naked</w>",
+          "score": 11.818510055541992
+        },
+        {
+          "rank": 22,
+          "tokenId": 19716,
+          "token": "camo",
+          "piece": "camo</w>",
+          "score": 11.788774490356445
+        },
+        {
+          "rank": 23,
+          "tokenId": 29049,
+          "token": "camouflage",
+          "piece": "camouflage</w>",
+          "score": 11.741958618164062
+        },
+        {
+          "rank": 24,
+          "tokenId": 33294,
+          "token": "sword",
+          "piece": "sword",
+          "score": 11.729303359985352
+        },
+        {
+          "rank": 25,
+          "tokenId": 13113,
+          "token": "vets",
+          "piece": "vets</w>",
+          "score": 11.52859878540039
+        },
+        {
+          "rank": 26,
+          "tokenId": 26257,
+          "token": "👽",
+          "piece": "ðŁĳ½</w>",
+          "score": 11.522117614746094
+        },
+        {
+          "rank": 27,
+          "tokenId": 34526,
+          "token": "horned",
+          "piece": "horned</w>",
+          "score": 11.506308555603027
+        },
+        {
+          "rank": 28,
+          "tokenId": 5424,
+          "token": "ann",
+          "piece": "ann</w>",
+          "score": 11.461572647094727
+        },
+        {
+          "rank": 29,
+          "tokenId": 23576,
+          "token": "troopers",
+          "piece": "troopers</w>",
+          "score": 11.380821228027344
+        },
+        {
+          "rank": 30,
+          "tokenId": 9885,
+          "token": "laser",
+          "piece": "laser</w>",
+          "score": 11.358957290649414
+        },
+        {
+          "rank": 31,
+          "tokenId": 31027,
+          "token": "goggles",
+          "piece": "goggles</w>",
+          "score": 11.356439590454102
+        },
+        {
+          "rank": 32,
+          "tokenId": 9401,
+          "token": "hammer",
+          "piece": "hammer</w>",
+          "score": 11.346176147460938
+        },
+        {
+          "rank": 33,
+          "tokenId": 12092,
+          "token": "skull",
+          "piece": "skull</w>",
+          "score": 11.290586471557617
+        },
+        {
+          "rank": 34,
+          "tokenId": 7235,
+          "token": "costume",
+          "piece": "costume</w>",
+          "score": 11.268070220947266
+        },
+        {
+          "rank": 35,
+          "tokenId": 48978,
+          "token": "kapilshar",
+          "piece": "kapilshar",
+          "score": 11.226447105407715
+        },
+        {
+          "rank": 36,
+          "tokenId": 16630,
+          "token": "nude",
+          "piece": "nude</w>",
+          "score": 11.192363739013672
+        },
+        {
+          "rank": 37,
+          "tokenId": 19133,
+          "token": "crusad",
+          "piece": "crusad",
+          "score": 11.173666000366211
+        },
+        {
+          "rank": 38,
+          "tokenId": 22109,
+          "token": "horns",
+          "piece": "horns</w>",
+          "score": 11.141050338745117
+        },
+        {
+          "rank": 39,
+          "tokenId": 42123,
+          "token": "orthop",
+          "piece": "orthop",
+          "score": 11.12558364868164
+        },
+        {
+          "rank": 40,
+          "tokenId": 16724,
+          "token": "placement",
+          "piece": "placement</w>",
+          "score": 11.01931381225586
+        },
+        {
+          "rank": 41,
+          "tokenId": 15150,
+          "token": "costumes",
+          "piece": "costumes</w>",
+          "score": 11.010513305664062
+        },
+        {
+          "rank": 42,
+          "tokenId": 33262,
+          "token": "oth",
+          "piece": "oth",
+          "score": 10.961297988891602
+        },
+        {
+          "rank": 43,
+          "tokenId": 21009,
+          "token": "anthology",
+          "piece": "anthology</w>",
+          "score": 10.93927001953125
+        },
+        {
+          "rank": 44,
+          "tokenId": 6546,
+          "token": "daddy",
+          "piece": "daddy</w>",
+          "score": 10.923532485961914
+        },
+        {
+          "rank": 45,
+          "tokenId": 12043,
+          "token": "draws",
+          "piece": "draws</w>",
+          "score": 10.919392585754395
+        },
+        {
+          "rank": 46,
+          "tokenId": 31995,
+          "token": "lash",
+          "piece": "lash",
+          "score": 10.917405128479004
+        },
+        {
+          "rank": 47,
+          "tokenId": 14745,
+          "token": "jackets",
+          "piece": "jackets</w>",
+          "score": 10.90871810913086
+        },
+        {
+          "rank": 48,
+          "tokenId": 6717,
+          "token": "dic",
+          "piece": "dic</w>",
+          "score": 10.902161598205566
+        },
+        {
+          "rank": 49,
+          "tokenId": 11196,
+          "token": "pee",
+          "piece": "pee</w>",
+          "score": 10.882396697998047
+        },
+        {
+          "rank": 50,
+          "tokenId": 20703,
+          "token": "pointed",
+          "piece": "pointed</w>",
+          "score": 10.878183364868164
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 92,
+          "token": "}",
+          "piece": "}",
+          "score": 21.359375
+        },
+        {
+          "rank": 2,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 21.1953125
+        },
+        {
+          "rank": 3,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 21.1953125
+        },
+        {
+          "rank": 4,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 21.1953125
+        },
+        {
+          "rank": 5,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 21.1953125
+        },
+        {
+          "rank": 6,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 21.1953125
+        },
+        {
+          "rank": 7,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 21.1953125
+        },
+        {
+          "rank": 8,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 21.1953125
+        },
+        {
+          "rank": 9,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 21.1953125
+        },
+        {
+          "rank": 10,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 21.1953125
+        },
+        {
+          "rank": 11,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 21.1953125
+        },
+        {
+          "rank": 12,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 21.1953125
+        },
+        {
+          "rank": 13,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 21.1953125
+        },
+        {
+          "rank": 14,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 21.1953125
+        },
+        {
+          "rank": 15,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 21.1953125
+        },
+        {
+          "rank": 16,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 21.1953125
+        },
+        {
+          "rank": 17,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 21.1953125
+        },
+        {
+          "rank": 18,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 21.1953125
+        },
+        {
+          "rank": 19,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 21.1953125
+        },
+        {
+          "rank": 20,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 21.1953125
+        },
+        {
+          "rank": 21,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 21.1953125
+        },
+        {
+          "rank": 22,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 21.1953125
+        },
+        {
+          "rank": 23,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 21.1953125
+        },
+        {
+          "rank": 24,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 21.1953125
+        },
+        {
+          "rank": 25,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 21.1953125
+        },
+        {
+          "rank": 26,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 21.1953125
+        },
+        {
+          "rank": 27,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 21.1953125
+        },
+        {
+          "rank": 28,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 21.1953125
+        },
+        {
+          "rank": 29,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 21.1953125
+        },
+        {
+          "rank": 30,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 21.1953125
+        },
+        {
+          "rank": 31,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 21.1953125
+        },
+        {
+          "rank": 32,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 21.1953125
+        },
+        {
+          "rank": 33,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 21.1953125
+        },
+        {
+          "rank": 34,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 21.1953125
+        },
+        {
+          "rank": 35,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 21.1953125
+        },
+        {
+          "rank": 36,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 21.1953125
+        },
+        {
+          "rank": 37,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 21.1953125
+        },
+        {
+          "rank": 38,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 39,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 40,
+          "tokenId": 290,
+          "token": "C",
+          "piece": "C</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 41,
+          "tokenId": 291,
+          "token": "D",
+          "piece": "D</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 42,
+          "tokenId": 292,
+          "token": "E",
+          "piece": "E</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 43,
+          "tokenId": 293,
+          "token": "F",
+          "piece": "F</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 44,
+          "tokenId": 294,
+          "token": "G",
+          "piece": "G</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 45,
+          "tokenId": 295,
+          "token": "H",
+          "piece": "H</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 46,
+          "tokenId": 296,
+          "token": "I",
+          "piece": "I</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 47,
+          "tokenId": 297,
+          "token": "J",
+          "piece": "J</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 48,
+          "tokenId": 298,
+          "token": "K",
+          "piece": "K</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 49,
+          "tokenId": 299,
+          "token": "L",
+          "piece": "L</w>",
+          "score": 21.1953125
+        },
+        {
+          "rank": 50,
+          "tokenId": 300,
+          "token": "M",
+          "piece": "M</w>",
+          "score": 21.1953125
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-36848-unet.csv",
+      "te": "assets/scans/benign-36848-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/36848?modelVersionId=42879",
+    "modelId": 36848,
+    "versionId": 42879,
+    "sha256": "a2222c2fa38cdfd7982a07a0d1824000c73d093e7e6dc9acebb973240d50f23b",
+    "creator": null,
+    "capturedAt": "2026-08-17T13:10:44.740143+00:00",
+    "declaredActivationWords": [
+      "postapoAI"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/42879",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "postapoAI"
+      ]
+    }
+  }
+}

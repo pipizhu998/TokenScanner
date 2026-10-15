@@ -1,0 +1,770 @@
+{
+  "id": "benign-65108",
+  "kind": "benign",
+  "title": "Dunhuang Style",
+  "originalTitle": "dunhuang 古风 敦煌（大更新） style",
+  "version": "v3",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_702841a6a5d128a5ca38",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.1329113924050632,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2694278966014222,
+    "A_TE": 4.5703125,
+    "r_UNet": 0.1265060240963855,
+    "r_TE": 0.0963855421686747,
+    "rJoint": 0.1265060240963855,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 48659,
+          "token": "thec",
+          "piece": "thec",
+          "score": 20.93511199951172
+        },
+        {
+          "rank": 2,
+          "tokenId": 26302,
+          "token": "п",
+          "piece": "Ð¿",
+          "score": 20.878543853759766
+        },
+        {
+          "rank": 3,
+          "tokenId": 39121,
+          "token": "日",
+          "piece": "æĹ¥",
+          "score": 20.694499969482422
+        },
+        {
+          "rank": 4,
+          "tokenId": 16701,
+          "token": "и",
+          "piece": "Ð¸",
+          "score": 19.27768325805664
+        },
+        {
+          "rank": 5,
+          "tokenId": 43115,
+          "token": "noi",
+          "piece": "noi",
+          "score": 18.861366271972656
+        },
+        {
+          "rank": 6,
+          "tokenId": 6042,
+          "token": "ا",
+          "piece": "Ø§",
+          "score": 18.610580444335938
+        },
+        {
+          "rank": 7,
+          "tokenId": 12001,
+          "token": "ush",
+          "piece": "ush",
+          "score": 18.550106048583984
+        },
+        {
+          "rank": 8,
+          "tokenId": 11106,
+          "token": "photoo",
+          "piece": "photoo",
+          "score": 18.381072998046875
+        },
+        {
+          "rank": 9,
+          "tokenId": 18843,
+          "token": "ع",
+          "piece": "Ø¹",
+          "score": 18.35700225830078
+        },
+        {
+          "rank": 10,
+          "tokenId": 22111,
+          "token": "andthe",
+          "piece": "andthe",
+          "score": 18.347824096679688
+        },
+        {
+          "rank": 11,
+          "tokenId": 58,
+          "token": "[",
+          "piece": "[",
+          "score": 18.267173767089844
+        },
+        {
+          "rank": 12,
+          "tokenId": 12788,
+          "token": "ingui",
+          "piece": "ingui",
+          "score": 18.250083923339844
+        },
+        {
+          "rank": 13,
+          "tokenId": 9143,
+          "token": "hasn",
+          "piece": "hasn</w>",
+          "score": 18.222213745117188
+        },
+        {
+          "rank": 14,
+          "tokenId": 33262,
+          "token": "oth",
+          "piece": "oth",
+          "score": 18.11981201171875
+        },
+        {
+          "rank": 15,
+          "tokenId": 12903,
+          "token": "(+",
+          "piece": "(+</w>",
+          "score": 18.07243537902832
+        },
+        {
+          "rank": 16,
+          "tokenId": 261,
+          "token": "&",
+          "piece": "&</w>",
+          "score": 18.018508911132812
+        },
+        {
+          "rank": 17,
+          "tokenId": 636,
+          "token": "oun",
+          "piece": "oun",
+          "score": 17.986976623535156
+        },
+        {
+          "rank": 18,
+          "tokenId": 9891,
+          "token": "oci",
+          "piece": "oci",
+          "score": 17.92520523071289
+        },
+        {
+          "rank": 19,
+          "tokenId": 1710,
+          "token": "face",
+          "piece": "face</w>",
+          "score": 17.90367889404297
+        },
+        {
+          "rank": 20,
+          "tokenId": 12203,
+          "token": "و",
+          "piece": "ÙĪ",
+          "score": 17.89908218383789
+        },
+        {
+          "rank": 21,
+          "tokenId": 22053,
+          "token": "photographic",
+          "piece": "photographic</w>",
+          "score": 17.865304946899414
+        },
+        {
+          "rank": 22,
+          "tokenId": 42890,
+          "token": "유",
+          "piece": "ìľł",
+          "score": 17.775386810302734
+        },
+        {
+          "rank": 23,
+          "tokenId": 16370,
+          "token": "р",
+          "piece": "ÑĢ",
+          "score": 17.769004821777344
+        },
+        {
+          "rank": 24,
+          "tokenId": 31148,
+          "token": "©",
+          "piece": "Â©",
+          "score": 17.61166000366211
+        },
+        {
+          "rank": 25,
+          "tokenId": 29644,
+          "token": "none",
+          "piece": "none",
+          "score": 17.582441329956055
+        },
+        {
+          "rank": 26,
+          "tokenId": 1100,
+          "token": "had",
+          "piece": "had</w>",
+          "score": 17.51556396484375
+        },
+        {
+          "rank": 27,
+          "tokenId": 25722,
+          "token": "ح",
+          "piece": "ØŃ",
+          "score": 17.513587951660156
+        },
+        {
+          "rank": 28,
+          "tokenId": 40392,
+          "token": "dited",
+          "piece": "dited</w>",
+          "score": 17.46318817138672
+        },
+        {
+          "rank": 29,
+          "tokenId": 38060,
+          "token": "。",
+          "piece": "ãĢĤ",
+          "score": 17.410903930664062
+        },
+        {
+          "rank": 30,
+          "tokenId": 34308,
+          "token": "</",
+          "piece": "</</w>",
+          "score": 17.36819839477539
+        },
+        {
+          "rank": 31,
+          "tokenId": 16609,
+          "token": "ía",
+          "piece": "ÃŃa</w>",
+          "score": 17.35504913330078
+        },
+        {
+          "rank": 32,
+          "tokenId": 23134,
+          "token": "ā",
+          "piece": "Äģ",
+          "score": 17.343120574951172
+        },
+        {
+          "rank": 33,
+          "tokenId": 30524,
+          "token": "ุ",
+          "piece": "à¸¸</w>",
+          "score": 17.33576202392578
+        },
+        {
+          "rank": 34,
+          "tokenId": 26170,
+          "token": "â",
+          "piece": "Ã¢",
+          "score": 17.293537139892578
+        },
+        {
+          "rank": 35,
+          "tokenId": 21711,
+          "token": "notor",
+          "piece": "notor",
+          "score": 17.240236282348633
+        },
+        {
+          "rank": 36,
+          "tokenId": 44635,
+          "token": "muj",
+          "piece": "muj",
+          "score": 17.133892059326172
+        },
+        {
+          "rank": 37,
+          "tokenId": 35689,
+          "token": "ï",
+          "piece": "Ã¯",
+          "score": 17.09204864501953
+        },
+        {
+          "rank": 38,
+          "tokenId": 42773,
+          "token": "ان",
+          "piece": "Ø§ÙĨ",
+          "score": 17.040462493896484
+        },
+        {
+          "rank": 39,
+          "tokenId": 19957,
+          "token": "¨",
+          "piece": "Â¨",
+          "score": 16.999183654785156
+        },
+        {
+          "rank": 40,
+          "tokenId": 38594,
+          "token": "sphoto",
+          "piece": "sphoto</w>",
+          "score": 16.932273864746094
+        },
+        {
+          "rank": 41,
+          "tokenId": 14978,
+          "token": "ั",
+          "piece": "à¸±</w>",
+          "score": 16.81680679321289
+        },
+        {
+          "rank": 42,
+          "tokenId": 14769,
+          "token": "ahhh",
+          "piece": "ahhh</w>",
+          "score": 16.78413200378418
+        },
+        {
+          "rank": 43,
+          "tokenId": 11909,
+          "token": "facial",
+          "piece": "facial</w>",
+          "score": 16.774250030517578
+        },
+        {
+          "rank": 44,
+          "tokenId": 34696,
+          "token": "ล",
+          "piece": "à¸¥",
+          "score": 16.77071762084961
+        },
+        {
+          "rank": 45,
+          "tokenId": 43270,
+          "token": "ர",
+          "piece": "à®°</w>",
+          "score": 16.76424789428711
+        },
+        {
+          "rank": 46,
+          "tokenId": 21068,
+          "token": "hri",
+          "piece": "hri",
+          "score": 16.73589515686035
+        },
+        {
+          "rank": 47,
+          "tokenId": 13398,
+          "token": "อ",
+          "piece": "à¸Ń",
+          "score": 16.714567184448242
+        },
+        {
+          "rank": 48,
+          "tokenId": 48148,
+          "token": "nang",
+          "piece": "nang",
+          "score": 16.68987464904785
+        },
+        {
+          "rank": 49,
+          "tokenId": 24944,
+          "token": "qa",
+          "piece": "qa",
+          "score": 16.68487548828125
+        },
+        {
+          "rank": 50,
+          "tokenId": 6759,
+          "token": "noo",
+          "piece": "noo",
+          "score": 16.660831451416016
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 22510,
+          "token": "vings",
+          "piece": "vings</w>",
+          "score": 4.5703125
+        },
+        {
+          "rank": 2,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 4.5234375
+        },
+        {
+          "rank": 3,
+          "tokenId": 33064,
+          "token": "ห",
+          "piece": "à¸«",
+          "score": 4.521484375
+        },
+        {
+          "rank": 4,
+          "tokenId": 45142,
+          "token": "araj",
+          "piece": "araj</w>",
+          "score": 4.494140625
+        },
+        {
+          "rank": 5,
+          "tokenId": 31322,
+          "token": "thani",
+          "piece": "thani</w>",
+          "score": 4.294921875
+        },
+        {
+          "rank": 6,
+          "tokenId": 19811,
+          "token": "/-",
+          "piece": "/-</w>",
+          "score": 4.28125
+        },
+        {
+          "rank": 7,
+          "tokenId": 26137,
+          "token": "ม",
+          "piece": "à¸¡",
+          "score": 4.271484375
+        },
+        {
+          "rank": 8,
+          "tokenId": 318,
+          "token": "_",
+          "piece": "_</w>",
+          "score": 4.23828125
+        },
+        {
+          "rank": 9,
+          "tokenId": 47298,
+          "token": "++",
+          "piece": "++",
+          "score": 4.2060546875
+        },
+        {
+          "rank": 10,
+          "tokenId": 42557,
+          "token": "祭",
+          "piece": "ç¥Ń</w>",
+          "score": 4.1845703125
+        },
+        {
+          "rank": 11,
+          "tokenId": 47705,
+          "token": "ல",
+          "piece": "à®²</w>",
+          "score": 4.142578125
+        },
+        {
+          "rank": 12,
+          "tokenId": 31107,
+          "token": "ด",
+          "piece": "à¸Ķ",
+          "score": 4.1181640625
+        },
+        {
+          "rank": 13,
+          "tokenId": 11722,
+          "token": "่",
+          "piece": "à¹Ī</w>",
+          "score": 4.099609375
+        },
+        {
+          "rank": 14,
+          "tokenId": 29505,
+          "token": "nof",
+          "piece": "nof",
+          "score": 4.0810546875
+        },
+        {
+          "rank": 15,
+          "tokenId": 46748,
+          "token": "isthe",
+          "piece": "isthe",
+          "score": 4.078125
+        },
+        {
+          "rank": 16,
+          "tokenId": 33091,
+          "token": "ย",
+          "piece": "à¸¢</w>",
+          "score": 4.017578125
+        },
+        {
+          "rank": 17,
+          "tokenId": 30767,
+          "token": "ก",
+          "piece": "à¸ģ</w>",
+          "score": 4.0068359375
+        },
+        {
+          "rank": 18,
+          "tokenId": 47254,
+          "token": "adaily",
+          "piece": "adaily</w>",
+          "score": 3.9970703125
+        },
+        {
+          "rank": 19,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 3.978515625
+        },
+        {
+          "rank": 20,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 3.978515625
+        },
+        {
+          "rank": 21,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 3.978515625
+        },
+        {
+          "rank": 22,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 3.978515625
+        },
+        {
+          "rank": 23,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 3.978515625
+        },
+        {
+          "rank": 24,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 3.978515625
+        },
+        {
+          "rank": 25,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 3.978515625
+        },
+        {
+          "rank": 26,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 3.978515625
+        },
+        {
+          "rank": 27,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 3.978515625
+        },
+        {
+          "rank": 28,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 3.978515625
+        },
+        {
+          "rank": 29,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 3.978515625
+        },
+        {
+          "rank": 30,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 3.978515625
+        },
+        {
+          "rank": 31,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 3.978515625
+        },
+        {
+          "rank": 32,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 3.978515625
+        },
+        {
+          "rank": 33,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 3.978515625
+        },
+        {
+          "rank": 34,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 3.978515625
+        },
+        {
+          "rank": 35,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 3.978515625
+        },
+        {
+          "rank": 36,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 3.978515625
+        },
+        {
+          "rank": 37,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 3.978515625
+        },
+        {
+          "rank": 38,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 3.978515625
+        },
+        {
+          "rank": 39,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 3.978515625
+        },
+        {
+          "rank": 40,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 3.978515625
+        },
+        {
+          "rank": 41,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 3.978515625
+        },
+        {
+          "rank": 42,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 3.978515625
+        },
+        {
+          "rank": 43,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 3.978515625
+        },
+        {
+          "rank": 44,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 3.978515625
+        },
+        {
+          "rank": 45,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 3.978515625
+        },
+        {
+          "rank": 46,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 3.978515625
+        },
+        {
+          "rank": 47,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 3.978515625
+        },
+        {
+          "rank": 48,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 3.978515625
+        },
+        {
+          "rank": 49,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 3.978515625
+        },
+        {
+          "rank": 50,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 3.978515625
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-65108-unet.csv",
+      "te": "assets/scans/benign-65108-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/65108?modelVersionId=103423",
+    "modelId": 65108,
+    "versionId": 103423,
+    "sha256": "702841a6a5d128a5ca3894f44f50490fb495fb46fe29b09a92b1bad6061b77dc",
+    "creator": "ArienTOP",
+    "capturedAt": "2026-08-17T13:10:13.201432+00:00",
+    "declaredActivationWords": [
+      "dunhuang",
+      "dunhuang_face"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/103423",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "dunhuang",
+        "dunhuang_face"
+      ]
+    }
+  }
+}

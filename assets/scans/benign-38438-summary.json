@@ -1,0 +1,768 @@
+{
+  "id": "benign-38438",
+  "kind": "benign",
+  "title": "Eyeshadow Eyeliner and Freckles",
+  "originalTitle": "[XL + 1.5] Eyeshadow / Eyeliner / Freckles Enhancer",
+  "version": "_1.5",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_20c2d1c224a5f0ffdcaa",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.6962025316455697,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2981747253455137,
+    "A_TE": 8.92578125,
+    "r_UNet": 0.6626506024096386,
+    "r_TE": 0.3132530120481928,
+    "rJoint": 0.6626506024096386,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 26402,
+          "token": "makeup",
+          "piece": "makeup",
+          "score": 0.9902832508087158
+        },
+        {
+          "rank": 2,
+          "tokenId": 5853,
+          "token": "makeup",
+          "piece": "makeup</w>",
+          "score": 0.942331850528717
+        },
+        {
+          "rank": 3,
+          "tokenId": 41156,
+          "token": "brunomars",
+          "piece": "brunomars</w>",
+          "score": 0.8247866630554199
+        },
+        {
+          "rank": 4,
+          "tokenId": 28783,
+          "token": "zika",
+          "piece": "zika</w>",
+          "score": 0.8192304372787476
+        },
+        {
+          "rank": 5,
+          "tokenId": 11192,
+          "token": "jewellery",
+          "piece": "jewellery</w>",
+          "score": 0.744188666343689
+        },
+        {
+          "rank": 6,
+          "tokenId": 30831,
+          "token": "socent",
+          "piece": "socent</w>",
+          "score": 0.7282722592353821
+        },
+        {
+          "rank": 7,
+          "tokenId": 39642,
+          "token": "choker",
+          "piece": "choker</w>",
+          "score": 0.7279173731803894
+        },
+        {
+          "rank": 8,
+          "tokenId": 28367,
+          "token": "springsteen",
+          "piece": "springsteen</w>",
+          "score": 0.7272059917449951
+        },
+        {
+          "rank": 9,
+          "tokenId": 10385,
+          "token": "knights",
+          "piece": "knights</w>",
+          "score": 0.701023519039154
+        },
+        {
+          "rank": 10,
+          "tokenId": 32651,
+          "token": "imwithher",
+          "piece": "imwithher</w>",
+          "score": 0.692920446395874
+        },
+        {
+          "rank": 11,
+          "tokenId": 22774,
+          "token": "mayweather",
+          "piece": "mayweather</w>",
+          "score": 0.6882357597351074
+        },
+        {
+          "rank": 12,
+          "tokenId": 18246,
+          "token": "federer",
+          "piece": "federer</w>",
+          "score": 0.6717145442962646
+        },
+        {
+          "rank": 13,
+          "tokenId": 14638,
+          "token": "losangeles",
+          "piece": "losangeles</w>",
+          "score": 0.6717014312744141
+        },
+        {
+          "rank": 14,
+          "tokenId": 28293,
+          "token": "rahulgandhi",
+          "piece": "rahulgandhi</w>",
+          "score": 0.6708938479423523
+        },
+        {
+          "rank": 15,
+          "tokenId": 4276,
+          "token": "obama",
+          "piece": "obama</w>",
+          "score": 0.6605932712554932
+        },
+        {
+          "rank": 16,
+          "tokenId": 47980,
+          "token": "dulkar",
+          "piece": "dulkar</w>",
+          "score": 0.6597170829772949
+        },
+        {
+          "rank": 17,
+          "tokenId": 33805,
+          "token": "kilkenny",
+          "piece": "kilkenny</w>",
+          "score": 0.6478541493415833
+        },
+        {
+          "rank": 18,
+          "tokenId": 43862,
+          "token": "nickjonas",
+          "piece": "nickjonas</w>",
+          "score": 0.6418639421463013
+        },
+        {
+          "rank": 19,
+          "tokenId": 23207,
+          "token": "hobbit",
+          "piece": "hobbit</w>",
+          "score": 0.6405624747276306
+        },
+        {
+          "rank": 20,
+          "tokenId": 38032,
+          "token": "breakingbad",
+          "piece": "breakingbad</w>",
+          "score": 0.6396055221557617
+        },
+        {
+          "rank": 21,
+          "tokenId": 32276,
+          "token": "necklaces",
+          "piece": "necklaces</w>",
+          "score": 0.6393544673919678
+        },
+        {
+          "rank": 22,
+          "tokenId": 34133,
+          "token": "morality",
+          "piece": "morality</w>",
+          "score": 0.6374181509017944
+        },
+        {
+          "rank": 23,
+          "tokenId": 48713,
+          "token": "cudi",
+          "piece": "cudi</w>",
+          "score": 0.6360375881195068
+        },
+        {
+          "rank": 24,
+          "tokenId": 20994,
+          "token": "manutd",
+          "piece": "manutd</w>",
+          "score": 0.631810188293457
+        },
+        {
+          "rank": 25,
+          "tokenId": 33153,
+          "token": "kingjames",
+          "piece": "kingjames</w>",
+          "score": 0.6291113495826721
+        },
+        {
+          "rank": 26,
+          "tokenId": 30066,
+          "token": "zuckerberg",
+          "piece": "zuckerberg</w>",
+          "score": 0.6289976835250854
+        },
+        {
+          "rank": 27,
+          "tokenId": 20185,
+          "token": "kenny",
+          "piece": "kenny",
+          "score": 0.6233116984367371
+        },
+        {
+          "rank": 28,
+          "tokenId": 45281,
+          "token": "wethenorth",
+          "piece": "wethenorth</w>",
+          "score": 0.6173073053359985
+        },
+        {
+          "rank": 29,
+          "tokenId": 47338,
+          "token": "carrieunderwood",
+          "piece": "carrieunderwood</w>",
+          "score": 0.617202877998352
+        },
+        {
+          "rank": 30,
+          "tokenId": 35255,
+          "token": "uswnt",
+          "piece": "uswnt</w>",
+          "score": 0.6101886630058289
+        },
+        {
+          "rank": 31,
+          "tokenId": 11971,
+          "token": "lebron",
+          "piece": "lebron</w>",
+          "score": 0.610087513923645
+        },
+        {
+          "rank": 32,
+          "tokenId": 47100,
+          "token": "officeofrg",
+          "piece": "officeofrg</w>",
+          "score": 0.6092798709869385
+        },
+        {
+          "rank": 33,
+          "tokenId": 36200,
+          "token": "dhanush",
+          "piece": "dhanush</w>",
+          "score": 0.6084679365158081
+        },
+        {
+          "rank": 34,
+          "tokenId": 26776,
+          "token": "scheer",
+          "piece": "scheer</w>",
+          "score": 0.6061328053474426
+        },
+        {
+          "rank": 35,
+          "tokenId": 31017,
+          "token": "jlo",
+          "piece": "jlo</w>",
+          "score": 0.6050741672515869
+        },
+        {
+          "rank": 36,
+          "tokenId": 35213,
+          "token": "eyeshadow",
+          "piece": "eyeshadow</w>",
+          "score": 0.6019778251647949
+        },
+        {
+          "rank": 37,
+          "tokenId": 16208,
+          "token": "juventus",
+          "piece": "juventus</w>",
+          "score": 0.6014707088470459
+        },
+        {
+          "rank": 38,
+          "tokenId": 11216,
+          "token": "srk",
+          "piece": "srk</w>",
+          "score": 0.6007175445556641
+        },
+        {
+          "rank": 39,
+          "tokenId": 32803,
+          "token": "itiner",
+          "piece": "itiner",
+          "score": 0.5988267064094543
+        },
+        {
+          "rank": 40,
+          "tokenId": 33702,
+          "token": "pawankalyan",
+          "piece": "pawankalyan</w>",
+          "score": 0.5910832285881042
+        },
+        {
+          "rank": 41,
+          "tokenId": 24130,
+          "token": "steampunk",
+          "piece": "steampunk</w>",
+          "score": 0.588340699672699
+        },
+        {
+          "rank": 42,
+          "tokenId": 31316,
+          "token": "pharrell",
+          "piece": "pharrell</w>",
+          "score": 0.5863246917724609
+        },
+        {
+          "rank": 43,
+          "tokenId": 38211,
+          "token": "mcfly",
+          "piece": "mcfly</w>",
+          "score": 0.5860971212387085
+        },
+        {
+          "rank": 44,
+          "tokenId": 44105,
+          "token": "pele",
+          "piece": "pele</w>",
+          "score": 0.5860093832015991
+        },
+        {
+          "rank": 45,
+          "tokenId": 43099,
+          "token": "knigh",
+          "piece": "knigh",
+          "score": 0.58500736951828
+        },
+        {
+          "rank": 46,
+          "tokenId": 14666,
+          "token": "bayern",
+          "piece": "bayern</w>",
+          "score": 0.5820266008377075
+        },
+        {
+          "rank": 47,
+          "tokenId": 48388,
+          "token": "snoopdogg",
+          "piece": "snoopdogg</w>",
+          "score": 0.5799083709716797
+        },
+        {
+          "rank": 48,
+          "tokenId": 6039,
+          "token": "jewelry",
+          "piece": "jewelry</w>",
+          "score": 0.5777307748794556
+        },
+        {
+          "rank": 49,
+          "tokenId": 33706,
+          "token": "seinfeld",
+          "piece": "seinfeld</w>",
+          "score": 0.5764124989509583
+        },
+        {
+          "rank": 50,
+          "tokenId": 9013,
+          "token": "mufc",
+          "piece": "mufc</w>",
+          "score": 0.5760399103164673
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 36346,
+          "token": "eradic",
+          "piece": "eradic",
+          "score": 8.92578125
+        },
+        {
+          "rank": 2,
+          "tokenId": 9869,
+          "token": "🇷",
+          "piece": "ðŁĩ·</w>",
+          "score": 8.83984375
+        },
+        {
+          "rank": 3,
+          "tokenId": 39820,
+          "token": "트",
+          "piece": "íĬ¸</w>",
+          "score": 8.49609375
+        },
+        {
+          "rank": 4,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 8.484375
+        },
+        {
+          "rank": 5,
+          "tokenId": 27502,
+          "token": "••••",
+          "piece": "âĢ¢âĢ¢âĢ¢âĢ¢",
+          "score": 8.46484375
+        },
+        {
+          "rank": 6,
+          "tokenId": 45809,
+          "token": "depriv",
+          "piece": "depriv",
+          "score": 8.44921875
+        },
+        {
+          "rank": 7,
+          "tokenId": 44713,
+          "token": "partist",
+          "piece": "partist</w>",
+          "score": 8.390625
+        },
+        {
+          "rank": 8,
+          "tokenId": 30046,
+          "token": "inged",
+          "piece": "inged</w>",
+          "score": 8.34765625
+        },
+        {
+          "rank": 9,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 8.1640625
+        },
+        {
+          "rank": 10,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 8.1640625
+        },
+        {
+          "rank": 11,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 8.1640625
+        },
+        {
+          "rank": 12,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 8.1640625
+        },
+        {
+          "rank": 13,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 8.1640625
+        },
+        {
+          "rank": 14,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 8.1640625
+        },
+        {
+          "rank": 15,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 8.1640625
+        },
+        {
+          "rank": 16,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 8.1640625
+        },
+        {
+          "rank": 17,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 8.1640625
+        },
+        {
+          "rank": 18,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 8.1640625
+        },
+        {
+          "rank": 19,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 8.1640625
+        },
+        {
+          "rank": 20,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 8.1640625
+        },
+        {
+          "rank": 21,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 8.1640625
+        },
+        {
+          "rank": 22,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 8.1640625
+        },
+        {
+          "rank": 23,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 8.1640625
+        },
+        {
+          "rank": 24,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 8.1640625
+        },
+        {
+          "rank": 25,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 8.1640625
+        },
+        {
+          "rank": 26,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 8.1640625
+        },
+        {
+          "rank": 27,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 8.1640625
+        },
+        {
+          "rank": 28,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 8.1640625
+        },
+        {
+          "rank": 29,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 8.1640625
+        },
+        {
+          "rank": 30,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 8.1640625
+        },
+        {
+          "rank": 31,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 8.1640625
+        },
+        {
+          "rank": 32,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 8.1640625
+        },
+        {
+          "rank": 33,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 8.1640625
+        },
+        {
+          "rank": 34,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 8.1640625
+        },
+        {
+          "rank": 35,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 8.1640625
+        },
+        {
+          "rank": 36,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 8.1640625
+        },
+        {
+          "rank": 37,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 8.1640625
+        },
+        {
+          "rank": 38,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 8.1640625
+        },
+        {
+          "rank": 39,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 8.1640625
+        },
+        {
+          "rank": 40,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 8.1640625
+        },
+        {
+          "rank": 41,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 8.1640625
+        },
+        {
+          "rank": 42,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 8.1640625
+        },
+        {
+          "rank": 43,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 8.1640625
+        },
+        {
+          "rank": 44,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 8.1640625
+        },
+        {
+          "rank": 45,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 8.1640625
+        },
+        {
+          "rank": 46,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 8.1640625
+        },
+        {
+          "rank": 47,
+          "tokenId": 290,
+          "token": "C",
+          "piece": "C</w>",
+          "score": 8.1640625
+        },
+        {
+          "rank": 48,
+          "tokenId": 291,
+          "token": "D",
+          "piece": "D</w>",
+          "score": 8.1640625
+        },
+        {
+          "rank": 49,
+          "tokenId": 292,
+          "token": "E",
+          "piece": "E</w>",
+          "score": 8.1640625
+        },
+        {
+          "rank": 50,
+          "tokenId": 293,
+          "token": "F",
+          "piece": "F</w>",
+          "score": 8.1640625
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-38438-unet.csv",
+      "te": "assets/scans/benign-38438-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/38438?modelVersionId=44371",
+    "modelId": 38438,
+    "versionId": 44371,
+    "sha256": "20c2d1c224a5f0ffdcaa6aa748ab8baec43cc24af71620ea24b322bba452cacd",
+    "creator": "LostInHentaiThoughts",
+    "capturedAt": "2026-08-17T13:13:12.508598+00:00",
+    "declaredActivationWords": [
+      "EGirlMakeup"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/44371",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "EGirlMakeup"
+      ]
+    }
+  }
+}

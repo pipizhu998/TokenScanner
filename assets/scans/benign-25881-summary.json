@@ -1,0 +1,798 @@
+{
+  "id": "benign-25881",
+  "kind": "benign",
+  "title": "Night Magic Town",
+  "originalTitle": "XSarchitectural-13Nightmagictown",
+  "version": "xsarchitectural-13Nightmagictown.safetensors",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "te",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_940f948836342ca0bb6f",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.3987341772151899,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2814882723755555,
+    "A_TE": 11.11328125,
+    "r_UNet": 0.3554216867469879,
+    "r_TE": 0.3795180722891566,
+    "rJoint": 0.3795180722891566,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 45064,
+          "token": "verstappen",
+          "piece": "verstappen</w>",
+          "score": 1.6340670585632324
+        },
+        {
+          "rank": 2,
+          "tokenId": 21553,
+          "token": "childrens",
+          "piece": "childrens</w>",
+          "score": 1.6050690412521362
+        },
+        {
+          "rank": 3,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 1.5973072052001953
+        },
+        {
+          "rank": 4,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 1.5787999629974365
+        },
+        {
+          "rank": 5,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 1.5737451314926147
+        },
+        {
+          "rank": 6,
+          "tokenId": 31790,
+          "token": "socialmediamarketing",
+          "piece": "socialmediamarketing</w>",
+          "score": 1.4801080226898193
+        },
+        {
+          "rank": 7,
+          "tokenId": 5873,
+          "token": "mountains",
+          "piece": "mountains</w>",
+          "score": 1.4391108751296997
+        },
+        {
+          "rank": 8,
+          "tokenId": 8102,
+          "token": "💚",
+          "piece": "ðŁĴļ",
+          "score": 1.4051859378814697
+        },
+        {
+          "rank": 9,
+          "tokenId": 48285,
+          "token": "gobeavs",
+          "piece": "gobeavs</w>",
+          "score": 1.4001367092132568
+        },
+        {
+          "rank": 10,
+          "tokenId": 4027,
+          "token": "🏼",
+          "piece": "ðŁı¼</w>",
+          "score": 1.3636070489883423
+        },
+        {
+          "rank": 11,
+          "tokenId": 27497,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ",
+          "score": 1.3608787059783936
+        },
+        {
+          "rank": 12,
+          "tokenId": 1305,
+          "token": "city",
+          "piece": "city</w>",
+          "score": 1.3464311361312866
+        },
+        {
+          "rank": 13,
+          "tokenId": 43862,
+          "token": "nickjonas",
+          "piece": "nickjonas</w>",
+          "score": 1.3444771766662598
+        },
+        {
+          "rank": 14,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 1.3421393632888794
+        },
+        {
+          "rank": 15,
+          "tokenId": 15845,
+          "token": "mainedcm",
+          "piece": "mainedcm</w>",
+          "score": 1.3304057121276855
+        },
+        {
+          "rank": 16,
+          "tokenId": 14797,
+          "token": "laundry",
+          "piece": "laundry</w>",
+          "score": 1.3299310207366943
+        },
+        {
+          "rank": 17,
+          "tokenId": 3540,
+          "token": "castle",
+          "piece": "castle</w>",
+          "score": 1.3245705366134644
+        },
+        {
+          "rank": 18,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 1.313339114189148
+        },
+        {
+          "rank": 19,
+          "tokenId": 40808,
+          "token": "cityscape",
+          "piece": "cityscape</w>",
+          "score": 1.3083937168121338
+        },
+        {
+          "rank": 20,
+          "tokenId": 28293,
+          "token": "rahulgandhi",
+          "piece": "rahulgandhi</w>",
+          "score": 1.303544282913208
+        },
+        {
+          "rank": 21,
+          "tokenId": 29152,
+          "token": "👊🏻",
+          "piece": "ðŁĳĬðŁı»</w>",
+          "score": 1.300003170967102
+        },
+        {
+          "rank": 22,
+          "tokenId": 47738,
+          "token": "tillerson",
+          "piece": "tillerson</w>",
+          "score": 1.285034418106079
+        },
+        {
+          "rank": 23,
+          "tokenId": 3707,
+          "token": "september",
+          "piece": "september</w>",
+          "score": 1.283312439918518
+        },
+        {
+          "rank": 24,
+          "tokenId": 27653,
+          "token": "selenagomez",
+          "piece": "selenagomez</w>",
+          "score": 1.2742297649383545
+        },
+        {
+          "rank": 25,
+          "tokenId": 29122,
+          "token": "😍❤",
+          "piece": "ðŁĺįâĿ¤</w>",
+          "score": 1.272569179534912
+        },
+        {
+          "rank": 26,
+          "tokenId": 14889,
+          "token": "tottenham",
+          "piece": "tottenham</w>",
+          "score": 1.247910499572754
+        },
+        {
+          "rank": 27,
+          "tokenId": 5380,
+          "token": "sept",
+          "piece": "sept</w>",
+          "score": 1.2478082180023193
+        },
+        {
+          "rank": 28,
+          "tokenId": 44877,
+          "token": "nieces",
+          "piece": "nieces</w>",
+          "score": 1.2363128662109375
+        },
+        {
+          "rank": 29,
+          "tokenId": 25192,
+          "token": "🇦🇺",
+          "piece": "ðŁĩ¦ðŁĩº</w>",
+          "score": 1.230930209159851
+        },
+        {
+          "rank": 30,
+          "tokenId": 6690,
+          "token": "💗",
+          "piece": "ðŁĴĹ</w>",
+          "score": 1.2232593297958374
+        },
+        {
+          "rank": 31,
+          "tokenId": 21316,
+          "token": "smallbusiness",
+          "piece": "smallbusiness</w>",
+          "score": 1.2215954065322876
+        },
+        {
+          "rank": 32,
+          "tokenId": 8988,
+          "token": "💞",
+          "piece": "ðŁĴŀ</w>",
+          "score": 1.221482515335083
+        },
+        {
+          "rank": 33,
+          "tokenId": 24766,
+          "token": "castles",
+          "piece": "castles</w>",
+          "score": 1.2143070697784424
+        },
+        {
+          "rank": 34,
+          "tokenId": 39963,
+          "token": "taekwondo",
+          "piece": "taekwondo</w>",
+          "score": 1.211332082748413
+        },
+        {
+          "rank": 35,
+          "tokenId": 28101,
+          "token": "rolltide",
+          "piece": "rolltide</w>",
+          "score": 1.2096138000488281
+        },
+        {
+          "rank": 36,
+          "tokenId": 39957,
+          "token": "metroid",
+          "piece": "metroid</w>",
+          "score": 1.2092671394348145
+        },
+        {
+          "rank": 37,
+          "tokenId": 18936,
+          "token": "taylorswift",
+          "piece": "taylorswift</w>",
+          "score": 1.2060182094573975
+        },
+        {
+          "rank": 38,
+          "tokenId": 1605,
+          "token": "town",
+          "piece": "town</w>",
+          "score": 1.2013684511184692
+        },
+        {
+          "rank": 39,
+          "tokenId": 20021,
+          "token": "bama",
+          "piece": "bama</w>",
+          "score": 1.1967483758926392
+        },
+        {
+          "rank": 40,
+          "tokenId": 18748,
+          "token": "phillies",
+          "piece": "phillies</w>",
+          "score": 1.1967432498931885
+        },
+        {
+          "rank": 41,
+          "tokenId": 6193,
+          "token": "🏼",
+          "piece": "ðŁı¼",
+          "score": 1.1925655603408813
+        },
+        {
+          "rank": 42,
+          "tokenId": 2859,
+          "token": "⁦@",
+          "piece": "âģ¦@</w>",
+          "score": 1.1770639419555664
+        },
+        {
+          "rank": 43,
+          "tokenId": 18090,
+          "token": "blogging",
+          "piece": "blogging</w>",
+          "score": 1.1749966144561768
+        },
+        {
+          "rank": 44,
+          "tokenId": 41800,
+          "token": "❤️😘",
+          "piece": "âĿ¤ï¸ıðŁĺĺ</w>",
+          "score": 1.1680541038513184
+        },
+        {
+          "rank": 45,
+          "tokenId": 16194,
+          "token": "dprinting",
+          "piece": "dprinting</w>",
+          "score": 1.1672744750976562
+        },
+        {
+          "rank": 46,
+          "tokenId": 14606,
+          "token": "skyline",
+          "piece": "skyline</w>",
+          "score": 1.163830280303955
+        },
+        {
+          "rank": 47,
+          "tokenId": 21878,
+          "token": "neymar",
+          "piece": "neymar</w>",
+          "score": 1.1578994989395142
+        },
+        {
+          "rank": 48,
+          "tokenId": 5441,
+          "token": "cities",
+          "piece": "cities</w>",
+          "score": 1.1541531085968018
+        },
+        {
+          "rank": 49,
+          "tokenId": 22747,
+          "token": "stpatricksday",
+          "piece": "stpatricksday</w>",
+          "score": 1.1525344848632812
+        },
+        {
+          "rank": 50,
+          "tokenId": 5366,
+          "token": "liverpool",
+          "piece": "liverpool</w>",
+          "score": 1.1458954811096191
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 48510,
+          "token": "غ",
+          "piece": "Øº",
+          "score": 11.11328125
+        },
+        {
+          "rank": 2,
+          "tokenId": 33064,
+          "token": "ห",
+          "piece": "à¸«",
+          "score": 10.9453125
+        },
+        {
+          "rank": 3,
+          "tokenId": 27948,
+          "token": "anada",
+          "piece": "anada</w>",
+          "score": 9.73046875
+        },
+        {
+          "rank": 4,
+          "tokenId": 48039,
+          "token": "═",
+          "piece": "âķĲ",
+          "score": 9.66015625
+        },
+        {
+          "rank": 5,
+          "tokenId": 40077,
+          "token": "manian",
+          "piece": "manian</w>",
+          "score": 9.53125
+        },
+        {
+          "rank": 6,
+          "tokenId": 26137,
+          "token": "ม",
+          "piece": "à¸¡",
+          "score": 9.43359375
+        },
+        {
+          "rank": 7,
+          "tokenId": 35864,
+          "token": "indiegames",
+          "piece": "indiegames</w>",
+          "score": 9.3203125
+        },
+        {
+          "rank": 8,
+          "tokenId": 11709,
+          "token": "onents",
+          "piece": "onents</w>",
+          "score": 9.26953125
+        },
+        {
+          "rank": 9,
+          "tokenId": 23089,
+          "token": "¨¨",
+          "piece": "Â¨Â¨",
+          "score": 9.24609375
+        },
+        {
+          "rank": 10,
+          "tokenId": 48469,
+          "token": "thwaite",
+          "piece": "thwaite</w>",
+          "score": 9.22265625
+        },
+        {
+          "rank": 11,
+          "tokenId": 41734,
+          "token": "skymap",
+          "piece": "skymap</w>",
+          "score": 9.16015625
+        },
+        {
+          "rank": 12,
+          "tokenId": 41395,
+          "token": "anem",
+          "piece": "anem",
+          "score": 9.12109375
+        },
+        {
+          "rank": 13,
+          "tokenId": 31408,
+          "token": "loid",
+          "piece": "loid</w>",
+          "score": 9.07421875
+        },
+        {
+          "rank": 14,
+          "tokenId": 36346,
+          "token": "eradic",
+          "piece": "eradic",
+          "score": 9.02734375
+        },
+        {
+          "rank": 15,
+          "tokenId": 48278,
+          "token": "throughs",
+          "piece": "throughs</w>",
+          "score": 8.953125
+        },
+        {
+          "rank": 16,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 8.9453125
+        },
+        {
+          "rank": 17,
+          "tokenId": 16762,
+          "token": "garh",
+          "piece": "garh</w>",
+          "score": 8.93359375
+        },
+        {
+          "rank": 18,
+          "tokenId": 34929,
+          "token": "bizitalk",
+          "piece": "bizitalk</w>",
+          "score": 8.9140625
+        },
+        {
+          "rank": 19,
+          "tokenId": 46663,
+          "token": "chauhan",
+          "piece": "chauhan</w>",
+          "score": 8.90234375
+        },
+        {
+          "rank": 20,
+          "tokenId": 31771,
+          "token": "sedly",
+          "piece": "sedly</w>",
+          "score": 8.89453125
+        },
+        {
+          "rank": 21,
+          "tokenId": 20563,
+          "token": "sofficial",
+          "piece": "sofficial</w>",
+          "score": 8.86328125
+        },
+        {
+          "rank": 22,
+          "tokenId": 38851,
+          "token": "aconf",
+          "piece": "aconf</w>",
+          "score": 8.84375
+        },
+        {
+          "rank": 23,
+          "tokenId": 26875,
+          "token": "ン",
+          "piece": "ãĥ³</w>",
+          "score": 8.83203125
+        },
+        {
+          "rank": 24,
+          "tokenId": 46282,
+          "token": "portray",
+          "piece": "portray</w>",
+          "score": 8.8203125
+        },
+        {
+          "rank": 25,
+          "tokenId": 14323,
+          "token": "alore",
+          "piece": "alore</w>",
+          "score": 8.81640625
+        },
+        {
+          "rank": 26,
+          "tokenId": 43976,
+          "token": "supportindiefilm",
+          "piece": "supportindiefilm</w>",
+          "score": 8.78515625
+        },
+        {
+          "rank": 27,
+          "tokenId": 49222,
+          "token": "epiconetsy",
+          "piece": "epiconetsy</w>",
+          "score": 8.78515625
+        },
+        {
+          "rank": 28,
+          "tokenId": 24141,
+          "token": "nished",
+          "piece": "nished</w>",
+          "score": 8.7734375
+        },
+        {
+          "rank": 29,
+          "tokenId": 19957,
+          "token": "¨",
+          "piece": "Â¨",
+          "score": 8.7578125
+        },
+        {
+          "rank": 30,
+          "tokenId": 28141,
+          "token": "bians",
+          "piece": "bians</w>",
+          "score": 8.75390625
+        },
+        {
+          "rank": 31,
+          "tokenId": 7358,
+          "token": "atures",
+          "piece": "atures</w>",
+          "score": 8.69921875
+        },
+        {
+          "rank": 32,
+          "tokenId": 44757,
+          "token": "followparty",
+          "piece": "followparty</w>",
+          "score": 8.69921875
+        },
+        {
+          "rank": 33,
+          "tokenId": 45475,
+          "token": "mlpfi",
+          "piece": "mlpfi",
+          "score": 8.68359375
+        },
+        {
+          "rank": 34,
+          "tokenId": 38893,
+          "token": "gued",
+          "piece": "gued</w>",
+          "score": 8.67578125
+        },
+        {
+          "rank": 35,
+          "tokenId": 27502,
+          "token": "••••",
+          "piece": "âĢ¢âĢ¢âĢ¢âĢ¢",
+          "score": 8.658203125
+        },
+        {
+          "rank": 36,
+          "tokenId": 29061,
+          "token": "halam",
+          "piece": "halam",
+          "score": 8.640625
+        },
+        {
+          "rank": 37,
+          "tokenId": 42922,
+          "token": "justsaying",
+          "piece": "justsaying</w>",
+          "score": 8.640625
+        },
+        {
+          "rank": 38,
+          "tokenId": 35330,
+          "token": "ب",
+          "piece": "Ø¨</w>",
+          "score": 8.63671875
+        },
+        {
+          "rank": 39,
+          "tokenId": 46543,
+          "token": "ausbiz",
+          "piece": "ausbiz</w>",
+          "score": 8.6171875
+        },
+        {
+          "rank": 40,
+          "tokenId": 15769,
+          "token": "cester",
+          "piece": "cester",
+          "score": 8.61328125
+        },
+        {
+          "rank": 41,
+          "tokenId": 33507,
+          "token": "ritos",
+          "piece": "ritos</w>",
+          "score": 8.6015625
+        },
+        {
+          "rank": 42,
+          "tokenId": 32456,
+          "token": "shirehour",
+          "piece": "shirehour</w>",
+          "score": 8.58203125
+        },
+        {
+          "rank": 43,
+          "tokenId": 26774,
+          "token": "म",
+          "piece": "à¤®</w>",
+          "score": 8.578125
+        },
+        {
+          "rank": 44,
+          "tokenId": 44188,
+          "token": "manas",
+          "piece": "manas",
+          "score": 8.576171875
+        },
+        {
+          "rank": 45,
+          "tokenId": 6549,
+          "token": "enced",
+          "piece": "enced</w>",
+          "score": 8.5703125
+        },
+        {
+          "rank": 46,
+          "tokenId": 17240,
+          "token": "seemed",
+          "piece": "seemed</w>",
+          "score": 8.5625
+        },
+        {
+          "rank": 47,
+          "tokenId": 30562,
+          "token": "womanin",
+          "piece": "womanin",
+          "score": 8.5546875
+        },
+        {
+          "rank": 48,
+          "tokenId": 39009,
+          "token": "][#",
+          "piece": "][#</w>",
+          "score": 8.5546875
+        },
+        {
+          "rank": 49,
+          "tokenId": 6956,
+          "token": "oured",
+          "piece": "oured</w>",
+          "score": 8.54296875
+        },
+        {
+          "rank": 50,
+          "tokenId": 33212,
+          "token": "notjust",
+          "piece": "notjust",
+          "score": 8.54296875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-25881-unet.csv",
+      "te": "assets/scans/benign-25881-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/25881?modelVersionId=30988",
+    "modelId": 25881,
+    "versionId": 30988,
+    "sha256": "940f948836342ca0bb6f0ba9c9e7ff10c80a280ffafdfe048ea72bee35e82a5f",
+    "creator": "XSarchitectural",
+    "capturedAt": "2026-08-17T13:11:06.701840+00:00",
+    "declaredActivationWords": [
+      "a beautiful",
+      "complex and detailed medieval european village",
+      "a foreground",
+      "a rather dark sky",
+      "but bright",
+      "sacred",
+      "nestled around a mountain range where enormous amounts of golden veins are buried",
+      "landscape",
+      "indirect lighting",
+      "4k",
+      "overall brightness",
+      "volumetric lighting",
+      "epic composition",
+      "photorealism",
+      "ultra hd",
+      "ultra detailed"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/30988",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "a beautiful",
+        "complex and detailed medieval european village",
+        "a foreground",
+        "a rather dark sky",
+        "but bright",
+        "sacred",
+        "nestled around a mountain range where enormous amounts of golden veins are buried",
+        "landscape",
+        "indirect lighting",
+        "4k",
+        "overall brightness",
+        "volumetric lighting",
+        "epic composition",
+        "photorealism",
+        "ultra hd",
+        "ultra detailed"
+      ]
+    }
+  }
+}

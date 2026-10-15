@@ -1,0 +1,768 @@
+{
+  "id": "benign-21272",
+  "kind": "benign",
+  "title": "Demon Slayer Anime Style",
+  "originalTitle": "Demon Slayer / Kimetsu No Yaiba Anime Style LoRA",
+  "version": "offset",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "te",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_43a1152b75f8613a9e5d",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.7468354430379747,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2776263146631869,
+    "A_TE": 18.5625,
+    "r_UNet": 0.2409638554216867,
+    "r_TE": 0.7108433734939759,
+    "rJoint": 0.7108433734939759,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 2677,
+          "token": "tree",
+          "piece": "tree</w>",
+          "score": 6.7869672775268555
+        },
+        {
+          "rank": 2,
+          "tokenId": 40024,
+          "token": "kimono",
+          "piece": "kimono</w>",
+          "score": 6.250918865203857
+        },
+        {
+          "rank": 3,
+          "tokenId": 25757,
+          "token": "masked",
+          "piece": "masked</w>",
+          "score": 5.969701290130615
+        },
+        {
+          "rank": 4,
+          "tokenId": 18844,
+          "token": "gag",
+          "piece": "gag</w>",
+          "score": 5.95775842666626
+        },
+        {
+          "rank": 5,
+          "tokenId": 13354,
+          "token": "tree",
+          "piece": "tree",
+          "score": 5.891716957092285
+        },
+        {
+          "rank": 6,
+          "tokenId": 19646,
+          "token": "spine",
+          "piece": "spine</w>",
+          "score": 5.81671142578125
+        },
+        {
+          "rank": 7,
+          "tokenId": 8306,
+          "token": "mask",
+          "piece": "mask</w>",
+          "score": 5.782837867736816
+        },
+        {
+          "rank": 8,
+          "tokenId": 3490,
+          "token": "smile",
+          "piece": "smile</w>",
+          "score": 5.516175746917725
+        },
+        {
+          "rank": 9,
+          "tokenId": 3360,
+          "token": "pink",
+          "piece": "pink</w>",
+          "score": 5.4415507316589355
+        },
+        {
+          "rank": 10,
+          "tokenId": 1459,
+          "token": "pt",
+          "piece": "pt</w>",
+          "score": 5.3988447189331055
+        },
+        {
+          "rank": 11,
+          "tokenId": 9738,
+          "token": "butterfly",
+          "piece": "butterfly</w>",
+          "score": 5.342449188232422
+        },
+        {
+          "rank": 12,
+          "tokenId": 7373,
+          "token": "belt",
+          "piece": "belt</w>",
+          "score": 5.301973819732666
+        },
+        {
+          "rank": 13,
+          "tokenId": 32499,
+          "token": "freep",
+          "piece": "freep",
+          "score": 5.277514457702637
+        },
+        {
+          "rank": 14,
+          "tokenId": 8476,
+          "token": "shoulder",
+          "piece": "shoulder</w>",
+          "score": 5.275613784790039
+        },
+        {
+          "rank": 15,
+          "tokenId": 6469,
+          "token": "anime",
+          "piece": "anime</w>",
+          "score": 5.239243507385254
+        },
+        {
+          "rank": 16,
+          "tokenId": 4925,
+          "token": "japanese",
+          "piece": "japanese</w>",
+          "score": 5.215710639953613
+        },
+        {
+          "rank": 17,
+          "tokenId": 870,
+          "token": "ents",
+          "piece": "ents</w>",
+          "score": 5.197819709777832
+        },
+        {
+          "rank": 18,
+          "tokenId": 4733,
+          "token": "tress",
+          "piece": "tress</w>",
+          "score": 5.182517051696777
+        },
+        {
+          "rank": 19,
+          "tokenId": 19055,
+          "token": "masks",
+          "piece": "masks</w>",
+          "score": 5.159335136413574
+        },
+        {
+          "rank": 20,
+          "tokenId": 4682,
+          "token": "trees",
+          "piece": "trees</w>",
+          "score": 5.140669822692871
+        },
+        {
+          "rank": 21,
+          "tokenId": 33294,
+          "token": "sword",
+          "piece": "sword",
+          "score": 5.126716136932373
+        },
+        {
+          "rank": 22,
+          "tokenId": 7504,
+          "token": "py",
+          "piece": "py</w>",
+          "score": 5.09565544128418
+        },
+        {
+          "rank": 23,
+          "tokenId": 8726,
+          "token": "smiles",
+          "piece": "smiles</w>",
+          "score": 5.050539970397949
+        },
+        {
+          "rank": 24,
+          "tokenId": 20595,
+          "token": "benny",
+          "piece": "benny</w>",
+          "score": 4.96497106552124
+        },
+        {
+          "rank": 25,
+          "tokenId": 21739,
+          "token": "samurai",
+          "piece": "samurai</w>",
+          "score": 4.96441650390625
+        },
+        {
+          "rank": 26,
+          "tokenId": 11356,
+          "token": "sword",
+          "piece": "sword</w>",
+          "score": 4.954305648803711
+        },
+        {
+          "rank": 27,
+          "tokenId": 2982,
+          "token": "lo",
+          "piece": "lo</w>",
+          "score": 4.951229095458984
+        },
+        {
+          "rank": 28,
+          "tokenId": 24132,
+          "token": "grease",
+          "piece": "grease</w>",
+          "score": 4.9448442459106445
+        },
+        {
+          "rank": 29,
+          "tokenId": 21888,
+          "token": "belts",
+          "piece": "belts</w>",
+          "score": 4.917037010192871
+        },
+        {
+          "rank": 30,
+          "tokenId": 2866,
+          "token": "brown",
+          "piece": "brown</w>",
+          "score": 4.9105939865112305
+        },
+        {
+          "rank": 31,
+          "tokenId": 30282,
+          "token": "elastic",
+          "piece": "elastic</w>",
+          "score": 4.905769348144531
+        },
+        {
+          "rank": 32,
+          "tokenId": 20065,
+          "token": "penc",
+          "piece": "penc",
+          "score": 4.8972673416137695
+        },
+        {
+          "rank": 33,
+          "tokenId": 7004,
+          "token": "dot",
+          "piece": "dot</w>",
+          "score": 4.891756057739258
+        },
+        {
+          "rank": 34,
+          "tokenId": 33262,
+          "token": "oth",
+          "piece": "oth",
+          "score": 4.879913806915283
+        },
+        {
+          "rank": 35,
+          "tokenId": 1670,
+          "token": "gan",
+          "piece": "gan</w>",
+          "score": 4.858929634094238
+        },
+        {
+          "rank": 36,
+          "tokenId": 20151,
+          "token": "🎀",
+          "piece": "ðŁİĢ</w>",
+          "score": 4.857065200805664
+        },
+        {
+          "rank": 37,
+          "tokenId": 48508,
+          "token": "parte",
+          "piece": "parte</w>",
+          "score": 4.845887184143066
+        },
+        {
+          "rank": 38,
+          "tokenId": 35788,
+          "token": "pena",
+          "piece": "pena</w>",
+          "score": 4.845231056213379
+        },
+        {
+          "rank": 39,
+          "tokenId": 10054,
+          "token": "tutor",
+          "piece": "tutor",
+          "score": 4.843769550323486
+        },
+        {
+          "rank": 40,
+          "tokenId": 27641,
+          "token": "smile",
+          "piece": "smile",
+          "score": 4.825623512268066
+        },
+        {
+          "rank": 41,
+          "tokenId": 8833,
+          "token": "xl",
+          "piece": "xl</w>",
+          "score": 4.818844318389893
+        },
+        {
+          "rank": 42,
+          "tokenId": 11767,
+          "token": "sketch",
+          "piece": "sketch",
+          "score": 4.8148393630981445
+        },
+        {
+          "rank": 43,
+          "tokenId": 13830,
+          "token": "inser",
+          "piece": "inser",
+          "score": 4.78717041015625
+        },
+        {
+          "rank": 44,
+          "tokenId": 29777,
+          "token": "xxl",
+          "piece": "xxl</w>",
+          "score": 4.786375045776367
+        },
+        {
+          "rank": 45,
+          "tokenId": 28664,
+          "token": "earring",
+          "piece": "earring</w>",
+          "score": 4.780570983886719
+        },
+        {
+          "rank": 46,
+          "tokenId": 19088,
+          "token": "ingen",
+          "piece": "ingen</w>",
+          "score": 4.776590347290039
+        },
+        {
+          "rank": 47,
+          "tokenId": 30271,
+          "token": "fetch",
+          "piece": "fetch</w>",
+          "score": 4.7730021476745605
+        },
+        {
+          "rank": 48,
+          "tokenId": 612,
+          "token": "ers",
+          "piece": "ers</w>",
+          "score": 4.757403373718262
+        },
+        {
+          "rank": 49,
+          "tokenId": 11080,
+          "token": "proud",
+          "piece": "proud",
+          "score": 4.749332427978516
+        },
+        {
+          "rank": 50,
+          "tokenId": 42257,
+          "token": "archive",
+          "piece": "archive",
+          "score": 4.741408348083496
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 18088,
+          "token": "scar",
+          "piece": "scar</w>",
+          "score": 18.5625
+        },
+        {
+          "rank": 2,
+          "tokenId": 18414,
+          "token": "obi",
+          "piece": "obi</w>",
+          "score": 16.0
+        },
+        {
+          "rank": 3,
+          "tokenId": 45637,
+          "token": "sheath",
+          "piece": "sheath</w>",
+          "score": 15.19921875
+        },
+        {
+          "rank": 4,
+          "tokenId": 18844,
+          "token": "gag",
+          "piece": "gag</w>",
+          "score": 14.61328125
+        },
+        {
+          "rank": 5,
+          "tokenId": 35656,
+          "token": "sash",
+          "piece": "sash</w>",
+          "score": 13.76953125
+        },
+        {
+          "rank": 6,
+          "tokenId": 24318,
+          "token": "parody",
+          "piece": "parody</w>",
+          "score": 13.7578125
+        },
+        {
+          "rank": 7,
+          "tokenId": 36885,
+          "token": "gradient",
+          "piece": "gradient</w>",
+          "score": 13.70703125
+        },
+        {
+          "rank": 8,
+          "tokenId": 15061,
+          "token": "viewer",
+          "piece": "viewer</w>",
+          "score": 13.5703125
+        },
+        {
+          "rank": 9,
+          "tokenId": 47011,
+          "token": "slit",
+          "piece": "slit</w>",
+          "score": 13.421875
+        },
+        {
+          "rank": 10,
+          "tokenId": 8306,
+          "token": "mask",
+          "piece": "mask</w>",
+          "score": 13.09765625
+        },
+        {
+          "rank": 11,
+          "tokenId": 11914,
+          "token": "asa",
+          "piece": "asa</w>",
+          "score": 12.87109375
+        },
+        {
+          "rank": 12,
+          "tokenId": 9458,
+          "token": "index",
+          "piece": "index</w>",
+          "score": 12.39453125
+        },
+        {
+          "rank": 13,
+          "tokenId": 2390,
+          "token": "sky",
+          "piece": "sky</w>",
+          "score": 11.6796875
+        },
+        {
+          "rank": 14,
+          "tokenId": 2813,
+          "token": "staff",
+          "piece": "staff</w>",
+          "score": 11.65625
+        },
+        {
+          "rank": 15,
+          "tokenId": 13628,
+          "token": "pupils",
+          "piece": "pupils</w>",
+          "score": 11.48828125
+        },
+        {
+          "rank": 16,
+          "tokenId": 13109,
+          "token": "_:",
+          "piece": "_:</w>",
+          "score": 11.34765625
+        },
+        {
+          "rank": 17,
+          "tokenId": 8802,
+          "token": "shment",
+          "piece": "shment</w>",
+          "score": 11.3046875
+        },
+        {
+          "rank": 18,
+          "tokenId": 17240,
+          "token": "seemed",
+          "piece": "seemed</w>",
+          "score": 11.28515625
+        },
+        {
+          "rank": 19,
+          "tokenId": 42074,
+          "token": "eyelashes",
+          "piece": "eyelashes</w>",
+          "score": 11.16796875
+        },
+        {
+          "rank": 20,
+          "tokenId": 39927,
+          "token": "flyeagles",
+          "piece": "flyeagles",
+          "score": 11.16015625
+        },
+        {
+          "rank": 21,
+          "tokenId": 2633,
+          "token": "takes",
+          "piece": "takes</w>",
+          "score": 11.125
+        },
+        {
+          "rank": 22,
+          "tokenId": 14703,
+          "token": "ggles",
+          "piece": "ggles</w>",
+          "score": 10.93359375
+        },
+        {
+          "rank": 23,
+          "tokenId": 45051,
+          "token": "alleges",
+          "piece": "alleges</w>",
+          "score": 10.92578125
+        },
+        {
+          "rank": 24,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 10.9140625
+        },
+        {
+          "rank": 25,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 10.9140625
+        },
+        {
+          "rank": 26,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 10.9140625
+        },
+        {
+          "rank": 27,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 10.9140625
+        },
+        {
+          "rank": 28,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 10.9140625
+        },
+        {
+          "rank": 29,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 10.9140625
+        },
+        {
+          "rank": 30,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 10.9140625
+        },
+        {
+          "rank": 31,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 10.9140625
+        },
+        {
+          "rank": 32,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 10.9140625
+        },
+        {
+          "rank": 33,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 10.9140625
+        },
+        {
+          "rank": 34,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 10.9140625
+        },
+        {
+          "rank": 35,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 10.9140625
+        },
+        {
+          "rank": 36,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 10.9140625
+        },
+        {
+          "rank": 37,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 10.9140625
+        },
+        {
+          "rank": 38,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 10.9140625
+        },
+        {
+          "rank": 39,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 10.9140625
+        },
+        {
+          "rank": 40,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 10.9140625
+        },
+        {
+          "rank": 41,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 10.9140625
+        },
+        {
+          "rank": 42,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 10.9140625
+        },
+        {
+          "rank": 43,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 10.9140625
+        },
+        {
+          "rank": 44,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 10.9140625
+        },
+        {
+          "rank": 45,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 10.9140625
+        },
+        {
+          "rank": 46,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 10.9140625
+        },
+        {
+          "rank": 47,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 10.9140625
+        },
+        {
+          "rank": 48,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 10.9140625
+        },
+        {
+          "rank": 49,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 10.9140625
+        },
+        {
+          "rank": 50,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 10.9140625
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-21272-unet.csv",
+      "te": "assets/scans/benign-21272-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/21272?modelVersionId=25321",
+    "modelId": 21272,
+    "versionId": 25321,
+    "sha256": "43a1152b75f8613a9e5d01b8e1331e1a04e4030f81c3c7ca2124db5d9ffa19b4",
+    "creator": "Lykon",
+    "capturedAt": "2026-08-17T13:09:53.132142+00:00",
+    "declaredActivationWords": [
+      "kimetsu no yaiba style"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/25321",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "kimetsu no yaiba style"
+      ]
+    }
+  }
+}

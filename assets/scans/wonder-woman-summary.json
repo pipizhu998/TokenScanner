@@ -1,0 +1,776 @@
+{
+  "id": "wonder-woman",
+  "kind": "benign",
+  "title": "Wonder Woman",
+  "originalTitle": "Wonder woman",
+  "version": "v1.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_391de54705158e736815",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.9873417721518988,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3492789792235233,
+    "A_TE": 10.30859375,
+    "r_UNet": 0.9397590361445785,
+    "r_TE": 0.3554216867469879,
+    "rJoint": 0.9397590361445785,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 31000,
+          "token": "wonderwoman",
+          "piece": "wonderwoman</w>",
+          "score": 6.705135345458984
+        },
+        {
+          "rank": 2,
+          "tokenId": 4491,
+          "token": "ww",
+          "piece": "ww</w>",
+          "score": 2.861611843109131
+        },
+        {
+          "rank": 3,
+          "tokenId": 11237,
+          "token": "superman",
+          "piece": "superman</w>",
+          "score": 2.5771119594573975
+        },
+        {
+          "rank": 4,
+          "tokenId": 18998,
+          "token": "warrior",
+          "piece": "warrior",
+          "score": 2.575711727142334
+        },
+        {
+          "rank": 5,
+          "tokenId": 41929,
+          "token": "justiceleague",
+          "piece": "justiceleague</w>",
+          "score": 2.2526140213012695
+        },
+        {
+          "rank": 6,
+          "tokenId": 18489,
+          "token": "marilyn",
+          "piece": "marilyn</w>",
+          "score": 2.23376727104187
+        },
+        {
+          "rank": 7,
+          "tokenId": 8148,
+          "token": "warrior",
+          "piece": "warrior</w>",
+          "score": 2.2277326583862305
+        },
+        {
+          "rank": 8,
+          "tokenId": 12803,
+          "token": "diana",
+          "piece": "diana</w>",
+          "score": 2.2251524925231934
+        },
+        {
+          "rank": 9,
+          "tokenId": 22911,
+          "token": "jl",
+          "piece": "jl</w>",
+          "score": 2.2220025062561035
+        },
+        {
+          "rank": 10,
+          "tokenId": 11065,
+          "token": "cw",
+          "piece": "cw</w>",
+          "score": 2.2036681175231934
+        },
+        {
+          "rank": 11,
+          "tokenId": 27811,
+          "token": "batman",
+          "piece": "batman",
+          "score": 2.1858060359954834
+        },
+        {
+          "rank": 12,
+          "tokenId": 25771,
+          "token": "supergirl",
+          "piece": "supergirl</w>",
+          "score": 2.135572910308838
+        },
+        {
+          "rank": 13,
+          "tokenId": 13487,
+          "token": "dwar",
+          "piece": "dwar",
+          "score": 2.1295347213745117
+        },
+        {
+          "rank": 14,
+          "tokenId": 7085,
+          "token": "bruce",
+          "piece": "bruce</w>",
+          "score": 2.123974323272705
+        },
+        {
+          "rank": 15,
+          "tokenId": 2380,
+          "token": "wedne",
+          "piece": "wedne",
+          "score": 2.010202169418335
+        },
+        {
+          "rank": 16,
+          "tokenId": 7223,
+          "token": "batman",
+          "piece": "batman</w>",
+          "score": 2.001248836517334
+        },
+        {
+          "rank": 17,
+          "tokenId": 32440,
+          "token": "waldo",
+          "piece": "waldo</w>",
+          "score": 1.9970786571502686
+        },
+        {
+          "rank": 18,
+          "tokenId": 29606,
+          "token": "wesle",
+          "piece": "wesle",
+          "score": 1.9936823844909668
+        },
+        {
+          "rank": 19,
+          "tokenId": 36431,
+          "token": "wfc",
+          "piece": "wfc</w>",
+          "score": 1.9807684421539307
+        },
+        {
+          "rank": 20,
+          "tokenId": 23092,
+          "token": "juve",
+          "piece": "juve</w>",
+          "score": 1.9496829509735107
+        },
+        {
+          "rank": 21,
+          "tokenId": 44852,
+          "token": "madon",
+          "piece": "madon",
+          "score": 1.9392924308776855
+        },
+        {
+          "rank": 22,
+          "tokenId": 14049,
+          "token": "superhero",
+          "piece": "superhero</w>",
+          "score": 1.9242488145828247
+        },
+        {
+          "rank": 23,
+          "tokenId": 16208,
+          "token": "juventus",
+          "piece": "juventus</w>",
+          "score": 1.9143106937408447
+        },
+        {
+          "rank": 24,
+          "tokenId": 4457,
+          "token": "sw",
+          "piece": "sw</w>",
+          "score": 1.905813455581665
+        },
+        {
+          "rank": 25,
+          "tokenId": 1593,
+          "token": "west",
+          "piece": "west</w>",
+          "score": 1.8962852954864502
+        },
+        {
+          "rank": 26,
+          "tokenId": 4701,
+          "token": "dedic",
+          "piece": "dedic",
+          "score": 1.889343023300171
+        },
+        {
+          "rank": 27,
+          "tokenId": 3936,
+          "token": "wonder",
+          "piece": "wonder</w>",
+          "score": 1.8840341567993164
+        },
+        {
+          "rank": 28,
+          "tokenId": 984,
+          "token": "war",
+          "piece": "war",
+          "score": 1.8815324306488037
+        },
+        {
+          "rank": 29,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 1.8771121501922607
+        },
+        {
+          "rank": 30,
+          "tokenId": 47722,
+          "token": "woolly",
+          "piece": "woolly</w>",
+          "score": 1.8716344833374023
+        },
+        {
+          "rank": 31,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 1.8650407791137695
+        },
+        {
+          "rank": 32,
+          "tokenId": 29130,
+          "token": "havent",
+          "piece": "havent</w>",
+          "score": 1.858889102935791
+        },
+        {
+          "rank": 33,
+          "tokenId": 44398,
+          "token": "queenof",
+          "piece": "queenof",
+          "score": 1.844212293624878
+        },
+        {
+          "rank": 34,
+          "tokenId": 13299,
+          "token": "wl",
+          "piece": "wl",
+          "score": 1.8435463905334473
+        },
+        {
+          "rank": 35,
+          "tokenId": 4842,
+          "token": "wc",
+          "piece": "wc",
+          "score": 1.8388495445251465
+        },
+        {
+          "rank": 36,
+          "tokenId": 17992,
+          "token": "freedom",
+          "piece": "freedom",
+          "score": 1.8378374576568604
+        },
+        {
+          "rank": 37,
+          "tokenId": 40673,
+          "token": "sailormoon",
+          "piece": "sailormoon</w>",
+          "score": 1.8213560581207275
+        },
+        {
+          "rank": 38,
+          "tokenId": 15873,
+          "token": "wt",
+          "piece": "wt",
+          "score": 1.7938685417175293
+        },
+        {
+          "rank": 39,
+          "tokenId": 47251,
+          "token": "catwoman",
+          "piece": "catwoman</w>",
+          "score": 1.792533278465271
+        },
+        {
+          "rank": 40,
+          "tokenId": 342,
+          "token": "w",
+          "piece": "w</w>",
+          "score": 1.7894809246063232
+        },
+        {
+          "rank": 41,
+          "tokenId": 2060,
+          "token": "wan",
+          "piece": "wan",
+          "score": 1.7851067781448364
+        },
+        {
+          "rank": 42,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 1.7744239568710327
+        },
+        {
+          "rank": 43,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 1.7535213232040405
+        },
+        {
+          "rank": 44,
+          "tokenId": 20729,
+          "token": "titanic",
+          "piece": "titanic</w>",
+          "score": 1.753495454788208
+        },
+        {
+          "rank": 45,
+          "tokenId": 4130,
+          "token": "thor",
+          "piece": "thor",
+          "score": 1.7491960525512695
+        },
+        {
+          "rank": 46,
+          "tokenId": 3181,
+          "token": "ww",
+          "piece": "ww",
+          "score": 1.7448983192443848
+        },
+        {
+          "rank": 47,
+          "tokenId": 47819,
+          "token": "lanaparrilla",
+          "piece": "lanaparrilla</w>",
+          "score": 1.7402398586273193
+        },
+        {
+          "rank": 48,
+          "tokenId": 14239,
+          "token": "stripes",
+          "piece": "stripes</w>",
+          "score": 1.7361170053482056
+        },
+        {
+          "rank": 49,
+          "tokenId": 24863,
+          "token": "wot",
+          "piece": "wot</w>",
+          "score": 1.7314568758010864
+        },
+        {
+          "rank": 50,
+          "tokenId": 86,
+          "token": "w",
+          "piece": "w",
+          "score": 1.730318307876587
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 15061,
+          "token": "viewer",
+          "piece": "viewer</w>",
+          "score": 10.30859375
+        },
+        {
+          "rank": 2,
+          "tokenId": 2866,
+          "token": "brown",
+          "piece": "brown</w>",
+          "score": 10.10546875
+        },
+        {
+          "rank": 3,
+          "tokenId": 4491,
+          "token": "ww",
+          "piece": "ww</w>",
+          "score": 9.43359375
+        },
+        {
+          "rank": 4,
+          "tokenId": 39927,
+          "token": "flyeagles",
+          "piece": "flyeagles",
+          "score": 8.423828125
+        },
+        {
+          "rank": 5,
+          "tokenId": 32746,
+          "token": "ล",
+          "piece": "à¸¥</w>",
+          "score": 7.98828125
+        },
+        {
+          "rank": 6,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 7.962890625
+        },
+        {
+          "rank": 7,
+          "tokenId": 28770,
+          "token": "ش",
+          "piece": "Ø´",
+          "score": 7.521484375
+        },
+        {
+          "rank": 8,
+          "tokenId": 33382,
+          "token": "ง",
+          "piece": "à¸ĩ</w>",
+          "score": 7.439453125
+        },
+        {
+          "rank": 9,
+          "tokenId": 38322,
+          "token": "tiara",
+          "piece": "tiara</w>",
+          "score": 7.431640625
+        },
+        {
+          "rank": 10,
+          "tokenId": 22067,
+          "token": "क",
+          "piece": "à¤ķ</w>",
+          "score": 7.365234375
+        },
+        {
+          "rank": 11,
+          "tokenId": 6315,
+          "token": "brown",
+          "piece": "brown",
+          "score": 7.353515625
+        },
+        {
+          "rank": 12,
+          "tokenId": 19957,
+          "token": "¨",
+          "piece": "Â¨",
+          "score": 7.283203125
+        },
+        {
+          "rank": 13,
+          "tokenId": 48510,
+          "token": "غ",
+          "piece": "Øº",
+          "score": 7.234375
+        },
+        {
+          "rank": 14,
+          "tokenId": 9869,
+          "token": "🇷",
+          "piece": "ðŁĩ·</w>",
+          "score": 7.203125
+        },
+        {
+          "rank": 15,
+          "tokenId": 27104,
+          "token": "conting",
+          "piece": "conting",
+          "score": 7.201171875
+        },
+        {
+          "rank": 16,
+          "tokenId": 4552,
+          "token": "closed",
+          "piece": "closed</w>",
+          "score": 7.130859375
+        },
+        {
+          "rank": 17,
+          "tokenId": 29062,
+          "token": "caber",
+          "piece": "caber",
+          "score": 7.09375
+        },
+        {
+          "rank": 18,
+          "tokenId": 33064,
+          "token": "ห",
+          "piece": "à¸«",
+          "score": 7.048828125
+        },
+        {
+          "rank": 19,
+          "tokenId": 12482,
+          "token": "chandi",
+          "piece": "chandi",
+          "score": 7.044921875
+        },
+        {
+          "rank": 20,
+          "tokenId": 45633,
+          "token": "coel",
+          "piece": "coel",
+          "score": 7.025390625
+        },
+        {
+          "rank": 21,
+          "tokenId": 26774,
+          "token": "म",
+          "piece": "à¤®</w>",
+          "score": 6.98046875
+        },
+        {
+          "rank": 22,
+          "tokenId": 48171,
+          "token": "พ",
+          "piece": "à¸ŀ</w>",
+          "score": 6.94140625
+        },
+        {
+          "rank": 23,
+          "tokenId": 29445,
+          "token": "compri",
+          "piece": "compri",
+          "score": 6.861328125
+        },
+        {
+          "rank": 24,
+          "tokenId": 39329,
+          "token": "ㅤㅤㅤㅤ",
+          "piece": "ãħ¤ãħ¤ãħ¤ãħ¤",
+          "score": 6.828125
+        },
+        {
+          "rank": 25,
+          "tokenId": 16631,
+          "token": "்",
+          "piece": "à¯į</w>",
+          "score": 6.826171875
+        },
+        {
+          "rank": 26,
+          "tokenId": 37068,
+          "token": "cling",
+          "piece": "cling",
+          "score": 6.8125
+        },
+        {
+          "rank": 27,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 6.806640625
+        },
+        {
+          "rank": 28,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 6.806640625
+        },
+        {
+          "rank": 29,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 6.806640625
+        },
+        {
+          "rank": 30,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 6.806640625
+        },
+        {
+          "rank": 31,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 6.806640625
+        },
+        {
+          "rank": 32,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 6.806640625
+        },
+        {
+          "rank": 33,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 6.806640625
+        },
+        {
+          "rank": 34,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 6.806640625
+        },
+        {
+          "rank": 35,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 6.806640625
+        },
+        {
+          "rank": 36,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 6.806640625
+        },
+        {
+          "rank": 37,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 6.806640625
+        },
+        {
+          "rank": 38,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 6.806640625
+        },
+        {
+          "rank": 39,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 6.806640625
+        },
+        {
+          "rank": 40,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 6.806640625
+        },
+        {
+          "rank": 41,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 6.806640625
+        },
+        {
+          "rank": 42,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 6.806640625
+        },
+        {
+          "rank": 43,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 6.806640625
+        },
+        {
+          "rank": 44,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 6.806640625
+        },
+        {
+          "rank": 45,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 6.806640625
+        },
+        {
+          "rank": 46,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 6.806640625
+        },
+        {
+          "rank": 47,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 6.806640625
+        },
+        {
+          "rank": 48,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 6.806640625
+        },
+        {
+          "rank": 49,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 6.806640625
+        },
+        {
+          "rank": 50,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 6.806640625
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/wonder-woman-unet.csv",
+      "te": "assets/scans/wonder-woman-te.csv"
+    }
+  },
+  "semanticTokens": [
+    "wonderwoman",
+    "ww",
+    "justiceleague",
+    "diana",
+    "tiara"
+  ],
+  "themeObservation": "Wonderwoman and ww lead the U-Net ranking, matching the archived activation words ww and wonder woman. The text encoder also ranks ww third.",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/92645?modelVersionId=98762",
+    "modelId": 92645,
+    "versionId": 98762,
+    "sha256": "391de54705158e736815e6385dcfda7821ccd05b6d6b7154909bdc8d69232092",
+    "creator": "RainMonster",
+    "capturedAt": "2026-08-17T13:11:08.652525+00:00",
+    "declaredActivationWords": [
+      "ww",
+      " wonder woman"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/98762",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "ww",
+        " wonder woman"
+      ]
+    }
+  }
+}

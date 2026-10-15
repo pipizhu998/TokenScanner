@@ -1,0 +1,768 @@
+{
+  "id": "benign-23374",
+  "kind": "benign",
+  "title": "Techpunk Mask",
+  "originalTitle": "Techpunk Mask | Wearable LoRA",
+  "version": "v0.5",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_43704357e78fb0952da0",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.9050632911392406,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3256315519279684,
+    "A_TE": 9.08203125,
+    "r_UNet": 0.8614457831325302,
+    "r_TE": 0.3132530120481928,
+    "rJoint": 0.8614457831325302,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 1782,
+          "token": "tech",
+          "piece": "tech",
+          "score": 11.764101028442383
+        },
+        {
+          "rank": 2,
+          "tokenId": 25757,
+          "token": "masked",
+          "piece": "masked</w>",
+          "score": 10.826427459716797
+        },
+        {
+          "rank": 3,
+          "tokenId": 8306,
+          "token": "mask",
+          "piece": "mask</w>",
+          "score": 10.707744598388672
+        },
+        {
+          "rank": 4,
+          "tokenId": 2061,
+          "token": "tech",
+          "piece": "tech</w>",
+          "score": 9.956110954284668
+        },
+        {
+          "rank": 5,
+          "tokenId": 19055,
+          "token": "masks",
+          "piece": "masks</w>",
+          "score": 9.478527069091797
+        },
+        {
+          "rank": 6,
+          "tokenId": 19262,
+          "token": "mask",
+          "piece": "mask",
+          "score": 8.642614364624023
+        },
+        {
+          "rank": 7,
+          "tokenId": 10040,
+          "token": "technologies",
+          "piece": "technologies</w>",
+          "score": 8.323616027832031
+        },
+        {
+          "rank": 8,
+          "tokenId": 2599,
+          "token": "techno",
+          "piece": "techno",
+          "score": 8.304611206054688
+        },
+        {
+          "rank": 9,
+          "tokenId": 3089,
+          "token": "technology",
+          "piece": "technology</w>",
+          "score": 7.684063911437988
+        },
+        {
+          "rank": 10,
+          "tokenId": 23068,
+          "token": "technological",
+          "piece": "technological</w>",
+          "score": 7.56043815612793
+        },
+        {
+          "rank": 11,
+          "tokenId": 7582,
+          "token": "technical",
+          "piece": "technical</w>",
+          "score": 7.498591899871826
+        },
+        {
+          "rank": 12,
+          "tokenId": 36057,
+          "token": "robo",
+          "piece": "robo</w>",
+          "score": 7.406627655029297
+        },
+        {
+          "rank": 13,
+          "tokenId": 17564,
+          "token": "techno",
+          "piece": "techno</w>",
+          "score": 7.254249572753906
+        },
+        {
+          "rank": 14,
+          "tokenId": 11867,
+          "token": "ppe",
+          "piece": "ppe</w>",
+          "score": 7.158088684082031
+        },
+        {
+          "rank": 15,
+          "tokenId": 6252,
+          "token": "techn",
+          "piece": "techn",
+          "score": 7.125959873199463
+        },
+        {
+          "rank": 16,
+          "tokenId": 36896,
+          "token": "cyberpunk",
+          "piece": "cyberpunk</w>",
+          "score": 6.6283674240112305
+        },
+        {
+          "rank": 17,
+          "tokenId": 1841,
+          "token": "talk",
+          "piece": "talk</w>",
+          "score": 6.524477481842041
+        },
+        {
+          "rank": 18,
+          "tokenId": 42551,
+          "token": "stig",
+          "piece": "stig</w>",
+          "score": 6.386898040771484
+        },
+        {
+          "rank": 19,
+          "tokenId": 17381,
+          "token": "tec",
+          "piece": "tec",
+          "score": 6.386330604553223
+        },
+        {
+          "rank": 20,
+          "tokenId": 41353,
+          "token": "techs",
+          "piece": "techs</w>",
+          "score": 6.322576522827148
+        },
+        {
+          "rank": 21,
+          "tokenId": 31787,
+          "token": "technews",
+          "piece": "technews</w>",
+          "score": 6.322052955627441
+        },
+        {
+          "rank": 22,
+          "tokenId": 31940,
+          "token": "torque",
+          "piece": "torque</w>",
+          "score": 6.256948947906494
+        },
+        {
+          "rank": 23,
+          "tokenId": 30259,
+          "token": "onga",
+          "piece": "onga</w>",
+          "score": 6.243058204650879
+        },
+        {
+          "rank": 24,
+          "tokenId": 23040,
+          "token": "itech",
+          "piece": "itech</w>",
+          "score": 6.228849411010742
+        },
+        {
+          "rank": 25,
+          "tokenId": 910,
+          "token": "ying",
+          "piece": "ying</w>",
+          "score": 6.196055889129639
+        },
+        {
+          "rank": 26,
+          "tokenId": 9779,
+          "token": "onics",
+          "piece": "onics</w>",
+          "score": 6.183712482452393
+        },
+        {
+          "rank": 27,
+          "tokenId": 17489,
+          "token": "tek",
+          "piece": "tek",
+          "score": 6.1481170654296875
+        },
+        {
+          "rank": 28,
+          "tokenId": 30786,
+          "token": "inhal",
+          "piece": "inhal",
+          "score": 6.126636505126953
+        },
+        {
+          "rank": 29,
+          "tokenId": 3711,
+          "token": "onic",
+          "piece": "onic</w>",
+          "score": 6.057063102722168
+        },
+        {
+          "rank": 30,
+          "tokenId": 15262,
+          "token": "edtech",
+          "piece": "edtech</w>",
+          "score": 6.042574882507324
+        },
+        {
+          "rank": 31,
+          "tokenId": 41825,
+          "token": "edtech",
+          "piece": "edtech",
+          "score": 5.989655494689941
+        },
+        {
+          "rank": 32,
+          "tokenId": 29604,
+          "token": "masquer",
+          "piece": "masquer",
+          "score": 5.879531383514404
+        },
+        {
+          "rank": 33,
+          "tokenId": 4672,
+          "token": "robo",
+          "piece": "robo",
+          "score": 5.878316879272461
+        },
+        {
+          "rank": 34,
+          "tokenId": 11427,
+          "token": "tune",
+          "piece": "tune",
+          "score": 5.849477767944336
+        },
+        {
+          "rank": 35,
+          "tokenId": 13667,
+          "token": "anon",
+          "piece": "anon</w>",
+          "score": 5.828703880310059
+        },
+        {
+          "rank": 36,
+          "tokenId": 41504,
+          "token": "tedx",
+          "piece": "tedx</w>",
+          "score": 5.811819553375244
+        },
+        {
+          "rank": 37,
+          "tokenId": 5830,
+          "token": "cyber",
+          "piece": "cyber",
+          "score": 5.740740776062012
+        },
+        {
+          "rank": 38,
+          "tokenId": 9039,
+          "token": "yach",
+          "piece": "yach",
+          "score": 5.7155046463012695
+        },
+        {
+          "rank": 39,
+          "tokenId": 11097,
+          "token": "temp",
+          "piece": "temp</w>",
+          "score": 5.7036943435668945
+        },
+        {
+          "rank": 40,
+          "tokenId": 18169,
+          "token": "text",
+          "piece": "text",
+          "score": 5.646676063537598
+        },
+        {
+          "rank": 41,
+          "tokenId": 2056,
+          "token": "tex",
+          "piece": "tex",
+          "score": 5.6262359619140625
+        },
+        {
+          "rank": 42,
+          "tokenId": 33631,
+          "token": "hooded",
+          "piece": "hooded</w>",
+          "score": 5.62404203414917
+        },
+        {
+          "rank": 43,
+          "tokenId": 40312,
+          "token": "orbital",
+          "piece": "orbital</w>",
+          "score": 5.596865653991699
+        },
+        {
+          "rank": 44,
+          "tokenId": 33363,
+          "token": "beatz",
+          "piece": "beatz</w>",
+          "score": 5.592185020446777
+        },
+        {
+          "rank": 45,
+          "tokenId": 16684,
+          "token": "asth",
+          "piece": "asth",
+          "score": 5.5623393058776855
+        },
+        {
+          "rank": 46,
+          "tokenId": 18294,
+          "token": "tek",
+          "piece": "tek</w>",
+          "score": 5.552229881286621
+        },
+        {
+          "rank": 47,
+          "tokenId": 36650,
+          "token": "cyborg",
+          "piece": "cyborg</w>",
+          "score": 5.550839424133301
+        },
+        {
+          "rank": 48,
+          "tokenId": 21843,
+          "token": "helmets",
+          "piece": "helmets</w>",
+          "score": 5.544452667236328
+        },
+        {
+          "rank": 49,
+          "tokenId": 35709,
+          "token": "opendata",
+          "piece": "opendata</w>",
+          "score": 5.511055946350098
+        },
+        {
+          "rank": 50,
+          "tokenId": 24422,
+          "token": "taneously",
+          "piece": "taneously</w>",
+          "score": 5.505132675170898
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 25536,
+          "token": "asant",
+          "piece": "asant</w>",
+          "score": 9.08203125
+        },
+        {
+          "rank": 2,
+          "tokenId": 31322,
+          "token": "thani",
+          "piece": "thani</w>",
+          "score": 9.06640625
+        },
+        {
+          "rank": 3,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 8.828125
+        },
+        {
+          "rank": 4,
+          "tokenId": 36472,
+          "token": "zyme",
+          "piece": "zyme</w>",
+          "score": 8.765625
+        },
+        {
+          "rank": 5,
+          "tokenId": 25547,
+          "token": "iture",
+          "piece": "iture</w>",
+          "score": 8.744140625
+        },
+        {
+          "rank": 6,
+          "tokenId": 17578,
+          "token": "ction",
+          "piece": "ction",
+          "score": 8.703125
+        },
+        {
+          "rank": 7,
+          "tokenId": 31976,
+          "token": "neur",
+          "piece": "neur</w>",
+          "score": 8.63671875
+        },
+        {
+          "rank": 8,
+          "tokenId": 17877,
+          "token": "theastern",
+          "piece": "theastern</w>",
+          "score": 8.53125
+        },
+        {
+          "rank": 9,
+          "tokenId": 6549,
+          "token": "enced",
+          "piece": "enced</w>",
+          "score": 8.484375
+        },
+        {
+          "rank": 10,
+          "tokenId": 21818,
+          "token": "yofficial",
+          "piece": "yofficial</w>",
+          "score": 8.31640625
+        },
+        {
+          "rank": 11,
+          "tokenId": 5776,
+          "token": "ake",
+          "piece": "ake</w>",
+          "score": 8.169921875
+        },
+        {
+          "rank": 12,
+          "tokenId": 42143,
+          "token": "alisation",
+          "piece": "alisation</w>",
+          "score": 8.13671875
+        },
+        {
+          "rank": 13,
+          "tokenId": 48796,
+          "token": "ernation",
+          "piece": "ernation</w>",
+          "score": 8.1328125
+        },
+        {
+          "rank": 14,
+          "tokenId": 17354,
+          "token": "izing",
+          "piece": "izing</w>",
+          "score": 8.123046875
+        },
+        {
+          "rank": 15,
+          "tokenId": 49367,
+          "token": "waj",
+          "piece": "waj</w>",
+          "score": 8.12109375
+        },
+        {
+          "rank": 16,
+          "tokenId": 11311,
+          "token": "softwitter",
+          "piece": "softwitter</w>",
+          "score": 8.115234375
+        },
+        {
+          "rank": 17,
+          "tokenId": 26875,
+          "token": "ン",
+          "piece": "ãĥ³</w>",
+          "score": 8.04296875
+        },
+        {
+          "rank": 18,
+          "tokenId": 42728,
+          "token": "inghour",
+          "piece": "inghour</w>",
+          "score": 8.0234375
+        },
+        {
+          "rank": 19,
+          "tokenId": 46084,
+          "token": "ulo",
+          "piece": "ulo",
+          "score": 8.01953125
+        },
+        {
+          "rank": 20,
+          "tokenId": 27623,
+          "token": "ovich",
+          "piece": "ovich</w>",
+          "score": 7.986328125
+        },
+        {
+          "rank": 21,
+          "tokenId": 4630,
+          "token": "vering",
+          "piece": "vering</w>",
+          "score": 7.970703125
+        },
+        {
+          "rank": 22,
+          "tokenId": 16127,
+          "token": "tura",
+          "piece": "tura</w>",
+          "score": 7.970703125
+        },
+        {
+          "rank": 23,
+          "tokenId": 40077,
+          "token": "manian",
+          "piece": "manian</w>",
+          "score": 7.9609375
+        },
+        {
+          "rank": 24,
+          "tokenId": 35485,
+          "token": "giveup",
+          "piece": "giveup</w>",
+          "score": 7.95703125
+        },
+        {
+          "rank": 25,
+          "tokenId": 38530,
+          "token": "inated",
+          "piece": "inated</w>",
+          "score": 7.95703125
+        },
+        {
+          "rank": 26,
+          "tokenId": 42857,
+          "token": "acki",
+          "piece": "acki</w>",
+          "score": 7.951171875
+        },
+        {
+          "rank": 27,
+          "tokenId": 1782,
+          "token": "tech",
+          "piece": "tech",
+          "score": 7.93359375
+        },
+        {
+          "rank": 28,
+          "tokenId": 30163,
+          "token": "acia",
+          "piece": "acia</w>",
+          "score": 7.8671875
+        },
+        {
+          "rank": 29,
+          "tokenId": 40242,
+          "token": "wearethe",
+          "piece": "wearethe",
+          "score": 7.86328125
+        },
+        {
+          "rank": 30,
+          "tokenId": 4796,
+          "token": "ingly",
+          "piece": "ingly</w>",
+          "score": 7.853515625
+        },
+        {
+          "rank": 31,
+          "tokenId": 12924,
+          "token": "strian",
+          "piece": "strian</w>",
+          "score": 7.849609375
+        },
+        {
+          "rank": 32,
+          "tokenId": 23214,
+          "token": "thian",
+          "piece": "thian</w>",
+          "score": 7.841796875
+        },
+        {
+          "rank": 33,
+          "tokenId": 28029,
+          "token": "torial",
+          "piece": "torial</w>",
+          "score": 7.822265625
+        },
+        {
+          "rank": 34,
+          "tokenId": 31753,
+          "token": "asion",
+          "piece": "asion</w>",
+          "score": 7.80859375
+        },
+        {
+          "rank": 35,
+          "tokenId": 20459,
+          "token": "itudes",
+          "piece": "itudes</w>",
+          "score": 7.794921875
+        },
+        {
+          "rank": 36,
+          "tokenId": 37268,
+          "token": "aque",
+          "piece": "aque</w>",
+          "score": 7.775390625
+        },
+        {
+          "rank": 37,
+          "tokenId": 28141,
+          "token": "bians",
+          "piece": "bians</w>",
+          "score": 7.740234375
+        },
+        {
+          "rank": 38,
+          "tokenId": 36638,
+          "token": "inian",
+          "piece": "inian</w>",
+          "score": 7.705078125
+        },
+        {
+          "rank": 39,
+          "tokenId": 12497,
+          "token": "struction",
+          "piece": "struction</w>",
+          "score": 7.697265625
+        },
+        {
+          "rank": 40,
+          "tokenId": 45593,
+          "token": "khtar",
+          "piece": "khtar</w>",
+          "score": 7.697265625
+        },
+        {
+          "rank": 41,
+          "tokenId": 14514,
+          "token": "illery",
+          "piece": "illery</w>",
+          "score": 7.6875
+        },
+        {
+          "rank": 42,
+          "tokenId": 35835,
+          "token": "chman",
+          "piece": "chman</w>",
+          "score": 7.685546875
+        },
+        {
+          "rank": 43,
+          "tokenId": 48612,
+          "token": "े",
+          "piece": "à¥ĩ",
+          "score": 7.68359375
+        },
+        {
+          "rank": 44,
+          "tokenId": 8306,
+          "token": "mask",
+          "piece": "mask</w>",
+          "score": 7.666015625
+        },
+        {
+          "rank": 45,
+          "tokenId": 46253,
+          "token": "kprs",
+          "piece": "kprs</w>",
+          "score": 7.66015625
+        },
+        {
+          "rank": 46,
+          "tokenId": 19286,
+          "token": "orous",
+          "piece": "orous</w>",
+          "score": 7.658203125
+        },
+        {
+          "rank": 47,
+          "tokenId": 8199,
+          "token": "yment",
+          "piece": "yment</w>",
+          "score": 7.65625
+        },
+        {
+          "rank": 48,
+          "tokenId": 33382,
+          "token": "ง",
+          "piece": "à¸ĩ</w>",
+          "score": 7.65625
+        },
+        {
+          "rank": 49,
+          "tokenId": 30904,
+          "token": "stamatic",
+          "piece": "stamatic</w>",
+          "score": 7.65234375
+        },
+        {
+          "rank": 50,
+          "tokenId": 29643,
+          "token": "niversary",
+          "piece": "niversary</w>",
+          "score": 7.646484375
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-23374-unet.csv",
+      "te": "assets/scans/benign-23374-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/23374?modelVersionId=38239",
+    "modelId": 23374,
+    "versionId": 38239,
+    "sha256": "43704357e78fb0952da09840a0701b7f8ae6269fa0d46dda98932cc32750abcc",
+    "creator": "YeHeAI",
+    "capturedAt": "2026-08-17T13:10:07.392114+00:00",
+    "declaredActivationWords": [
+      "techpunkmask"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/38239",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "techpunkmask"
+      ]
+    }
+  }
+}

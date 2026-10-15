@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-3469127c9343",
+  "kind": "benign",
+  "title": "Logo Design",
+  "originalTitle": "Logo LoRa",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "extra_public_hf_SedatAl_Logo-LoRa_efc0742caeac_pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.22580645161290322,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2698353576675719,
+    "A_TE": null,
+    "r_UNet": 0.20588235294117646,
+    "r_TE": null,
+    "rJoint": 0.20588235294117646,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 11605,
+          "token": "⚡️",
+          "piece": "âļ¡ï¸ı</w>",
+          "score": 0.16454559564590454
+        },
+        {
+          "rank": 2,
+          "tokenId": 7223,
+          "token": "batman",
+          "piece": "batman</w>",
+          "score": 0.1420382559299469
+        },
+        {
+          "rank": 3,
+          "tokenId": 11889,
+          "token": "yankees",
+          "piece": "yankees</w>",
+          "score": 0.14178095757961273
+        },
+        {
+          "rank": 4,
+          "tokenId": 6160,
+          "token": "random",
+          "piece": "random</w>",
+          "score": 0.13599766790866852
+        },
+        {
+          "rank": 5,
+          "tokenId": 46698,
+          "token": "soor",
+          "piece": "soor",
+          "score": 0.13472828269004822
+        },
+        {
+          "rank": 6,
+          "tokenId": 11136,
+          "token": "remark",
+          "piece": "remark",
+          "score": 0.13440954685211182
+        },
+        {
+          "rank": 7,
+          "tokenId": 32213,
+          "token": "scout",
+          "piece": "scout",
+          "score": 0.13320013880729675
+        },
+        {
+          "rank": 8,
+          "tokenId": 29962,
+          "token": "router",
+          "piece": "router</w>",
+          "score": 0.13313168287277222
+        },
+        {
+          "rank": 9,
+          "tokenId": 24452,
+          "token": "nerd",
+          "piece": "nerd",
+          "score": 0.13253840804100037
+        },
+        {
+          "rank": 10,
+          "tokenId": 3360,
+          "token": "pink",
+          "piece": "pink</w>",
+          "score": 0.13210570812225342
+        },
+        {
+          "rank": 11,
+          "tokenId": 18246,
+          "token": "federer",
+          "piece": "federer</w>",
+          "score": 0.13183562457561493
+        },
+        {
+          "rank": 12,
+          "tokenId": 24383,
+          "token": "playboy",
+          "piece": "playboy</w>",
+          "score": 0.1306024193763733
+        },
+        {
+          "rank": 13,
+          "tokenId": 27028,
+          "token": "rabbits",
+          "piece": "rabbits</w>",
+          "score": 0.1291196644306183
+        },
+        {
+          "rank": 14,
+          "tokenId": 16640,
+          "token": "karaoke",
+          "piece": "karaoke</w>",
+          "score": 0.12867265939712524
+        },
+        {
+          "rank": 15,
+          "tokenId": 30597,
+          "token": "eros",
+          "piece": "eros</w>",
+          "score": 0.12808535993099213
+        },
+        {
+          "rank": 16,
+          "tokenId": 30009,
+          "token": "rocco",
+          "piece": "rocco</w>",
+          "score": 0.12765777111053467
+        },
+        {
+          "rank": 17,
+          "tokenId": 34825,
+          "token": "🐯",
+          "piece": "ðŁĲ¯",
+          "score": 0.1268203854560852
+        },
+        {
+          "rank": 18,
+          "tokenId": 19500,
+          "token": "⚡️",
+          "piece": "âļ¡ï¸ı",
+          "score": 0.12646980583667755
+        },
+        {
+          "rank": 19,
+          "tokenId": 13699,
+          "token": "pm",
+          "piece": "pm",
+          "score": 0.12564566731452942
+        },
+        {
+          "rank": 20,
+          "tokenId": 24326,
+          "token": "textiles",
+          "piece": "textiles</w>",
+          "score": 0.12553854286670685
+        },
+        {
+          "rank": 21,
+          "tokenId": 43058,
+          "token": "🍸",
+          "piece": "ðŁį¸",
+          "score": 0.12515048682689667
+        },
+        {
+          "rank": 22,
+          "tokenId": 15845,
+          "token": "mainedcm",
+          "piece": "mainedcm</w>",
+          "score": 0.1248762458562851
+        },
+        {
+          "rank": 23,
+          "tokenId": 42511,
+          "token": "tellu",
+          "piece": "tellu",
+          "score": 0.12326028943061829
+        },
+        {
+          "rank": 24,
+          "tokenId": 37475,
+          "token": "bada",
+          "piece": "bada</w>",
+          "score": 0.12323279678821564
+        },
+        {
+          "rank": 25,
+          "tokenId": 1305,
+          "token": "city",
+          "piece": "city</w>",
+          "score": 0.12278082966804504
+        },
+        {
+          "rank": 26,
+          "tokenId": 33229,
+          "token": "crowns",
+          "piece": "crowns</w>",
+          "score": 0.12254821509122849
+        },
+        {
+          "rank": 27,
+          "tokenId": 26719,
+          "token": "bowl",
+          "piece": "bowl",
+          "score": 0.12166251987218857
+        },
+        {
+          "rank": 28,
+          "tokenId": 11716,
+          "token": "jackie",
+          "piece": "jackie</w>",
+          "score": 0.12153441458940506
+        },
+        {
+          "rank": 29,
+          "tokenId": 4719,
+          "token": "literally",
+          "piece": "literally</w>",
+          "score": 0.12142866849899292
+        },
+        {
+          "rank": 30,
+          "tokenId": 41633,
+          "token": "genevie",
+          "piece": "genevie",
+          "score": 0.12141978740692139
+        },
+        {
+          "rank": 31,
+          "tokenId": 11797,
+          "token": "commit",
+          "piece": "commit</w>",
+          "score": 0.12101300060749054
+        },
+        {
+          "rank": 32,
+          "tokenId": 26302,
+          "token": "п",
+          "piece": "Ð¿",
+          "score": 0.12079330533742905
+        },
+        {
+          "rank": 33,
+          "tokenId": 7920,
+          "token": "hoo",
+          "piece": "hoo</w>",
+          "score": 0.12065549939870834
+        },
+        {
+          "rank": 34,
+          "tokenId": 43533,
+          "token": "mayorof",
+          "piece": "mayorof",
+          "score": 0.12049729377031326
+        },
+        {
+          "rank": 35,
+          "tokenId": 43870,
+          "token": "wud",
+          "piece": "wud</w>",
+          "score": 0.12045080959796906
+        },
+        {
+          "rank": 36,
+          "tokenId": 5878,
+          "token": "wouldn",
+          "piece": "wouldn</w>",
+          "score": 0.12042856216430664
+        },
+        {
+          "rank": 37,
+          "tokenId": 21579,
+          "token": "primar",
+          "piece": "primar",
+          "score": 0.11997605860233307
+        },
+        {
+          "rank": 38,
+          "tokenId": 41538,
+          "token": "phenomena",
+          "piece": "phenomena</w>",
+          "score": 0.11989142000675201
+        },
+        {
+          "rank": 39,
+          "tokenId": 1617,
+          "token": "publi",
+          "piece": "publi",
+          "score": 0.11919696629047394
+        },
+        {
+          "rank": 40,
+          "tokenId": 29575,
+          "token": "swol",
+          "piece": "swol",
+          "score": 0.11900731921195984
+        },
+        {
+          "rank": 41,
+          "tokenId": 11151,
+          "token": "pink",
+          "piece": "pink",
+          "score": 0.11851155012845993
+        },
+        {
+          "rank": 42,
+          "tokenId": 38060,
+          "token": "。",
+          "piece": "ãĢĤ",
+          "score": 0.11845654249191284
+        },
+        {
+          "rank": 43,
+          "tokenId": 40098,
+          "token": "⚡",
+          "piece": "âļ¡",
+          "score": 0.11832362413406372
+        },
+        {
+          "rank": 44,
+          "tokenId": 20992,
+          "token": "png",
+          "piece": "png</w>",
+          "score": 0.11817923933267593
+        },
+        {
+          "rank": 45,
+          "tokenId": 25734,
+          "token": "sheila",
+          "piece": "sheila</w>",
+          "score": 0.11811533570289612
+        },
+        {
+          "rank": 46,
+          "tokenId": 15103,
+          "token": "iamsrk",
+          "piece": "iamsrk</w>",
+          "score": 0.11798594892024994
+        },
+        {
+          "rank": 47,
+          "tokenId": 45757,
+          "token": "armchair",
+          "piece": "armchair</w>",
+          "score": 0.11780247092247009
+        },
+        {
+          "rank": 48,
+          "tokenId": 41161,
+          "token": "underthe",
+          "piece": "underthe",
+          "score": 0.11760446429252625
+        },
+        {
+          "rank": 49,
+          "tokenId": 14609,
+          "token": "tral",
+          "piece": "tral</w>",
+          "score": 0.11751234531402588
+        },
+        {
+          "rank": 50,
+          "tokenId": 29085,
+          "token": "reper",
+          "piece": "reper",
+          "score": 0.11744248867034912
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-3469127c9343-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/SedatAl/Logo-LoRa/blob/efc0742caeace9a77849797cf40b5b042f0f26ae/pytorch_lora_weights.safetensors",
+    "repository": "SedatAl/Logo-LoRa",
+    "revision": "efc0742caeace9a77849797cf40b5b042f0f26ae",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "302aa830ab432b0fb4a1056fd301126a0bbf7af8be357f31c1845a0864c810fc",
+    "creator": "SedatAl",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/SedatAl/Logo-LoRa/revision/main?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

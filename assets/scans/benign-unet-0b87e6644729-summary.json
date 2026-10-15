@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-0b87e6644729",
+  "kind": "benign",
+  "title": "Face Portraits",
+  "originalTitle": "mixed face final ffhq celeba sd1.5 lora",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:borakaragul/mixed-face-final-ffhq-celeba-sd1.5-lora:0d84d91da28368f6f8c37a2b17ad6bbff340acf0:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.09677419354838711,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2603906417794674,
+    "A_TE": null,
+    "r_UNet": 0.08823529411764706,
+    "r_TE": null,
+    "rJoint": 0.08823529411764706,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 47753,
+          "token": "cube",
+          "piece": "cube",
+          "score": 15.20279598236084
+        },
+        {
+          "rank": 2,
+          "tokenId": 7843,
+          "token": "opinion",
+          "piece": "opinion</w>",
+          "score": 15.18213939666748
+        },
+        {
+          "rank": 3,
+          "tokenId": 29614,
+          "token": "cubic",
+          "piece": "cubic</w>",
+          "score": 14.822120666503906
+        },
+        {
+          "rank": 4,
+          "tokenId": 48417,
+          "token": "cq",
+          "piece": "cq</w>",
+          "score": 14.545854568481445
+        },
+        {
+          "rank": 5,
+          "tokenId": 2089,
+          "token": "ping",
+          "piece": "ping</w>",
+          "score": 14.540620803833008
+        },
+        {
+          "rank": 6,
+          "tokenId": 18966,
+          "token": "👨",
+          "piece": "ðŁĳ¨",
+          "score": 14.49503231048584
+        },
+        {
+          "rank": 7,
+          "tokenId": 8475,
+          "token": "()",
+          "piece": "()</w>",
+          "score": 14.37639045715332
+        },
+        {
+          "rank": 8,
+          "tokenId": 24665,
+          "token": "capac",
+          "piece": "capac",
+          "score": 14.346391677856445
+        },
+        {
+          "rank": 9,
+          "tokenId": 17306,
+          "token": "cade",
+          "piece": "cade</w>",
+          "score": 14.284382820129395
+        },
+        {
+          "rank": 10,
+          "tokenId": 1940,
+          "token": "president",
+          "piece": "president</w>",
+          "score": 14.274121284484863
+        },
+        {
+          "rank": 11,
+          "tokenId": 3107,
+          "token": "wants",
+          "piece": "wants</w>",
+          "score": 14.09701156616211
+        },
+        {
+          "rank": 12,
+          "tokenId": 37160,
+          "token": "whatcha",
+          "piece": "whatcha</w>",
+          "score": 14.092607498168945
+        },
+        {
+          "rank": 13,
+          "tokenId": 39188,
+          "token": "edged",
+          "piece": "edged</w>",
+          "score": 13.985406875610352
+        },
+        {
+          "rank": 14,
+          "tokenId": 26876,
+          "token": "enow",
+          "piece": "enow</w>",
+          "score": 13.959439277648926
+        },
+        {
+          "rank": 15,
+          "tokenId": 17956,
+          "token": "prez",
+          "piece": "prez</w>",
+          "score": 13.946222305297852
+        },
+        {
+          "rank": 16,
+          "tokenId": 30263,
+          "token": "specimen",
+          "piece": "specimen</w>",
+          "score": 13.94546127319336
+        },
+        {
+          "rank": 17,
+          "tokenId": 14725,
+          "token": "warm",
+          "piece": "warm",
+          "score": 13.888821601867676
+        },
+        {
+          "rank": 18,
+          "tokenId": 1280,
+          "token": "want",
+          "piece": "want</w>",
+          "score": 13.865232467651367
+        },
+        {
+          "rank": 19,
+          "tokenId": 18994,
+          "token": "wha",
+          "piece": "wha",
+          "score": 13.742049217224121
+        },
+        {
+          "rank": 20,
+          "tokenId": 990,
+          "token": "pm",
+          "piece": "pm</w>",
+          "score": 13.72357177734375
+        },
+        {
+          "rank": 21,
+          "tokenId": 9906,
+          "token": "satis",
+          "piece": "satis",
+          "score": 13.69279670715332
+        },
+        {
+          "rank": 22,
+          "tokenId": 3135,
+          "token": "guess",
+          "piece": "guess</w>",
+          "score": 13.69166374206543
+        },
+        {
+          "rank": 23,
+          "tokenId": 8882,
+          "token": "excep",
+          "piece": "excep",
+          "score": 13.680974960327148
+        },
+        {
+          "rank": 24,
+          "tokenId": 2009,
+          "token": "whe",
+          "piece": "whe",
+          "score": 13.653390884399414
+        },
+        {
+          "rank": 25,
+          "tokenId": 17636,
+          "token": "osi",
+          "piece": "osi</w>",
+          "score": 13.506855010986328
+        },
+        {
+          "rank": 26,
+          "tokenId": 24863,
+          "token": "wot",
+          "piece": "wot</w>",
+          "score": 13.462382316589355
+        },
+        {
+          "rank": 27,
+          "tokenId": 32542,
+          "token": "allery",
+          "piece": "allery</w>",
+          "score": 13.455333709716797
+        },
+        {
+          "rank": 28,
+          "tokenId": 1624,
+          "token": "perfe",
+          "piece": "perfe",
+          "score": 13.390600204467773
+        },
+        {
+          "rank": 29,
+          "tokenId": 38174,
+          "token": "emerging",
+          "piece": "emerging",
+          "score": 13.383588790893555
+        },
+        {
+          "rank": 30,
+          "tokenId": 1488,
+          "token": "open",
+          "piece": "open</w>",
+          "score": 13.33962631225586
+        },
+        {
+          "rank": 31,
+          "tokenId": 6907,
+          "token": "bang",
+          "piece": "bang</w>",
+          "score": 13.311843872070312
+        },
+        {
+          "rank": 32,
+          "tokenId": 23938,
+          "token": "repeal",
+          "piece": "repeal</w>",
+          "score": 13.241189956665039
+        },
+        {
+          "rank": 33,
+          "tokenId": 3226,
+          "token": "upd",
+          "piece": "upd",
+          "score": 13.230500221252441
+        },
+        {
+          "rank": 34,
+          "tokenId": 15133,
+          "token": "resso",
+          "piece": "resso</w>",
+          "score": 13.172340393066406
+        },
+        {
+          "rank": 35,
+          "tokenId": 20901,
+          "token": "📢",
+          "piece": "ðŁĵ¢</w>",
+          "score": 13.103494644165039
+        },
+        {
+          "rank": 36,
+          "tokenId": 1620,
+          "token": "call",
+          "piece": "call</w>",
+          "score": 13.085136413574219
+        },
+        {
+          "rank": 37,
+          "tokenId": 12310,
+          "token": "among",
+          "piece": "among",
+          "score": 13.070049285888672
+        },
+        {
+          "rank": 38,
+          "tokenId": 18772,
+          "token": "preferred",
+          "piece": "preferred</w>",
+          "score": 13.035441398620605
+        },
+        {
+          "rank": 39,
+          "tokenId": 8482,
+          "token": "xon",
+          "piece": "xon</w>",
+          "score": 13.026365280151367
+        },
+        {
+          "rank": 40,
+          "tokenId": 13699,
+          "token": "pm",
+          "piece": "pm",
+          "score": 13.023534774780273
+        },
+        {
+          "rank": 41,
+          "tokenId": 25986,
+          "token": "enhancing",
+          "piece": "enhancing</w>",
+          "score": 12.987909317016602
+        },
+        {
+          "rank": 42,
+          "tokenId": 12746,
+          "token": "threw",
+          "piece": "threw</w>",
+          "score": 12.98724365234375
+        },
+        {
+          "rank": 43,
+          "tokenId": 44092,
+          "token": "lpc",
+          "piece": "lpc</w>",
+          "score": 12.986159324645996
+        },
+        {
+          "rank": 44,
+          "tokenId": 31049,
+          "token": "nib",
+          "piece": "nib</w>",
+          "score": 12.980897903442383
+        },
+        {
+          "rank": 45,
+          "tokenId": 5461,
+          "token": "edge",
+          "piece": "edge</w>",
+          "score": 12.972772598266602
+        },
+        {
+          "rank": 46,
+          "tokenId": 35393,
+          "token": "edgy",
+          "piece": "edgy</w>",
+          "score": 12.97116756439209
+        },
+        {
+          "rank": 47,
+          "tokenId": 21408,
+          "token": "filtr",
+          "piece": "filtr",
+          "score": 12.962594985961914
+        },
+        {
+          "rank": 48,
+          "tokenId": 8998,
+          "token": "opener",
+          "piece": "opener</w>",
+          "score": 12.937034606933594
+        },
+        {
+          "rank": 49,
+          "tokenId": 12550,
+          "token": "embro",
+          "piece": "embro",
+          "score": 12.931977272033691
+        },
+        {
+          "rank": 50,
+          "tokenId": 44985,
+          "token": "unnamed",
+          "piece": "unnamed</w>",
+          "score": 12.92724609375
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-0b87e6644729-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/borakaragul/mixed-face-final-ffhq-celeba-sd1.5-lora/blob/0d84d91da28368f6f8c37a2b17ad6bbff340acf0/pytorch_lora_weights.safetensors",
+    "repository": "borakaragul/mixed-face-final-ffhq-celeba-sd1.5-lora",
+    "revision": "0d84d91da28368f6f8c37a2b17ad6bbff340acf0",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "ea0642a47623d727befd41233ca3885678624db4a07052be6f469d65dfaab627",
+    "creator": "borakaragul",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/borakaragul/mixed-face-final-ffhq-celeba-sd1.5-lora/revision/0d84d91da28368f6f8c37a2b17ad6bbff340acf0?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

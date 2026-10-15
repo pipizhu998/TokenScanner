@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-2d8c25e9a59f",
+  "kind": "benign",
+  "title": "IKEA Room Design",
+  "originalTitle": "ikea room designs sd1.5 lora full finetuning",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:pab-gmail/ikea_room_designs_sd1.5_lora_full_finetuning_:1656080b749064a40f883490d9a053bd6936b7b5:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.2903225806451613,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2736089950067731,
+    "A_TE": null,
+    "r_UNet": 0.2647058823529412,
+    "r_TE": null,
+    "rJoint": 0.2647058823529412,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 28955,
+          "token": "🏼‍♀️",
+          "piece": "ðŁı¼âĢįâĻĢï¸ı</w>",
+          "score": 0.16056513786315918
+        },
+        {
+          "rank": 2,
+          "tokenId": 30588,
+          "token": "✌🏼",
+          "piece": "âľĮðŁı¼</w>",
+          "score": 0.14624075591564178
+        },
+        {
+          "rank": 3,
+          "tokenId": 25100,
+          "token": "🙏🏻",
+          "piece": "ðŁĻıðŁı»",
+          "score": 0.1457703858613968
+        },
+        {
+          "rank": 4,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 0.14043259620666504
+        },
+        {
+          "rank": 5,
+          "tokenId": 29055,
+          "token": "siwon",
+          "piece": "siwon</w>",
+          "score": 0.1402357816696167
+        },
+        {
+          "rank": 6,
+          "tokenId": 4248,
+          "token": "february",
+          "piece": "february</w>",
+          "score": 0.139740452170372
+        },
+        {
+          "rank": 7,
+          "tokenId": 6110,
+          "token": "autumn",
+          "piece": "autumn</w>",
+          "score": 0.13735386729240417
+        },
+        {
+          "rank": 8,
+          "tokenId": 45721,
+          "token": "balotelli",
+          "piece": "balotelli</w>",
+          "score": 0.13581275939941406
+        },
+        {
+          "rank": 9,
+          "tokenId": 22194,
+          "token": "relaxation",
+          "piece": "relaxation</w>",
+          "score": 0.13441137969493866
+        },
+        {
+          "rank": 10,
+          "tokenId": 40007,
+          "token": "twentyonepilots",
+          "piece": "twentyonepilots</w>",
+          "score": 0.13248461484909058
+        },
+        {
+          "rank": 11,
+          "tokenId": 45802,
+          "token": "taeyang",
+          "piece": "taeyang</w>",
+          "score": 0.12931270897388458
+        },
+        {
+          "rank": 12,
+          "tokenId": 6193,
+          "token": "🏼",
+          "piece": "ðŁı¼",
+          "score": 0.12826085090637207
+        },
+        {
+          "rank": 13,
+          "tokenId": 30891,
+          "token": "🤘🏻",
+          "piece": "ðŁ¤ĺðŁı»</w>",
+          "score": 0.12715518474578857
+        },
+        {
+          "rank": 14,
+          "tokenId": 23734,
+          "token": "bigbang",
+          "piece": "bigbang</w>",
+          "score": 0.1267278790473938
+        },
+        {
+          "rank": 15,
+          "tokenId": 29266,
+          "token": "dhanushkraja",
+          "piece": "dhanushkraja</w>",
+          "score": 0.1265152543783188
+        },
+        {
+          "rank": 16,
+          "tokenId": 3552,
+          "token": "france",
+          "piece": "france</w>",
+          "score": 0.12627729773521423
+        },
+        {
+          "rank": 17,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 0.12617293000221252
+        },
+        {
+          "rank": 18,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 0.12556050717830658
+        },
+        {
+          "rank": 19,
+          "tokenId": 23334,
+          "token": "superheroes",
+          "piece": "superheroes</w>",
+          "score": 0.1254589557647705
+        },
+        {
+          "rank": 20,
+          "tokenId": 8726,
+          "token": "smiles",
+          "piece": "smiles</w>",
+          "score": 0.12541037797927856
+        },
+        {
+          "rank": 21,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 0.1251623034477234
+        },
+        {
+          "rank": 22,
+          "tokenId": 24037,
+          "token": "yoongi",
+          "piece": "yoongi</w>",
+          "score": 0.12464457750320435
+        },
+        {
+          "rank": 23,
+          "tokenId": 9035,
+          "token": "relax",
+          "piece": "relax</w>",
+          "score": 0.12397952377796173
+        },
+        {
+          "rank": 24,
+          "tokenId": 29081,
+          "token": "bernardokath",
+          "piece": "bernardokath</w>",
+          "score": 0.12389115989208221
+        },
+        {
+          "rank": 25,
+          "tokenId": 47753,
+          "token": "cube",
+          "piece": "cube",
+          "score": 0.12308993190526962
+        },
+        {
+          "rank": 26,
+          "tokenId": 36660,
+          "token": "🙌🏽",
+          "piece": "ðŁĻĮðŁı½",
+          "score": 0.1222739964723587
+        },
+        {
+          "rank": 27,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 0.1206081211566925
+        },
+        {
+          "rank": 28,
+          "tokenId": 15364,
+          "token": "🙌🏼",
+          "piece": "ðŁĻĮðŁı¼</w>",
+          "score": 0.12046456336975098
+        },
+        {
+          "rank": 29,
+          "tokenId": 28208,
+          "token": "dune",
+          "piece": "dune</w>",
+          "score": 0.11990261822938919
+        },
+        {
+          "rank": 30,
+          "tokenId": 19110,
+          "token": "jelly",
+          "piece": "jelly",
+          "score": 0.1198878362774849
+        },
+        {
+          "rank": 31,
+          "tokenId": 3255,
+          "token": "dogs",
+          "piece": "dogs</w>",
+          "score": 0.11965666711330414
+        },
+        {
+          "rank": 32,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 0.1190328523516655
+        },
+        {
+          "rank": 33,
+          "tokenId": 21906,
+          "token": "✌️",
+          "piece": "âľĮï¸ı",
+          "score": 0.11878155171871185
+        },
+        {
+          "rank": 34,
+          "tokenId": 30591,
+          "token": "turnup",
+          "piece": "turnup</w>",
+          "score": 0.11863961070775986
+        },
+        {
+          "rank": 35,
+          "tokenId": 39390,
+          "token": "umass",
+          "piece": "umass</w>",
+          "score": 0.11859868466854095
+        },
+        {
+          "rank": 36,
+          "tokenId": 5539,
+          "token": "premier",
+          "piece": "premier</w>",
+          "score": 0.1185760349035263
+        },
+        {
+          "rank": 37,
+          "tokenId": 47526,
+          "token": "eunhyuk",
+          "piece": "eunhyuk</w>",
+          "score": 0.11839630454778671
+        },
+        {
+          "rank": 38,
+          "tokenId": 6971,
+          "token": "mumbai",
+          "piece": "mumbai</w>",
+          "score": 0.11784008890390396
+        },
+        {
+          "rank": 39,
+          "tokenId": 35481,
+          "token": "autumnal",
+          "piece": "autumnal</w>",
+          "score": 0.11735674738883972
+        },
+        {
+          "rank": 40,
+          "tokenId": 14049,
+          "token": "superhero",
+          "piece": "superhero</w>",
+          "score": 0.11731614172458649
+        },
+        {
+          "rank": 41,
+          "tokenId": 48207,
+          "token": "haydn",
+          "piece": "haydn</w>",
+          "score": 0.11601311713457108
+        },
+        {
+          "rank": 42,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 0.11595764756202698
+        },
+        {
+          "rank": 43,
+          "tokenId": 32777,
+          "token": "sewage",
+          "piece": "sewage</w>",
+          "score": 0.11576800048351288
+        },
+        {
+          "rank": 44,
+          "tokenId": 43889,
+          "token": "madhuridixit",
+          "piece": "madhuridixit</w>",
+          "score": 0.11566892266273499
+        },
+        {
+          "rank": 45,
+          "tokenId": 14889,
+          "token": "tottenham",
+          "piece": "tottenham</w>",
+          "score": 0.11566543579101562
+        },
+        {
+          "rank": 46,
+          "tokenId": 28750,
+          "token": "happyhalloween",
+          "piece": "happyhalloween</w>",
+          "score": 0.11547091603279114
+        },
+        {
+          "rank": 47,
+          "tokenId": 1415,
+          "token": "tun",
+          "piece": "tun",
+          "score": 0.11544729024171829
+        },
+        {
+          "rank": 48,
+          "tokenId": 17600,
+          "token": "renault",
+          "piece": "renault</w>",
+          "score": 0.11480922251939774
+        },
+        {
+          "rank": 49,
+          "tokenId": 45371,
+          "token": "hrithik",
+          "piece": "hrithik</w>",
+          "score": 0.11470538377761841
+        },
+        {
+          "rank": 50,
+          "tokenId": 21540,
+          "token": "🙏🏽",
+          "piece": "ðŁĻıðŁı½</w>",
+          "score": 0.11424395442008972
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-2d8c25e9a59f-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/pab-gmail/ikea_room_designs_sd1.5_lora_full_finetuning_/blob/1656080b749064a40f883490d9a053bd6936b7b5/pytorch_lora_weights.safetensors",
+    "repository": "pab-gmail/ikea_room_designs_sd1.5_lora_full_finetuning_",
+    "revision": "1656080b749064a40f883490d9a053bd6936b7b5",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "4fae57c6631230dde9ed1c021bd45d4baf38355dd0292e423c40c3b961e16fc9",
+    "creator": "pab-gmail",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/pab-gmail/ikea_room_designs_sd1.5_lora_full_finetuning_/revision/1656080b749064a40f883490d9a053bd6936b7b5?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

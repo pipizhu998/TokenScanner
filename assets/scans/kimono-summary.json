@@ -1,0 +1,774 @@
+{
+  "id": "kimono",
+  "kind": "benign",
+  "title": "Kimono & Umbrella",
+  "originalTitle": "Realistic Kimono Clothes With Umbrella",
+  "version": "v1.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_62aa4079e017645398ef",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.9683544303797468,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3418379987648478,
+    "A_TE": 17.1171875,
+    "r_UNet": 0.9216867469879518,
+    "r_TE": 0.6566265060240963,
+    "rJoint": 0.9216867469879518,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 40024,
+          "token": "kimono",
+          "piece": "kimono</w>",
+          "score": 26.937936782836914
+        },
+        {
+          "rank": 2,
+          "tokenId": 11729,
+          "token": "sushi",
+          "piece": "sushi</w>",
+          "score": 14.249141693115234
+        },
+        {
+          "rank": 3,
+          "tokenId": 4925,
+          "token": "japanese",
+          "piece": "japanese</w>",
+          "score": 13.916363716125488
+        },
+        {
+          "rank": 4,
+          "tokenId": 27211,
+          "token": "japanese",
+          "piece": "japanese",
+          "score": 13.591730117797852
+        },
+        {
+          "rank": 5,
+          "tokenId": 17143,
+          "token": "umbrella",
+          "piece": "umbrella</w>",
+          "score": 13.312631607055664
+        },
+        {
+          "rank": 6,
+          "tokenId": 21739,
+          "token": "samurai",
+          "piece": "samurai</w>",
+          "score": 13.006898880004883
+        },
+        {
+          "rank": 7,
+          "tokenId": 4502,
+          "token": "japan",
+          "piece": "japan",
+          "score": 12.873888969421387
+        },
+        {
+          "rank": 8,
+          "tokenId": 3400,
+          "token": "japan",
+          "piece": "japan</w>",
+          "score": 12.037008285522461
+        },
+        {
+          "rank": 9,
+          "tokenId": 23223,
+          "token": "kyoto",
+          "piece": "kyoto</w>",
+          "score": 11.872733116149902
+        },
+        {
+          "rank": 10,
+          "tokenId": 42782,
+          "token": "umbrellas",
+          "piece": "umbrellas</w>",
+          "score": 11.55474853515625
+        },
+        {
+          "rank": 11,
+          "tokenId": 42628,
+          "token": "yakuza",
+          "piece": "yakuza</w>",
+          "score": 11.373542785644531
+        },
+        {
+          "rank": 12,
+          "tokenId": 36212,
+          "token": "jpn",
+          "piece": "jpn</w>",
+          "score": 10.898818969726562
+        },
+        {
+          "rank": 13,
+          "tokenId": 12679,
+          "token": "fence",
+          "piece": "fence</w>",
+          "score": 10.728269577026367
+        },
+        {
+          "rank": 14,
+          "tokenId": 6667,
+          "token": "tokyo",
+          "piece": "tokyo</w>",
+          "score": 10.448507308959961
+        },
+        {
+          "rank": 15,
+          "tokenId": 26527,
+          "token": "🇯🇵",
+          "piece": "ðŁĩ¯ðŁĩµ</w>",
+          "score": 10.301149368286133
+        },
+        {
+          "rank": 16,
+          "tokenId": 12874,
+          "token": "sake",
+          "piece": "sake</w>",
+          "score": 8.798773765563965
+        },
+        {
+          "rank": 17,
+          "tokenId": 9283,
+          "token": "pope",
+          "piece": "pope</w>",
+          "score": 8.769929885864258
+        },
+        {
+          "rank": 18,
+          "tokenId": 35038,
+          "token": "tokyo",
+          "piece": "tokyo",
+          "score": 8.536171913146973
+        },
+        {
+          "rank": 19,
+          "tokenId": 12952,
+          "token": "panda",
+          "piece": "panda</w>",
+          "score": 8.464942932128906
+        },
+        {
+          "rank": 20,
+          "tokenId": 47181,
+          "token": "chino",
+          "piece": "chino",
+          "score": 8.229351043701172
+        },
+        {
+          "rank": 21,
+          "tokenId": 2569,
+          "token": "wall",
+          "piece": "wall</w>",
+          "score": 8.115585327148438
+        },
+        {
+          "rank": 22,
+          "tokenId": 33734,
+          "token": "sumo",
+          "piece": "sumo</w>",
+          "score": 8.111851692199707
+        },
+        {
+          "rank": 23,
+          "tokenId": 33566,
+          "token": "pontifex",
+          "piece": "pontifex</w>",
+          "score": 8.050309181213379
+        },
+        {
+          "rank": 24,
+          "tokenId": 17154,
+          "token": "porch",
+          "piece": "porch</w>",
+          "score": 8.020538330078125
+        },
+        {
+          "rank": 25,
+          "tokenId": 33867,
+          "token": "hiroshima",
+          "piece": "hiroshima</w>",
+          "score": 7.884464263916016
+        },
+        {
+          "rank": 26,
+          "tokenId": 49062,
+          "token": "jap",
+          "piece": "jap</w>",
+          "score": 7.853203296661377
+        },
+        {
+          "rank": 27,
+          "tokenId": 22732,
+          "token": "naruto",
+          "piece": "naruto</w>",
+          "score": 7.802431106567383
+        },
+        {
+          "rank": 28,
+          "tokenId": 35877,
+          "token": "okinawa",
+          "piece": "okinawa</w>",
+          "score": 7.792396068572998
+        },
+        {
+          "rank": 29,
+          "tokenId": 34773,
+          "token": "umbrel",
+          "piece": "umbrel",
+          "score": 7.786346435546875
+        },
+        {
+          "rank": 30,
+          "tokenId": 3666,
+          "token": "selfie",
+          "piece": "selfie</w>",
+          "score": 7.733742713928223
+        },
+        {
+          "rank": 31,
+          "tokenId": 5498,
+          "token": "pared",
+          "piece": "pared</w>",
+          "score": 7.479547500610352
+        },
+        {
+          "rank": 32,
+          "tokenId": 41216,
+          "token": "poppins",
+          "piece": "poppins</w>",
+          "score": 7.466534614562988
+        },
+        {
+          "rank": 33,
+          "tokenId": 31140,
+          "token": "garu",
+          "piece": "garu</w>",
+          "score": 7.448358535766602
+        },
+        {
+          "rank": 34,
+          "tokenId": 44129,
+          "token": "bonsai",
+          "piece": "bonsai</w>",
+          "score": 7.4421586990356445
+        },
+        {
+          "rank": 35,
+          "tokenId": 35495,
+          "token": "dumplings",
+          "piece": "dumplings</w>",
+          "score": 7.418542861938477
+        },
+        {
+          "rank": 36,
+          "tokenId": 34312,
+          "token": "fences",
+          "piece": "fences</w>",
+          "score": 7.396940231323242
+        },
+        {
+          "rank": 37,
+          "tokenId": 26760,
+          "token": "swinging",
+          "piece": "swinging</w>",
+          "score": 7.396561622619629
+        },
+        {
+          "rank": 38,
+          "tokenId": 31238,
+          "token": "☔️",
+          "piece": "âĺĶï¸ı</w>",
+          "score": 7.37479305267334
+        },
+        {
+          "rank": 39,
+          "tokenId": 42121,
+          "token": "japs",
+          "piece": "japs</w>",
+          "score": 7.313251495361328
+        },
+        {
+          "rank": 40,
+          "tokenId": 14321,
+          "token": "miley",
+          "piece": "miley</w>",
+          "score": 7.248081684112549
+        },
+        {
+          "rank": 41,
+          "tokenId": 23489,
+          "token": "fencing",
+          "piece": "fencing</w>",
+          "score": 7.213381767272949
+        },
+        {
+          "rank": 42,
+          "tokenId": 37912,
+          "token": "atiku",
+          "piece": "atiku</w>",
+          "score": 7.186850547790527
+        },
+        {
+          "rank": 43,
+          "tokenId": 2299,
+          "token": "jap",
+          "piece": "jap",
+          "score": 7.1597442626953125
+        },
+        {
+          "rank": 44,
+          "tokenId": 8258,
+          "token": "walls",
+          "piece": "walls</w>",
+          "score": 7.157777786254883
+        },
+        {
+          "rank": 45,
+          "tokenId": 2817,
+          "token": "china",
+          "piece": "china</w>",
+          "score": 7.092398643493652
+        },
+        {
+          "rank": 46,
+          "tokenId": 28150,
+          "token": "koi",
+          "piece": "koi</w>",
+          "score": 7.059010028839111
+        },
+        {
+          "rank": 47,
+          "tokenId": 37254,
+          "token": "popefrancis",
+          "piece": "popefrancis</w>",
+          "score": 7.033050537109375
+        },
+        {
+          "rank": 48,
+          "tokenId": 24286,
+          "token": "tsunami",
+          "piece": "tsunami</w>",
+          "score": 7.02495813369751
+        },
+        {
+          "rank": 49,
+          "tokenId": 22654,
+          "token": "handbag",
+          "piece": "handbag</w>",
+          "score": 6.976722240447998
+        },
+        {
+          "rank": 50,
+          "tokenId": 21220,
+          "token": "adele",
+          "piece": "adele</w>",
+          "score": 6.970859527587891
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 49095,
+          "token": "fakespeare",
+          "piece": "fakespeare</w>",
+          "score": 17.1171875
+        },
+        {
+          "rank": 2,
+          "tokenId": 41126,
+          "token": "타",
+          "piece": "íĥĢ",
+          "score": 16.4921875
+        },
+        {
+          "rank": 3,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 16.1875
+        },
+        {
+          "rank": 4,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 16.1875
+        },
+        {
+          "rank": 5,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 16.1875
+        },
+        {
+          "rank": 6,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 16.1875
+        },
+        {
+          "rank": 7,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 16.1875
+        },
+        {
+          "rank": 8,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 16.1875
+        },
+        {
+          "rank": 9,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 16.1875
+        },
+        {
+          "rank": 10,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 16.1875
+        },
+        {
+          "rank": 11,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 16.1875
+        },
+        {
+          "rank": 12,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 16.1875
+        },
+        {
+          "rank": 13,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 16.1875
+        },
+        {
+          "rank": 14,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 16.1875
+        },
+        {
+          "rank": 15,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 16.1875
+        },
+        {
+          "rank": 16,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 16.1875
+        },
+        {
+          "rank": 17,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 16.1875
+        },
+        {
+          "rank": 18,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 16.1875
+        },
+        {
+          "rank": 19,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 16.1875
+        },
+        {
+          "rank": 20,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 16.1875
+        },
+        {
+          "rank": 21,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 16.1875
+        },
+        {
+          "rank": 22,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 16.1875
+        },
+        {
+          "rank": 23,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 16.1875
+        },
+        {
+          "rank": 24,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 16.1875
+        },
+        {
+          "rank": 25,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 16.1875
+        },
+        {
+          "rank": 26,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 16.1875
+        },
+        {
+          "rank": 27,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 16.1875
+        },
+        {
+          "rank": 28,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 16.1875
+        },
+        {
+          "rank": 29,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 16.1875
+        },
+        {
+          "rank": 30,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 16.1875
+        },
+        {
+          "rank": 31,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 16.1875
+        },
+        {
+          "rank": 32,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 16.1875
+        },
+        {
+          "rank": 33,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 16.1875
+        },
+        {
+          "rank": 34,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 16.1875
+        },
+        {
+          "rank": 35,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 16.1875
+        },
+        {
+          "rank": 36,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 16.1875
+        },
+        {
+          "rank": 37,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 16.1875
+        },
+        {
+          "rank": 38,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 16.1875
+        },
+        {
+          "rank": 39,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 40,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 41,
+          "tokenId": 290,
+          "token": "C",
+          "piece": "C</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 42,
+          "tokenId": 291,
+          "token": "D",
+          "piece": "D</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 43,
+          "tokenId": 292,
+          "token": "E",
+          "piece": "E</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 44,
+          "tokenId": 293,
+          "token": "F",
+          "piece": "F</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 45,
+          "tokenId": 294,
+          "token": "G",
+          "piece": "G</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 46,
+          "tokenId": 295,
+          "token": "H",
+          "piece": "H</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 47,
+          "tokenId": 296,
+          "token": "I",
+          "piece": "I</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 48,
+          "tokenId": 297,
+          "token": "J",
+          "piece": "J</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 49,
+          "tokenId": 298,
+          "token": "K",
+          "piece": "K</w>",
+          "score": 16.1875
+        },
+        {
+          "rank": 50,
+          "tokenId": 299,
+          "token": "L",
+          "piece": "L</w>",
+          "score": 16.1875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/kimono-unet.csv",
+      "te": "assets/scans/kimono-te.csv"
+    }
+  },
+  "semanticTokens": [
+    "kimono",
+    "umbrella",
+    "umbrellas"
+  ],
+  "themeObservation": "Kimono ranks first and umbrella ranks fifth in the U-Net scan, matching the archived activation phrases wearing kimono_clothes and holding umbrella.",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/56963?modelVersionId=61376",
+    "modelId": 56963,
+    "versionId": 61376,
+    "sha256": "62aa4079e017645398ef7703d42a3d9a8653dfb6f5ada4ec674c95641872ade6",
+    "creator": "antonio_riolo2610",
+    "capturedAt": "2026-08-17T13:10:05.435851+00:00",
+    "declaredActivationWords": [
+      "wearing kimono_clothes",
+      "holding umbrella"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/61376",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "wearing kimono_clothes",
+        "holding umbrella"
+      ]
+    }
+  }
+}

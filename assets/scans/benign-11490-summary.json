@@ -1,0 +1,764 @@
+{
+  "id": "benign-11490",
+  "kind": "benign",
+  "title": "MAPPA Studio Style",
+  "originalTitle": "MAPPA Studio Style (Chainsaw Man)",
+  "version": "Beta v1.2",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "te",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_5f3691e335f2f8fde033",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.6582278481012659,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.293614502217981,
+    "A_TE": 16.2890625,
+    "r_UNet": 0.608433734939759,
+    "r_TE": 0.6265060240963856,
+    "rJoint": 0.6265060240963856,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 28293,
+          "token": "rahulgandhi",
+          "piece": "rahulgandhi</w>",
+          "score": 2.8546643257141113
+        },
+        {
+          "rank": 2,
+          "tokenId": 29122,
+          "token": "😍❤",
+          "piece": "ðŁĺįâĿ¤</w>",
+          "score": 2.7963132858276367
+        },
+        {
+          "rank": 3,
+          "tokenId": 13057,
+          "token": "didnt",
+          "piece": "didnt</w>",
+          "score": 2.4763269424438477
+        },
+        {
+          "rank": 4,
+          "tokenId": 25998,
+          "token": "pogba",
+          "piece": "pogba</w>",
+          "score": 2.3810386657714844
+        },
+        {
+          "rank": 5,
+          "tokenId": 14889,
+          "token": "tottenham",
+          "piece": "tottenham</w>",
+          "score": 2.2470550537109375
+        },
+        {
+          "rank": 6,
+          "tokenId": 29130,
+          "token": "havent",
+          "piece": "havent</w>",
+          "score": 2.204766273498535
+        },
+        {
+          "rank": 7,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 2.1293578147888184
+        },
+        {
+          "rank": 8,
+          "tokenId": 31538,
+          "token": "mancity",
+          "piece": "mancity</w>",
+          "score": 2.0797643661499023
+        },
+        {
+          "rank": 9,
+          "tokenId": 13744,
+          "token": "rihanna",
+          "piece": "rihanna</w>",
+          "score": 2.0723533630371094
+        },
+        {
+          "rank": 10,
+          "tokenId": 11252,
+          "token": "messi",
+          "piece": "messi</w>",
+          "score": 2.0682969093322754
+        },
+        {
+          "rank": 11,
+          "tokenId": 6178,
+          "token": "bjp",
+          "piece": "bjp</w>",
+          "score": 2.0569710731506348
+        },
+        {
+          "rank": 12,
+          "tokenId": 1762,
+          "token": "india",
+          "piece": "india</w>",
+          "score": 2.0519771575927734
+        },
+        {
+          "rank": 13,
+          "tokenId": 37036,
+          "token": "🏽‍♀️",
+          "piece": "ðŁı½âĢįâĻĢï¸ı</w>",
+          "score": 2.043389320373535
+        },
+        {
+          "rank": 14,
+          "tokenId": 28934,
+          "token": "rutgers",
+          "piece": "rutgers</w>",
+          "score": 2.03242826461792
+        },
+        {
+          "rank": 15,
+          "tokenId": 15103,
+          "token": "iamsrk",
+          "piece": "iamsrk</w>",
+          "score": 2.0145325660705566
+        },
+        {
+          "rank": 16,
+          "tokenId": 17937,
+          "token": "doesnt",
+          "piece": "doesnt</w>",
+          "score": 2.001368999481201
+        },
+        {
+          "rank": 17,
+          "tokenId": 14638,
+          "token": "losangeles",
+          "piece": "losangeles</w>",
+          "score": 1.9929333925247192
+        },
+        {
+          "rank": 18,
+          "tokenId": 30264,
+          "token": "priyankachopra",
+          "piece": "priyankachopra</w>",
+          "score": 1.9900555610656738
+        },
+        {
+          "rank": 19,
+          "tokenId": 41800,
+          "token": "❤️😘",
+          "piece": "âĿ¤ï¸ıðŁĺĺ</w>",
+          "score": 1.9747471809387207
+        },
+        {
+          "rank": 20,
+          "tokenId": 9013,
+          "token": "mufc",
+          "piece": "mufc</w>",
+          "score": 1.9743306636810303
+        },
+        {
+          "rank": 21,
+          "tokenId": 35946,
+          "token": "😍💕",
+          "piece": "ðŁĺįðŁĴķ</w>",
+          "score": 1.9709491729736328
+        },
+        {
+          "rank": 22,
+          "tokenId": 37380,
+          "token": "❤️💙",
+          "piece": "âĿ¤ï¸ıðŁĴĻ</w>",
+          "score": 1.969552993774414
+        },
+        {
+          "rank": 23,
+          "tokenId": 44874,
+          "token": "arunjaitley",
+          "piece": "arunjaitley</w>",
+          "score": 1.9646228551864624
+        },
+        {
+          "rank": 24,
+          "tokenId": 36468,
+          "token": "aliaa",
+          "piece": "aliaa</w>",
+          "score": 1.9597883224487305
+        },
+        {
+          "rank": 25,
+          "tokenId": 17818,
+          "token": "lufc",
+          "piece": "lufc</w>",
+          "score": 1.9379730224609375
+        },
+        {
+          "rank": 26,
+          "tokenId": 5110,
+          "token": "wales",
+          "piece": "wales</w>",
+          "score": 1.9354302883148193
+        },
+        {
+          "rank": 27,
+          "tokenId": 29042,
+          "token": "couldnt",
+          "piece": "couldnt</w>",
+          "score": 1.9341623783111572
+        },
+        {
+          "rank": 28,
+          "tokenId": 15184,
+          "token": "southafrica",
+          "piece": "southafrica</w>",
+          "score": 1.9159150123596191
+        },
+        {
+          "rank": 29,
+          "tokenId": 6906,
+          "token": "neck",
+          "piece": "neck</w>",
+          "score": 1.9110316038131714
+        },
+        {
+          "rank": 30,
+          "tokenId": 14058,
+          "token": "❤❤",
+          "piece": "âĿ¤âĿ¤</w>",
+          "score": 1.9037245512008667
+        },
+        {
+          "rank": 31,
+          "tokenId": 7774,
+          "token": "modi",
+          "piece": "modi</w>",
+          "score": 1.89156174659729
+        },
+        {
+          "rank": 32,
+          "tokenId": 29607,
+          "token": "wasnt",
+          "piece": "wasnt</w>",
+          "score": 1.875455379486084
+        },
+        {
+          "rank": 33,
+          "tokenId": 36356,
+          "token": "okstate",
+          "piece": "okstate</w>",
+          "score": 1.868809700012207
+        },
+        {
+          "rank": 34,
+          "tokenId": 19537,
+          "token": "clemson",
+          "piece": "clemson</w>",
+          "score": 1.8565943241119385
+        },
+        {
+          "rank": 35,
+          "tokenId": 29567,
+          "token": "😭❤️",
+          "piece": "ðŁĺŃâĿ¤ï¸ı</w>",
+          "score": 1.8532476425170898
+        },
+        {
+          "rank": 36,
+          "tokenId": 21658,
+          "token": "chickens",
+          "piece": "chickens</w>",
+          "score": 1.8481106758117676
+        },
+        {
+          "rank": 37,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 1.8466765880584717
+        },
+        {
+          "rank": 38,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 1.8442115783691406
+        },
+        {
+          "rank": 39,
+          "tokenId": 42116,
+          "token": "ranveerofficial",
+          "piece": "ranveerofficial</w>",
+          "score": 1.840646505355835
+        },
+        {
+          "rank": 40,
+          "tokenId": 23208,
+          "token": "pmln",
+          "piece": "pmln</w>",
+          "score": 1.8320876359939575
+        },
+        {
+          "rank": 41,
+          "tokenId": 23624,
+          "token": "akshaykumar",
+          "piece": "akshaykumar</w>",
+          "score": 1.829501986503601
+        },
+        {
+          "rank": 42,
+          "tokenId": 29892,
+          "token": "shahidkapoor",
+          "piece": "shahidkapoor</w>",
+          "score": 1.8213145732879639
+        },
+        {
+          "rank": 43,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 1.8170311450958252
+        },
+        {
+          "rank": 44,
+          "tokenId": 16416,
+          "token": "mcfc",
+          "piece": "mcfc</w>",
+          "score": 1.8146209716796875
+        },
+        {
+          "rank": 45,
+          "tokenId": 20450,
+          "token": "socal",
+          "piece": "socal</w>",
+          "score": 1.813769817352295
+        },
+        {
+          "rank": 46,
+          "tokenId": 20021,
+          "token": "bama",
+          "piece": "bama</w>",
+          "score": 1.8134015798568726
+        },
+        {
+          "rank": 47,
+          "tokenId": 5366,
+          "token": "liverpool",
+          "piece": "liverpool</w>",
+          "score": 1.806863784790039
+        },
+        {
+          "rank": 48,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 1.8000566959381104
+        },
+        {
+          "rank": 49,
+          "tokenId": 16708,
+          "token": "❤❤❤",
+          "piece": "âĿ¤âĿ¤âĿ¤</w>",
+          "score": 1.7816452980041504
+        },
+        {
+          "rank": 50,
+          "tokenId": 6469,
+          "token": "anime",
+          "piece": "anime</w>",
+          "score": 1.7795034646987915
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 44756,
+          "token": "stips",
+          "piece": "stips</w>",
+          "score": 16.2890625
+        },
+        {
+          "rank": 2,
+          "tokenId": 13217,
+          "token": "/#",
+          "piece": "/#</w>",
+          "score": 16.07421875
+        },
+        {
+          "rank": 3,
+          "tokenId": 2376,
+          "token": "didn",
+          "piece": "didn</w>",
+          "score": 16.03515625
+        },
+        {
+          "rank": 4,
+          "tokenId": 20563,
+          "token": "sofficial",
+          "piece": "sofficial</w>",
+          "score": 15.890625
+        },
+        {
+          "rank": 5,
+          "tokenId": 5649,
+          "token": "indivi",
+          "piece": "indivi",
+          "score": 15.8828125
+        },
+        {
+          "rank": 6,
+          "tokenId": 22944,
+          "token": "((",
+          "piece": "((",
+          "score": 15.68359375
+        },
+        {
+          "rank": 7,
+          "tokenId": 33523,
+          "token": "い",
+          "piece": "ãģĦ",
+          "score": 15.63671875
+        },
+        {
+          "rank": 8,
+          "tokenId": 32225,
+          "token": "ร",
+          "piece": "à¸£",
+          "score": 15.4921875
+        },
+        {
+          "rank": 9,
+          "tokenId": 42516,
+          "token": "dofficial",
+          "piece": "dofficial</w>",
+          "score": 15.4921875
+        },
+        {
+          "rank": 10,
+          "tokenId": 4966,
+          "token": "gging",
+          "piece": "gging</w>",
+          "score": 15.39453125
+        },
+        {
+          "rank": 11,
+          "tokenId": 8802,
+          "token": "shment",
+          "piece": "shment</w>",
+          "score": 15.30859375
+        },
+        {
+          "rank": 12,
+          "tokenId": 33091,
+          "token": "ย",
+          "piece": "à¸¢</w>",
+          "score": 15.13671875
+        },
+        {
+          "rank": 13,
+          "tokenId": 26875,
+          "token": "ン",
+          "piece": "ãĥ³</w>",
+          "score": 15.1328125
+        },
+        {
+          "rank": 14,
+          "tokenId": 17474,
+          "token": "น",
+          "piece": "à¸Ļ",
+          "score": 15.05078125
+        },
+        {
+          "rank": 15,
+          "tokenId": 32058,
+          "token": "relu",
+          "piece": "relu",
+          "score": 15.0078125
+        },
+        {
+          "rank": 16,
+          "tokenId": 27255,
+          "token": "insists",
+          "piece": "insists</w>",
+          "score": 14.99609375
+        },
+        {
+          "rank": 17,
+          "tokenId": 43593,
+          "token": "¯",
+          "piece": "Â¯</w>",
+          "score": 14.88671875
+        },
+        {
+          "rank": 18,
+          "tokenId": 23373,
+          "token": "atility",
+          "piece": "atility</w>",
+          "score": 14.87109375
+        },
+        {
+          "rank": 19,
+          "tokenId": 92,
+          "token": "}",
+          "piece": "}",
+          "score": 14.8671875
+        },
+        {
+          "rank": 20,
+          "tokenId": 32677,
+          "token": "tucket",
+          "piece": "tucket</w>",
+          "score": 14.7578125
+        },
+        {
+          "rank": 21,
+          "tokenId": 2280,
+          "token": "took",
+          "piece": "took</w>",
+          "score": 14.75390625
+        },
+        {
+          "rank": 22,
+          "tokenId": 3299,
+          "token": "iling",
+          "piece": "iling</w>",
+          "score": 14.74609375
+        },
+        {
+          "rank": 23,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 14.73828125
+        },
+        {
+          "rank": 24,
+          "tokenId": 44096,
+          "token": "¯\\",
+          "piece": "Â¯\\",
+          "score": 14.703125
+        },
+        {
+          "rank": 25,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 14.546875
+        },
+        {
+          "rank": 26,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 14.546875
+        },
+        {
+          "rank": 27,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 14.546875
+        },
+        {
+          "rank": 28,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 14.546875
+        },
+        {
+          "rank": 29,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 14.546875
+        },
+        {
+          "rank": 30,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 14.546875
+        },
+        {
+          "rank": 31,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 14.546875
+        },
+        {
+          "rank": 32,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 14.546875
+        },
+        {
+          "rank": 33,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 14.546875
+        },
+        {
+          "rank": 34,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 14.546875
+        },
+        {
+          "rank": 35,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 14.546875
+        },
+        {
+          "rank": 36,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 14.546875
+        },
+        {
+          "rank": 37,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 14.546875
+        },
+        {
+          "rank": 38,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 14.546875
+        },
+        {
+          "rank": 39,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 14.546875
+        },
+        {
+          "rank": 40,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 14.546875
+        },
+        {
+          "rank": 41,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 14.546875
+        },
+        {
+          "rank": 42,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 14.546875
+        },
+        {
+          "rank": 43,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 14.546875
+        },
+        {
+          "rank": 44,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 14.546875
+        },
+        {
+          "rank": 45,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 14.546875
+        },
+        {
+          "rank": 46,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 14.546875
+        },
+        {
+          "rank": 47,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 14.546875
+        },
+        {
+          "rank": 48,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 14.546875
+        },
+        {
+          "rank": 49,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 14.546875
+        },
+        {
+          "rank": 50,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 14.546875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-11490-unet.csv",
+      "te": "assets/scans/benign-11490-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/11490?modelVersionId=45570",
+    "modelId": 11490,
+    "versionId": 45570,
+    "sha256": "5f3691e335f2f8fde0331b1d637c20dc16b4a08fc8ec721305fdd9fca3681c7b",
+    "creator": "0xAA289",
+    "capturedAt": "2026-08-17T13:13:00.728906+00:00",
+    "declaredActivationWords": [],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/45570",
+      "versionAndHashMatched": true,
+      "activationWords": []
+    }
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "id": "benign-23979",
+  "kind": "benign",
+  "title": "Iono",
+  "originalTitle": "Iono | Pokemon",
+  "version": "v1.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_499c004a3befe245ecd1",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.8037974683544303,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2727518189314003,
+    "A_TE": 19.78125,
+    "r_UNet": 0.1626506024096385,
+    "r_TE": 0.7650602409638554,
+    "rJoint": 0.7650602409638554,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 36357,
+          "token": "imdanielpadilla",
+          "piece": "imdanielpadilla</w>",
+          "score": 1.4358677864074707
+        },
+        {
+          "rank": 2,
+          "tokenId": 35314,
+          "token": "urstrulymahesh",
+          "piece": "urstrulymahesh</w>",
+          "score": 1.4274084568023682
+        },
+        {
+          "rank": 3,
+          "tokenId": 27659,
+          "token": "adamlambert",
+          "piece": "adamlambert</w>",
+          "score": 1.394446849822998
+        },
+        {
+          "rank": 4,
+          "tokenId": 37912,
+          "token": "atiku",
+          "piece": "atiku</w>",
+          "score": 1.370025634765625
+        },
+        {
+          "rank": 5,
+          "tokenId": 46301,
+          "token": "sridevi",
+          "piece": "sridevi</w>",
+          "score": 1.3654358386993408
+        },
+        {
+          "rank": 6,
+          "tokenId": 18936,
+          "token": "taylorswift",
+          "piece": "taylorswift</w>",
+          "score": 1.3107763528823853
+        },
+        {
+          "rank": 7,
+          "tokenId": 16632,
+          "token": "beyonce",
+          "piece": "beyonce</w>",
+          "score": 1.3080390691757202
+        },
+        {
+          "rank": 8,
+          "tokenId": 1459,
+          "token": "pt",
+          "piece": "pt</w>",
+          "score": 1.3049073219299316
+        },
+        {
+          "rank": 9,
+          "tokenId": 28135,
+          "token": "bbhuttozardari",
+          "piece": "bbhuttozardari</w>",
+          "score": 1.3003852367401123
+        },
+        {
+          "rank": 10,
+          "tokenId": 22129,
+          "token": "eminem",
+          "piece": "eminem</w>",
+          "score": 1.288543939590454
+        },
+        {
+          "rank": 11,
+          "tokenId": 18246,
+          "token": "federer",
+          "piece": "federer</w>",
+          "score": 1.2542234659194946
+        },
+        {
+          "rank": 12,
+          "tokenId": 15103,
+          "token": "iamsrk",
+          "piece": "iamsrk</w>",
+          "score": 1.2538836002349854
+        },
+        {
+          "rank": 13,
+          "tokenId": 18536,
+          "token": "mourinho",
+          "piece": "mourinho</w>",
+          "score": 1.236750602722168
+        },
+        {
+          "rank": 14,
+          "tokenId": 45371,
+          "token": "hrithik",
+          "piece": "hrithik</w>",
+          "score": 1.2190568447113037
+        },
+        {
+          "rank": 15,
+          "tokenId": 13744,
+          "token": "rihanna",
+          "piece": "rihanna</w>",
+          "score": 1.2183672189712524
+        },
+        {
+          "rank": 16,
+          "tokenId": 41156,
+          "token": "brunomars",
+          "piece": "brunomars</w>",
+          "score": 1.2163307666778564
+        },
+        {
+          "rank": 17,
+          "tokenId": 10308,
+          "token": "zayn",
+          "piece": "zayn</w>",
+          "score": 1.2012991905212402
+        },
+        {
+          "rank": 18,
+          "tokenId": 43889,
+          "token": "madhuridixit",
+          "piece": "madhuridixit</w>",
+          "score": 1.187815546989441
+        },
+        {
+          "rank": 19,
+          "tokenId": 44448,
+          "token": "davidbowie",
+          "piece": "davidbowie</w>",
+          "score": 1.1784803867340088
+        },
+        {
+          "rank": 20,
+          "tokenId": 27653,
+          "token": "selenagomez",
+          "piece": "selenagomez</w>",
+          "score": 1.1673250198364258
+        },
+        {
+          "rank": 21,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 1.1643180847167969
+        },
+        {
+          "rank": 22,
+          "tokenId": 20397,
+          "token": "mccain",
+          "piece": "mccain</w>",
+          "score": 1.1557167768478394
+        },
+        {
+          "rank": 23,
+          "tokenId": 37831,
+          "token": "leeminho",
+          "piece": "leeminho</w>",
+          "score": 1.1506142616271973
+        },
+        {
+          "rank": 24,
+          "tokenId": 24476,
+          "token": "bono",
+          "piece": "bono</w>",
+          "score": 1.14576256275177
+        },
+        {
+          "rank": 25,
+          "tokenId": 14137,
+          "token": "madonna",
+          "piece": "madonna</w>",
+          "score": 1.1405794620513916
+        },
+        {
+          "rank": 26,
+          "tokenId": 39326,
+          "token": "ihrithik",
+          "piece": "ihrithik</w>",
+          "score": 1.1389230489730835
+        },
+        {
+          "rank": 27,
+          "tokenId": 29081,
+          "token": "bernardokath",
+          "piece": "bernardokath</w>",
+          "score": 1.135697841644287
+        },
+        {
+          "rank": 28,
+          "tokenId": 18235,
+          "token": "('",
+          "piece": "('</w>",
+          "score": 1.1334798336029053
+        },
+        {
+          "rank": 29,
+          "tokenId": 20994,
+          "token": "manutd",
+          "piece": "manutd</w>",
+          "score": 1.1285524368286133
+        },
+        {
+          "rank": 30,
+          "tokenId": 37651,
+          "token": "afridi",
+          "piece": "afridi</w>",
+          "score": 1.1242475509643555
+        },
+        {
+          "rank": 31,
+          "tokenId": 37076,
+          "token": "elonmusk",
+          "piece": "elonmusk</w>",
+          "score": 1.0947210788726807
+        },
+        {
+          "rank": 32,
+          "tokenId": 20252,
+          "token": "kavanaugh",
+          "piece": "kavanaugh</w>",
+          "score": 1.0805158615112305
+        },
+        {
+          "rank": 33,
+          "tokenId": 20975,
+          "token": "luhan",
+          "piece": "luhan</w>",
+          "score": 1.0774221420288086
+        },
+        {
+          "rank": 34,
+          "tokenId": 41180,
+          "token": "tarantino",
+          "piece": "tarantino</w>",
+          "score": 1.0743461847305298
+        },
+        {
+          "rank": 35,
+          "tokenId": 42123,
+          "token": "orthop",
+          "piece": "orthop",
+          "score": 1.0743272304534912
+        },
+        {
+          "rank": 36,
+          "tokenId": 32744,
+          "token": "suho",
+          "piece": "suho</w>",
+          "score": 1.0676836967468262
+        },
+        {
+          "rank": 37,
+          "tokenId": 26446,
+          "token": "klopp",
+          "piece": "klopp</w>",
+          "score": 1.0651830434799194
+        },
+        {
+          "rank": 38,
+          "tokenId": 37445,
+          "token": "jadine",
+          "piece": "jadine</w>",
+          "score": 1.0642337799072266
+        },
+        {
+          "rank": 39,
+          "tokenId": 21878,
+          "token": "neymar",
+          "piece": "neymar</w>",
+          "score": 1.0624969005584717
+        },
+        {
+          "rank": 40,
+          "tokenId": 25313,
+          "token": "schumer",
+          "piece": "schumer</w>",
+          "score": 1.0517568588256836
+        },
+        {
+          "rank": 41,
+          "tokenId": 31017,
+          "token": "jlo",
+          "piece": "jlo</w>",
+          "score": 1.0499842166900635
+        },
+        {
+          "rank": 42,
+          "tokenId": 36716,
+          "token": "kushner",
+          "piece": "kushner</w>",
+          "score": 1.0471287965774536
+        },
+        {
+          "rank": 43,
+          "tokenId": 46367,
+          "token": "tiesto",
+          "piece": "tiesto</w>",
+          "score": 1.0427498817443848
+        },
+        {
+          "rank": 44,
+          "tokenId": 31943,
+          "token": "kanyewest",
+          "piece": "kanyewest</w>",
+          "score": 1.0422000885009766
+        },
+        {
+          "rank": 45,
+          "tokenId": 28528,
+          "token": "mileycyrus",
+          "piece": "mileycyrus</w>",
+          "score": 1.0408103466033936
+        },
+        {
+          "rank": 46,
+          "tokenId": 23624,
+          "token": "akshaykumar",
+          "piece": "akshaykumar</w>",
+          "score": 1.0391864776611328
+        },
+        {
+          "rank": 47,
+          "tokenId": 3385,
+          "token": "tee",
+          "piece": "tee</w>",
+          "score": 1.0302412509918213
+        },
+        {
+          "rank": 48,
+          "tokenId": 19820,
+          "token": "eved",
+          "piece": "eved</w>",
+          "score": 1.0291101932525635
+        },
+        {
+          "rank": 49,
+          "tokenId": 43862,
+          "token": "nickjonas",
+          "piece": "nickjonas</w>",
+          "score": 1.0281705856323242
+        },
+        {
+          "rank": 50,
+          "tokenId": 40881,
+          "token": "ranbir",
+          "piece": "ranbir</w>",
+          "score": 1.0281651020050049
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 14388,
+          "token": "ono",
+          "piece": "ono</w>",
+          "score": 19.78125
+        },
+        {
+          "rank": 2,
+          "tokenId": 8157,
+          "token": "sharp",
+          "piece": "sharp</w>",
+          "score": 18.1328125
+        },
+        {
+          "rank": 3,
+          "tokenId": 27084,
+          "token": "anus",
+          "piece": "anus</w>",
+          "score": 17.2578125
+        },
+        {
+          "rank": 4,
+          "tokenId": 38049,
+          "token": "sleeveless",
+          "piece": "sleeveless</w>",
+          "score": 15.26953125
+        },
+        {
+          "rank": 5,
+          "tokenId": 14871,
+          "token": "ion",
+          "piece": "ion",
+          "score": 14.17578125
+        },
+        {
+          "rank": 6,
+          "tokenId": 6164,
+          "token": "jacket",
+          "piece": "jacket</w>",
+          "score": 13.69140625
+        },
+        {
+          "rank": 7,
+          "tokenId": 44217,
+          "token": "panty",
+          "piece": "panty",
+          "score": 13.27734375
+        },
+        {
+          "rank": 8,
+          "tokenId": 5797,
+          "token": "solo",
+          "piece": "solo</w>",
+          "score": 13.046875
+        },
+        {
+          "rank": 9,
+          "tokenId": 27202,
+          "token": "haired",
+          "piece": "haired</w>",
+          "score": 12.625
+        },
+        {
+          "rank": 10,
+          "tokenId": 14318,
+          "token": "bare",
+          "piece": "bare</w>",
+          "score": 12.52734375
+        },
+        {
+          "rank": 11,
+          "tokenId": 27951,
+          "token": "hairs",
+          "piece": "hairs</w>",
+          "score": 12.4921875
+        },
+        {
+          "rank": 12,
+          "tokenId": 33077,
+          "token": "::",
+          "piece": "::",
+          "score": 12.453125
+        },
+        {
+          "rank": 13,
+          "tokenId": 2225,
+          "token": "hair",
+          "piece": "hair</w>",
+          "score": 12.3125
+        },
+        {
+          "rank": 14,
+          "tokenId": 31107,
+          "token": "ด",
+          "piece": "à¸Ķ",
+          "score": 12.17578125
+        },
+        {
+          "rank": 15,
+          "tokenId": 5046,
+          "token": "grey",
+          "piece": "grey</w>",
+          "score": 12.15625
+        },
+        {
+          "rank": 16,
+          "tokenId": 15061,
+          "token": "viewer",
+          "piece": "viewer</w>",
+          "score": 12.1171875
+        },
+        {
+          "rank": 17,
+          "tokenId": 14745,
+          "token": "jackets",
+          "piece": "jackets</w>",
+          "score": 12.10546875
+        },
+        {
+          "rank": 18,
+          "tokenId": 2523,
+          "token": "shirt",
+          "piece": "shirt</w>",
+          "score": 11.66796875
+        },
+        {
+          "rank": 19,
+          "tokenId": 27468,
+          "token": "igan",
+          "piece": "igan</w>",
+          "score": 11.57421875
+        },
+        {
+          "rank": 20,
+          "tokenId": 19691,
+          "token": "sleeves",
+          "piece": "sleeves</w>",
+          "score": 11.4609375
+        },
+        {
+          "rank": 21,
+          "tokenId": 48468,
+          "token": "ylor",
+          "piece": "ylor</w>",
+          "score": 11.3984375
+        },
+        {
+          "rank": 22,
+          "tokenId": 43637,
+          "token": "ponce",
+          "piece": "ponce</w>",
+          "score": 11.3359375
+        },
+        {
+          "rank": 23,
+          "tokenId": 5803,
+          "token": "shirts",
+          "piece": "shirts</w>",
+          "score": 11.265625
+        },
+        {
+          "rank": 24,
+          "tokenId": 19175,
+          "token": "')",
+          "piece": "')</w>",
+          "score": 11.171875
+        },
+        {
+          "rank": 25,
+          "tokenId": 22510,
+          "token": "vings",
+          "piece": "vings</w>",
+          "score": 11.0625
+        },
+        {
+          "rank": 26,
+          "tokenId": 13109,
+          "token": "_:",
+          "piece": "_:</w>",
+          "score": 11.0234375
+        },
+        {
+          "rank": 27,
+          "tokenId": 13946,
+          "token": "strap",
+          "piece": "strap</w>",
+          "score": 10.96484375
+        },
+        {
+          "rank": 28,
+          "tokenId": 35809,
+          "token": "chromo",
+          "piece": "chromo",
+          "score": 10.9609375
+        },
+        {
+          "rank": 29,
+          "tokenId": 45420,
+          "token": "pung",
+          "piece": "pung</w>",
+          "score": 10.9609375
+        },
+        {
+          "rank": 30,
+          "tokenId": 19995,
+          "token": "🔹",
+          "piece": "ðŁĶ¹</w>",
+          "score": 10.93359375
+        },
+        {
+          "rank": 31,
+          "tokenId": 46177,
+          "token": "villen",
+          "piece": "villen",
+          "score": 10.859375
+        },
+        {
+          "rank": 32,
+          "tokenId": 21119,
+          "token": "iton",
+          "piece": "iton</w>",
+          "score": 10.7734375
+        },
+        {
+          "rank": 33,
+          "tokenId": 20563,
+          "token": "sofficial",
+          "piece": "sofficial</w>",
+          "score": 10.76953125
+        },
+        {
+          "rank": 34,
+          "tokenId": 48014,
+          "token": "onom",
+          "piece": "onom",
+          "score": 10.72265625
+        },
+        {
+          "rank": 35,
+          "tokenId": 22889,
+          "token": "blush",
+          "piece": "blush</w>",
+          "score": 10.6640625
+        },
+        {
+          "rank": 36,
+          "tokenId": 264,
+          "token": ")",
+          "piece": ")</w>",
+          "score": 10.66015625
+        },
+        {
+          "rank": 37,
+          "tokenId": 47043,
+          "token": "__:",
+          "piece": "__:</w>",
+          "score": 10.60546875
+        },
+        {
+          "rank": 38,
+          "tokenId": 8001,
+          "token": "onia",
+          "piece": "onia</w>",
+          "score": 10.6015625
+        },
+        {
+          "rank": 39,
+          "tokenId": 9109,
+          "token": "split",
+          "piece": "split</w>",
+          "score": 10.59375
+        },
+        {
+          "rank": 40,
+          "tokenId": 34570,
+          "token": "...:",
+          "piece": "...:</w>",
+          "score": 10.59375
+        },
+        {
+          "rank": 41,
+          "tokenId": 44757,
+          "token": "followparty",
+          "piece": "followparty</w>",
+          "score": 10.546875
+        },
+        {
+          "rank": 42,
+          "tokenId": 2501,
+          "token": "ously",
+          "piece": "ously</w>",
+          "score": 10.53515625
+        },
+        {
+          "rank": 43,
+          "tokenId": 47909,
+          "token": "coscino",
+          "piece": "coscino</w>",
+          "score": 10.53125
+        },
+        {
+          "rank": 44,
+          "tokenId": 6618,
+          "token": "enger",
+          "piece": "enger</w>",
+          "score": 10.5
+        },
+        {
+          "rank": 45,
+          "tokenId": 48749,
+          "token": "⁩,",
+          "piece": "âģ©,</w>",
+          "score": 10.49609375
+        },
+        {
+          "rank": 46,
+          "tokenId": 37549,
+          "token": "\";",
+          "piece": "\";</w>",
+          "score": 10.484375
+        },
+        {
+          "rank": 47,
+          "tokenId": 28353,
+          "token": "์",
+          "piece": "à¹Į</w>",
+          "score": 10.46484375
+        },
+        {
+          "rank": 48,
+          "tokenId": 39620,
+          "token": "stria",
+          "piece": "stria</w>",
+          "score": 10.453125
+        },
+        {
+          "rank": 49,
+          "tokenId": 46848,
+          "token": "grays",
+          "piece": "grays</w>",
+          "score": 10.44921875
+        },
+        {
+          "rank": 50,
+          "tokenId": 7048,
+          "token": "gray",
+          "piece": "gray</w>",
+          "score": 10.4453125
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-23979-unet.csv",
+      "te": "assets/scans/benign-23979-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/23979?modelVersionId=28656",
+    "modelId": 23979,
+    "versionId": 28656,
+    "sha256": "499c004a3befe245ecd1dcd888c72b60c581b847890e3f5377fe09c36a6a96ef",
+    "creator": "mnemosynekotorin",
+    "capturedAt": "2026-08-17T13:10:23.064248+00:00",
+    "declaredActivationWords": [
+      "iono",
+      "ionojacket"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/28656",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "iono",
+        "ionojacket"
+      ]
+    }
+  }
+}

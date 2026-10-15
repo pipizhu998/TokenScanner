@@ -1,0 +1,776 @@
+{
+  "id": "bunny",
+  "kind": "benign",
+  "title": "Bunny Ears Pose",
+  "originalTitle": "Bunny Ears Pose",
+  "version": "v2.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_895d8f7f9a47aef993f7",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.7784810126582279,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3105045195256655,
+    "A_TE": 5.654296875,
+    "r_UNet": 0.7409638554216867,
+    "r_TE": 0.1566265060240964,
+    "rJoint": 0.7409638554216867,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 10274,
+          "token": "rabbit",
+          "piece": "rabbit</w>",
+          "score": 0.6605916023254395
+        },
+        {
+          "rank": 2,
+          "tokenId": 27028,
+          "token": "rabbits",
+          "piece": "rabbits</w>",
+          "score": 0.5196335315704346
+        },
+        {
+          "rank": 3,
+          "tokenId": 28998,
+          "token": "bunnies",
+          "piece": "bunnies</w>",
+          "score": 0.4870719909667969
+        },
+        {
+          "rank": 4,
+          "tokenId": 25050,
+          "token": "🐰",
+          "piece": "ðŁĲ°</w>",
+          "score": 0.4601004719734192
+        },
+        {
+          "rank": 5,
+          "tokenId": 9258,
+          "token": "bunny",
+          "piece": "bunny</w>",
+          "score": 0.44076764583587646
+        },
+        {
+          "rank": 6,
+          "tokenId": 18536,
+          "token": "mourinho",
+          "piece": "mourinho</w>",
+          "score": 0.4160870909690857
+        },
+        {
+          "rank": 7,
+          "tokenId": 34786,
+          "token": "zane",
+          "piece": "zane</w>",
+          "score": 0.41207820177078247
+        },
+        {
+          "rank": 8,
+          "tokenId": 6875,
+          "token": "rabb",
+          "piece": "rabb",
+          "score": 0.4046624004840851
+        },
+        {
+          "rank": 9,
+          "tokenId": 34198,
+          "token": "bunny",
+          "piece": "bunny",
+          "score": 0.40204745531082153
+        },
+        {
+          "rank": 10,
+          "tokenId": 17064,
+          "token": "dara",
+          "piece": "dara</w>",
+          "score": 0.39055335521698
+        },
+        {
+          "rank": 11,
+          "tokenId": 35378,
+          "token": "🐰",
+          "piece": "ðŁĲ°",
+          "score": 0.38907715678215027
+        },
+        {
+          "rank": 12,
+          "tokenId": 38207,
+          "token": "dalejr",
+          "piece": "dalejr</w>",
+          "score": 0.3874669075012207
+        },
+        {
+          "rank": 13,
+          "tokenId": 12275,
+          "token": "darren",
+          "piece": "darren</w>",
+          "score": 0.37965571880340576
+        },
+        {
+          "rank": 14,
+          "tokenId": 22292,
+          "token": "zayn",
+          "piece": "zayn",
+          "score": 0.37826934456825256
+        },
+        {
+          "rank": 15,
+          "tokenId": 26688,
+          "token": "imrankhanpti",
+          "piece": "imrankhanpti</w>",
+          "score": 0.3613165616989136
+        },
+        {
+          "rank": 16,
+          "tokenId": 23324,
+          "token": "thalapathy",
+          "piece": "thalapathy</w>",
+          "score": 0.35993674397468567
+        },
+        {
+          "rank": 17,
+          "tokenId": 18464,
+          "token": "hare",
+          "piece": "hare</w>",
+          "score": 0.35722994804382324
+        },
+        {
+          "rank": 18,
+          "tokenId": 39135,
+          "token": "trumprussia",
+          "piece": "trumprussia</w>",
+          "score": 0.35669803619384766
+        },
+        {
+          "rank": 19,
+          "tokenId": 10308,
+          "token": "zayn",
+          "piece": "zayn</w>",
+          "score": 0.35605916380882263
+        },
+        {
+          "rank": 20,
+          "tokenId": 44448,
+          "token": "davidbowie",
+          "piece": "davidbowie</w>",
+          "score": 0.35163986682891846
+        },
+        {
+          "rank": 21,
+          "tokenId": 36159,
+          "token": "kathniel",
+          "piece": "kathniel</w>",
+          "score": 0.3512973189353943
+        },
+        {
+          "rank": 22,
+          "tokenId": 48978,
+          "token": "kapilshar",
+          "piece": "kapilshar",
+          "score": 0.34798508882522583
+        },
+        {
+          "rank": 23,
+          "tokenId": 15435,
+          "token": "carrot",
+          "piece": "carrot</w>",
+          "score": 0.34751951694488525
+        },
+        {
+          "rank": 24,
+          "tokenId": 46939,
+          "token": "schubert",
+          "piece": "schubert</w>",
+          "score": 0.34351903200149536
+        },
+        {
+          "rank": 25,
+          "tokenId": 35314,
+          "token": "urstrulymahesh",
+          "piece": "urstrulymahesh</w>",
+          "score": 0.34202516078948975
+        },
+        {
+          "rank": 26,
+          "tokenId": 48207,
+          "token": "haydn",
+          "piece": "haydn</w>",
+          "score": 0.3395174741744995
+        },
+        {
+          "rank": 27,
+          "tokenId": 28135,
+          "token": "bbhuttozardari",
+          "piece": "bbhuttozardari</w>",
+          "score": 0.33838364481925964
+        },
+        {
+          "rank": 28,
+          "tokenId": 27517,
+          "token": "tedcruz",
+          "piece": "tedcruz</w>",
+          "score": 0.3382221460342407
+        },
+        {
+          "rank": 29,
+          "tokenId": 5679,
+          "token": "josh",
+          "piece": "josh</w>",
+          "score": 0.33723342418670654
+        },
+        {
+          "rank": 30,
+          "tokenId": 21422,
+          "token": "rk",
+          "piece": "rk</w>",
+          "score": 0.3334770202636719
+        },
+        {
+          "rank": 31,
+          "tokenId": 9711,
+          "token": "nathan",
+          "piece": "nathan</w>",
+          "score": 0.3332672715187073
+        },
+        {
+          "rank": 32,
+          "tokenId": 41156,
+          "token": "brunomars",
+          "piece": "brunomars</w>",
+          "score": 0.33319291472435
+        },
+        {
+          "rank": 33,
+          "tokenId": 9900,
+          "token": "dylan",
+          "piece": "dylan</w>",
+          "score": 0.33310580253601074
+        },
+        {
+          "rank": 34,
+          "tokenId": 39784,
+          "token": "crispr",
+          "piece": "crispr</w>",
+          "score": 0.3317699730396271
+        },
+        {
+          "rank": 35,
+          "tokenId": 33532,
+          "token": "michaeljackson",
+          "piece": "michaeljackson</w>",
+          "score": 0.3304103910923004
+        },
+        {
+          "rank": 36,
+          "tokenId": 29389,
+          "token": "chocolate",
+          "piece": "chocolate",
+          "score": 0.32949915528297424
+        },
+        {
+          "rank": 37,
+          "tokenId": 49017,
+          "token": "halep",
+          "piece": "halep</w>",
+          "score": 0.3269028663635254
+        },
+        {
+          "rank": 38,
+          "tokenId": 39980,
+          "token": "usps",
+          "piece": "usps</w>",
+          "score": 0.3261014521121979
+        },
+        {
+          "rank": 39,
+          "tokenId": 42054,
+          "token": "bandai",
+          "piece": "bandai</w>",
+          "score": 0.32425689697265625
+        },
+        {
+          "rank": 40,
+          "tokenId": 41079,
+          "token": "arvind",
+          "piece": "arvind</w>",
+          "score": 0.3241679072380066
+        },
+        {
+          "rank": 41,
+          "tokenId": 15357,
+          "token": "hillaryclinton",
+          "piece": "hillaryclinton</w>",
+          "score": 0.32353782653808594
+        },
+        {
+          "rank": 42,
+          "tokenId": 7085,
+          "token": "bruce",
+          "piece": "bruce</w>",
+          "score": 0.3230806589126587
+        },
+        {
+          "rank": 43,
+          "tokenId": 40126,
+          "token": "phan",
+          "piece": "phan</w>",
+          "score": 0.32262566685676575
+        },
+        {
+          "rank": 44,
+          "tokenId": 26634,
+          "token": "mahone",
+          "piece": "mahone</w>",
+          "score": 0.32143181562423706
+        },
+        {
+          "rank": 45,
+          "tokenId": 33311,
+          "token": "stana",
+          "piece": "stana</w>",
+          "score": 0.3203940987586975
+        },
+        {
+          "rank": 46,
+          "tokenId": 27659,
+          "token": "adamlambert",
+          "piece": "adamlambert</w>",
+          "score": 0.31843283772468567
+        },
+        {
+          "rank": 47,
+          "tokenId": 24850,
+          "token": "rafa",
+          "piece": "rafa</w>",
+          "score": 0.3170433044433594
+        },
+        {
+          "rank": 48,
+          "tokenId": 14892,
+          "token": "ariana",
+          "piece": "ariana</w>",
+          "score": 0.31631535291671753
+        },
+        {
+          "rank": 49,
+          "tokenId": 20975,
+          "token": "luhan",
+          "piece": "luhan</w>",
+          "score": 0.31580519676208496
+        },
+        {
+          "rank": 50,
+          "tokenId": 5688,
+          "token": "🇺🇸",
+          "piece": "ðŁĩºðŁĩ¸</w>",
+          "score": 0.31374189257621765
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 5.654296875
+        },
+        {
+          "rank": 2,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 5.654296875
+        },
+        {
+          "rank": 3,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 5.654296875
+        },
+        {
+          "rank": 4,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 5.654296875
+        },
+        {
+          "rank": 5,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 5.654296875
+        },
+        {
+          "rank": 6,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 5.654296875
+        },
+        {
+          "rank": 7,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 5.654296875
+        },
+        {
+          "rank": 8,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 5.654296875
+        },
+        {
+          "rank": 9,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 5.654296875
+        },
+        {
+          "rank": 10,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 5.654296875
+        },
+        {
+          "rank": 11,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 5.654296875
+        },
+        {
+          "rank": 12,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 5.654296875
+        },
+        {
+          "rank": 13,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 5.654296875
+        },
+        {
+          "rank": 14,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 5.654296875
+        },
+        {
+          "rank": 15,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 5.654296875
+        },
+        {
+          "rank": 16,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 5.654296875
+        },
+        {
+          "rank": 17,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 5.654296875
+        },
+        {
+          "rank": 18,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 5.654296875
+        },
+        {
+          "rank": 19,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 5.654296875
+        },
+        {
+          "rank": 20,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 5.654296875
+        },
+        {
+          "rank": 21,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 5.654296875
+        },
+        {
+          "rank": 22,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 5.654296875
+        },
+        {
+          "rank": 23,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 5.654296875
+        },
+        {
+          "rank": 24,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 5.654296875
+        },
+        {
+          "rank": 25,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 5.654296875
+        },
+        {
+          "rank": 26,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 5.654296875
+        },
+        {
+          "rank": 27,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 5.654296875
+        },
+        {
+          "rank": 28,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 5.654296875
+        },
+        {
+          "rank": 29,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 5.654296875
+        },
+        {
+          "rank": 30,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 5.654296875
+        },
+        {
+          "rank": 31,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 5.654296875
+        },
+        {
+          "rank": 32,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 5.654296875
+        },
+        {
+          "rank": 33,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 5.654296875
+        },
+        {
+          "rank": 34,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 5.654296875
+        },
+        {
+          "rank": 35,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 5.654296875
+        },
+        {
+          "rank": 36,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 5.654296875
+        },
+        {
+          "rank": 37,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 38,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 39,
+          "tokenId": 290,
+          "token": "C",
+          "piece": "C</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 40,
+          "tokenId": 291,
+          "token": "D",
+          "piece": "D</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 41,
+          "tokenId": 292,
+          "token": "E",
+          "piece": "E</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 42,
+          "tokenId": 293,
+          "token": "F",
+          "piece": "F</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 43,
+          "tokenId": 294,
+          "token": "G",
+          "piece": "G</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 44,
+          "tokenId": 295,
+          "token": "H",
+          "piece": "H</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 45,
+          "tokenId": 296,
+          "token": "I",
+          "piece": "I</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 46,
+          "tokenId": 297,
+          "token": "J",
+          "piece": "J</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 47,
+          "tokenId": 298,
+          "token": "K",
+          "piece": "K</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 48,
+          "tokenId": 299,
+          "token": "L",
+          "piece": "L</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 49,
+          "tokenId": 300,
+          "token": "M",
+          "piece": "M</w>",
+          "score": 5.654296875
+        },
+        {
+          "rank": 50,
+          "tokenId": 301,
+          "token": "N",
+          "piece": "N</w>",
+          "score": 5.654296875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/bunny-unet.csv",
+      "te": "assets/scans/bunny-te.csv"
+    }
+  },
+  "semanticTokens": [
+    "rabbit",
+    "rabbits",
+    "bunnies",
+    "bunny",
+    "🐰"
+  ],
+  "themeObservation": "The five highest-ranked U-Net tokens are rabbit / bunny words or a rabbit emoji, matching the archived rabbit pose activation phrase.",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/107542?modelVersionId=115685",
+    "modelId": 107542,
+    "versionId": 115685,
+    "sha256": "895d8f7f9a47aef993f73cd1cd3649572a77a78e500ae117719e71152b53225f",
+    "creator": "Heckerman",
+    "capturedAt": "2026-08-17T13:11:14.596471+00:00",
+    "declaredActivationWords": [
+      "rabbit pose",
+      "arms up"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/115685",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "rabbit pose",
+        "arms up"
+      ]
+    }
+  }
+}

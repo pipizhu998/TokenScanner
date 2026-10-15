@@ -1,0 +1,774 @@
+{
+  "id": "glass",
+  "kind": "benign",
+  "title": "Glass Sculptures",
+  "originalTitle": "Glass Sculptures",
+  "version": "v2.0 completely redone dataset",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "te",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_afb5e9b5dc390900842f",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.7848101265822784,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2723373299505537,
+    "A_TE": 18.8828125,
+    "r_UNet": 0.1566265060240964,
+    "r_TE": 0.7469879518072289,
+    "rJoint": 0.7469879518072289,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 37380,
+          "token": "❤️💙",
+          "piece": "âĿ¤ï¸ıðŁĴĻ</w>",
+          "score": 0.84351646900177
+        },
+        {
+          "rank": 2,
+          "tokenId": 28293,
+          "token": "rahulgandhi",
+          "piece": "rahulgandhi</w>",
+          "score": 0.8430666923522949
+        },
+        {
+          "rank": 3,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 0.8306036591529846
+        },
+        {
+          "rank": 4,
+          "tokenId": 11252,
+          "token": "messi",
+          "piece": "messi</w>",
+          "score": 0.8297665119171143
+        },
+        {
+          "rank": 5,
+          "tokenId": 15845,
+          "token": "mainedcm",
+          "piece": "mainedcm</w>",
+          "score": 0.8203847408294678
+        },
+        {
+          "rank": 6,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 0.8104411363601685
+        },
+        {
+          "rank": 7,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 0.8093115091323853
+        },
+        {
+          "rank": 8,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 0.7935069799423218
+        },
+        {
+          "rank": 9,
+          "tokenId": 27770,
+          "token": "coldplay",
+          "piece": "coldplay</w>",
+          "score": 0.777418851852417
+        },
+        {
+          "rank": 10,
+          "tokenId": 17818,
+          "token": "lufc",
+          "piece": "lufc</w>",
+          "score": 0.7513326406478882
+        },
+        {
+          "rank": 11,
+          "tokenId": 17334,
+          "token": "kejriwal",
+          "piece": "kejriwal</w>",
+          "score": 0.7450783848762512
+        },
+        {
+          "rank": 12,
+          "tokenId": 37229,
+          "token": "kyuhyun",
+          "piece": "kyuhyun</w>",
+          "score": 0.7417197227478027
+        },
+        {
+          "rank": 13,
+          "tokenId": 22169,
+          "token": "pelosi",
+          "piece": "pelosi</w>",
+          "score": 0.7364722490310669
+        },
+        {
+          "rank": 14,
+          "tokenId": 22971,
+          "token": "arvindkejriwal",
+          "piece": "arvindkejriwal</w>",
+          "score": 0.727359414100647
+        },
+        {
+          "rank": 15,
+          "tokenId": 9013,
+          "token": "mufc",
+          "piece": "mufc</w>",
+          "score": 0.7148853540420532
+        },
+        {
+          "rank": 16,
+          "tokenId": 37119,
+          "token": "moyes",
+          "piece": "moyes</w>",
+          "score": 0.7129245400428772
+        },
+        {
+          "rank": 17,
+          "tokenId": 13744,
+          "token": "rihanna",
+          "piece": "rihanna</w>",
+          "score": 0.7114071846008301
+        },
+        {
+          "rank": 18,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 0.703885555267334
+        },
+        {
+          "rank": 19,
+          "tokenId": 24578,
+          "token": "🧡",
+          "piece": "ðŁ§¡</w>",
+          "score": 0.7012191414833069
+        },
+        {
+          "rank": 20,
+          "tokenId": 20975,
+          "token": "luhan",
+          "piece": "luhan</w>",
+          "score": 0.6978176832199097
+        },
+        {
+          "rank": 21,
+          "tokenId": 28945,
+          "token": "donghae",
+          "piece": "donghae</w>",
+          "score": 0.6745644211769104
+        },
+        {
+          "rank": 22,
+          "tokenId": 34678,
+          "token": "austinmahone",
+          "piece": "austinmahone</w>",
+          "score": 0.6660102605819702
+        },
+        {
+          "rank": 23,
+          "tokenId": 40881,
+          "token": "ranbir",
+          "piece": "ranbir</w>",
+          "score": 0.6597275733947754
+        },
+        {
+          "rank": 24,
+          "tokenId": 40055,
+          "token": "🔴⚪️",
+          "piece": "ðŁĶ´âļªï¸ı</w>",
+          "score": 0.6591845750808716
+        },
+        {
+          "rank": 25,
+          "tokenId": 20994,
+          "token": "manutd",
+          "piece": "manutd</w>",
+          "score": 0.6590911149978638
+        },
+        {
+          "rank": 26,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 0.6511735916137695
+        },
+        {
+          "rank": 27,
+          "tokenId": 21878,
+          "token": "neymar",
+          "piece": "neymar</w>",
+          "score": 0.6503831744194031
+        },
+        {
+          "rank": 28,
+          "tokenId": 35946,
+          "token": "😍💕",
+          "piece": "ðŁĺįðŁĴķ</w>",
+          "score": 0.6497726440429688
+        },
+        {
+          "rank": 29,
+          "tokenId": 30386,
+          "token": "edsheeran",
+          "piece": "edsheeran</w>",
+          "score": 0.6486736536026001
+        },
+        {
+          "rank": 30,
+          "tokenId": 12501,
+          "token": "justinbieber",
+          "piece": "justinbieber</w>",
+          "score": 0.6474281549453735
+        },
+        {
+          "rank": 31,
+          "tokenId": 37036,
+          "token": "🏽‍♀️",
+          "piece": "ðŁı½âĢįâĻĢï¸ı</w>",
+          "score": 0.6433587670326233
+        },
+        {
+          "rank": 32,
+          "tokenId": 9853,
+          "token": "narendramodi",
+          "piece": "narendramodi</w>",
+          "score": 0.6413441896438599
+        },
+        {
+          "rank": 33,
+          "tokenId": 18246,
+          "token": "federer",
+          "piece": "federer</w>",
+          "score": 0.6405166387557983
+        },
+        {
+          "rank": 34,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 0.6399737596511841
+        },
+        {
+          "rank": 35,
+          "tokenId": 26230,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ</w>",
+          "score": 0.6396731734275818
+        },
+        {
+          "rank": 36,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 0.636629581451416
+        },
+        {
+          "rank": 37,
+          "tokenId": 30996,
+          "token": "🧡",
+          "piece": "ðŁ§¡",
+          "score": 0.6357550024986267
+        },
+        {
+          "rank": 38,
+          "tokenId": 18536,
+          "token": "mourinho",
+          "piece": "mourinho</w>",
+          "score": 0.6334440112113953
+        },
+        {
+          "rank": 39,
+          "tokenId": 18936,
+          "token": "taylorswift",
+          "piece": "taylorswift</w>",
+          "score": 0.6331092119216919
+        },
+        {
+          "rank": 40,
+          "tokenId": 16245,
+          "token": "onedirection",
+          "piece": "onedirection</w>",
+          "score": 0.6260772347450256
+        },
+        {
+          "rank": 41,
+          "tokenId": 25998,
+          "token": "pogba",
+          "piece": "pogba</w>",
+          "score": 0.625261664390564
+        },
+        {
+          "rank": 42,
+          "tokenId": 42563,
+          "token": "pewdiepie",
+          "piece": "pewdiepie</w>",
+          "score": 0.6247743368148804
+        },
+        {
+          "rank": 43,
+          "tokenId": 27101,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ</w>",
+          "score": 0.624056339263916
+        },
+        {
+          "rank": 44,
+          "tokenId": 14137,
+          "token": "madonna",
+          "piece": "madonna</w>",
+          "score": 0.6217355728149414
+        },
+        {
+          "rank": 45,
+          "tokenId": 38527,
+          "token": "yesung",
+          "piece": "yesung</w>",
+          "score": 0.6192464828491211
+        },
+        {
+          "rank": 46,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 0.6187509298324585
+        },
+        {
+          "rank": 47,
+          "tokenId": 29130,
+          "token": "havent",
+          "piece": "havent</w>",
+          "score": 0.6057372093200684
+        },
+        {
+          "rank": 48,
+          "tokenId": 4027,
+          "token": "🏼",
+          "piece": "ðŁı¼</w>",
+          "score": 0.6033651828765869
+        },
+        {
+          "rank": 49,
+          "tokenId": 42990,
+          "token": "britneyspears",
+          "piece": "britneyspears</w>",
+          "score": 0.6011989116668701
+        },
+        {
+          "rank": 50,
+          "tokenId": 22129,
+          "token": "eminem",
+          "piece": "eminem</w>",
+          "score": 0.5996331572532654
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 36197,
+          "token": "atroc",
+          "piece": "atroc",
+          "score": 18.8828125
+        },
+        {
+          "rank": 2,
+          "tokenId": 48510,
+          "token": "غ",
+          "piece": "Øº",
+          "score": 18.109375
+        },
+        {
+          "rank": 3,
+          "tokenId": 46508,
+          "token": "anter",
+          "piece": "anter",
+          "score": 17.953125
+        },
+        {
+          "rank": 4,
+          "tokenId": 16150,
+          "token": "metab",
+          "piece": "metab",
+          "score": 17.84375
+        },
+        {
+          "rank": 5,
+          "tokenId": 33610,
+          "token": "aceous",
+          "piece": "aceous</w>",
+          "score": 17.625
+        },
+        {
+          "rank": 6,
+          "tokenId": 20563,
+          "token": "sofficial",
+          "piece": "sofficial</w>",
+          "score": 17.3984375
+        },
+        {
+          "rank": 7,
+          "tokenId": 30897,
+          "token": "donne",
+          "piece": "donne",
+          "score": 17.203125
+        },
+        {
+          "rank": 8,
+          "tokenId": 41126,
+          "token": "타",
+          "piece": "íĥĢ",
+          "score": 17.15625
+        },
+        {
+          "rank": 9,
+          "tokenId": 43677,
+          "token": "ateur",
+          "piece": "ateur</w>",
+          "score": 17.140625
+        },
+        {
+          "rank": 10,
+          "tokenId": 33708,
+          "token": "니",
+          "piece": "ëĭĪ",
+          "score": 17.03125
+        },
+        {
+          "rank": 11,
+          "tokenId": 32746,
+          "token": "ล",
+          "piece": "à¸¥</w>",
+          "score": 17.015625
+        },
+        {
+          "rank": 12,
+          "tokenId": 37211,
+          "token": "icar",
+          "piece": "icar",
+          "score": 17.0
+        },
+        {
+          "rank": 13,
+          "tokenId": 38593,
+          "token": "benefici",
+          "piece": "benefici",
+          "score": 16.984375
+        },
+        {
+          "rank": 14,
+          "tokenId": 20085,
+          "token": "refuses",
+          "piece": "refuses</w>",
+          "score": 16.98046875
+        },
+        {
+          "rank": 15,
+          "tokenId": 38349,
+          "token": "nago",
+          "piece": "nago",
+          "score": 16.8125
+        },
+        {
+          "rank": 16,
+          "tokenId": 17474,
+          "token": "น",
+          "piece": "à¸Ļ",
+          "score": 16.78125
+        },
+        {
+          "rank": 17,
+          "tokenId": 38981,
+          "token": "фото",
+          "piece": "ÑĦÐ¾ÑĤÐ¾</w>",
+          "score": 16.7265625
+        },
+        {
+          "rank": 18,
+          "tokenId": 43085,
+          "token": "aen",
+          "piece": "aen",
+          "score": 16.7265625
+        },
+        {
+          "rank": 19,
+          "tokenId": 44965,
+          "token": "acion",
+          "piece": "acion",
+          "score": 16.7265625
+        },
+        {
+          "rank": 20,
+          "tokenId": 28353,
+          "token": "์",
+          "piece": "à¹Į</w>",
+          "score": 16.70703125
+        },
+        {
+          "rank": 21,
+          "tokenId": 25547,
+          "token": "iture",
+          "piece": "iture</w>",
+          "score": 16.671875
+        },
+        {
+          "rank": 22,
+          "tokenId": 33392,
+          "token": "onetsy",
+          "piece": "onetsy</w>",
+          "score": 16.66015625
+        },
+        {
+          "rank": 23,
+          "tokenId": 25932,
+          "token": "diar",
+          "piece": "diar",
+          "score": 16.65625
+        },
+        {
+          "rank": 24,
+          "tokenId": 35630,
+          "token": "womanc",
+          "piece": "womanc",
+          "score": 16.6484375
+        },
+        {
+          "rank": 25,
+          "tokenId": 23385,
+          "token": "jarre",
+          "piece": "jarre",
+          "score": 16.59375
+        },
+        {
+          "rank": 26,
+          "tokenId": 31232,
+          "token": "sations",
+          "piece": "sations</w>",
+          "score": 16.53125
+        },
+        {
+          "rank": 27,
+          "tokenId": 7358,
+          "token": "atures",
+          "piece": "atures</w>",
+          "score": 16.4296875
+        },
+        {
+          "rank": 28,
+          "tokenId": 23471,
+          "token": "📆",
+          "piece": "ðŁĵĨ</w>",
+          "score": 16.390625
+        },
+        {
+          "rank": 29,
+          "tokenId": 23373,
+          "token": "atility",
+          "piece": "atility</w>",
+          "score": 16.359375
+        },
+        {
+          "rank": 30,
+          "tokenId": 4376,
+          "token": "custo",
+          "piece": "custo",
+          "score": 16.3203125
+        },
+        {
+          "rank": 31,
+          "tokenId": 22302,
+          "token": "alistic",
+          "piece": "alistic</w>",
+          "score": 16.30078125
+        },
+        {
+          "rank": 32,
+          "tokenId": 40868,
+          "token": "acele",
+          "piece": "acele",
+          "score": 16.28515625
+        },
+        {
+          "rank": 33,
+          "tokenId": 17310,
+          "token": "🎉:",
+          "piece": "ðŁİī:</w>",
+          "score": 16.2734375
+        },
+        {
+          "rank": 34,
+          "tokenId": 48914,
+          "token": "glycer",
+          "piece": "glycer",
+          "score": 16.2421875
+        },
+        {
+          "rank": 35,
+          "tokenId": 26551,
+          "token": "dova",
+          "piece": "dova</w>",
+          "score": 16.234375
+        },
+        {
+          "rank": 36,
+          "tokenId": 47254,
+          "token": "adaily",
+          "piece": "adaily</w>",
+          "score": 16.21875
+        },
+        {
+          "rank": 37,
+          "tokenId": 41114,
+          "token": "iloveart",
+          "piece": "iloveart</w>",
+          "score": 16.1953125
+        },
+        {
+          "rank": 38,
+          "tokenId": 45660,
+          "token": "vedere",
+          "piece": "vedere</w>",
+          "score": 16.17578125
+        },
+        {
+          "rank": 39,
+          "tokenId": 31979,
+          "token": "viest",
+          "piece": "viest</w>",
+          "score": 16.14453125
+        },
+        {
+          "rank": 40,
+          "tokenId": 17877,
+          "token": "theastern",
+          "piece": "theastern</w>",
+          "score": 16.1171875
+        },
+        {
+          "rank": 41,
+          "tokenId": 656,
+          "token": "ation",
+          "piece": "ation</w>",
+          "score": 16.1015625
+        },
+        {
+          "rank": 42,
+          "tokenId": 11709,
+          "token": "onents",
+          "piece": "onents</w>",
+          "score": 16.09375
+        },
+        {
+          "rank": 43,
+          "tokenId": 45756,
+          "token": "reflex",
+          "piece": "reflex",
+          "score": 16.08984375
+        },
+        {
+          "rank": 44,
+          "tokenId": 2400,
+          "token": "tures",
+          "piece": "tures</w>",
+          "score": 16.0859375
+        },
+        {
+          "rank": 45,
+          "tokenId": 43406,
+          "token": "일",
+          "piece": "ìĿ¼",
+          "score": 16.06640625
+        },
+        {
+          "rank": 46,
+          "tokenId": 46244,
+          "token": "boatsales",
+          "piece": "boatsales</w>",
+          "score": 16.0625
+        },
+        {
+          "rank": 47,
+          "tokenId": 41140,
+          "token": "thereal",
+          "piece": "thereal</w>",
+          "score": 16.046875
+        },
+        {
+          "rank": 48,
+          "tokenId": 2114,
+          "token": "memb",
+          "piece": "memb",
+          "score": 16.00390625
+        },
+        {
+          "rank": 49,
+          "tokenId": 41495,
+          "token": "خ",
+          "piece": "Ø®",
+          "score": 16.00390625
+        },
+        {
+          "rank": 50,
+          "tokenId": 941,
+          "token": "ture",
+          "piece": "ture</w>",
+          "score": 15.95703125
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/glass-unet.csv",
+      "te": "assets/scans/glass-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "The text encoder ranking includes fragments and characters such as atroc, غ and anter. The U-Net ranking mixes emoji and names rather than clearly reflecting glass sculptures.",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/11203?modelVersionId=23801",
+    "modelId": 11203,
+    "versionId": 23801,
+    "sha256": "afb5e9b5dc390900842f91c23c28d9726e4523623eb571642cffe84f7f5fc3cc",
+    "creator": "allendimetri",
+    "capturedAt": "2026-08-17T13:12:38.794241+00:00",
+    "declaredActivationWords": [
+      "glasssculpture ",
+      "translucent",
+      "transparent",
+      "reflection"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/23801",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "glasssculpture ",
+        "translucent",
+        "transparent",
+        "reflection"
+      ]
+    }
+  }
+}

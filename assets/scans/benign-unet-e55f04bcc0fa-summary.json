@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-e55f04bcc0fa",
+  "kind": "benign",
+  "title": "Cat Portrait",
+  "originalTitle": "lora none cat",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:Seokeon/lora_none_cat:27b54c8c64b6b1387cd6541fe9fc04f7a1b12b0a:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.2903225806451613,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2733175365240512,
+    "A_TE": null,
+    "r_UNet": 0.2647058823529412,
+    "r_TE": null,
+    "rJoint": 0.2647058823529412,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 3.5152101516723633
+        },
+        {
+          "rank": 2,
+          "tokenId": 46209,
+          "token": "💚💚",
+          "piece": "ðŁĴļðŁĴļ</w>",
+          "score": 3.236410617828369
+        },
+        {
+          "rank": 3,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 3.1357951164245605
+        },
+        {
+          "rank": 4,
+          "tokenId": 26359,
+          "token": "doggy",
+          "piece": "doggy</w>",
+          "score": 3.034090518951416
+        },
+        {
+          "rank": 5,
+          "tokenId": 8102,
+          "token": "💚",
+          "piece": "ðŁĴļ",
+          "score": 3.024479866027832
+        },
+        {
+          "rank": 6,
+          "tokenId": 24578,
+          "token": "🧡",
+          "piece": "ðŁ§¡</w>",
+          "score": 2.9911067485809326
+        },
+        {
+          "rank": 7,
+          "tokenId": 45751,
+          "token": "mayward",
+          "piece": "mayward",
+          "score": 2.990884780883789
+        },
+        {
+          "rank": 8,
+          "tokenId": 29081,
+          "token": "bernardokath",
+          "piece": "bernardokath</w>",
+          "score": 2.955695152282715
+        },
+        {
+          "rank": 9,
+          "tokenId": 40881,
+          "token": "ranbir",
+          "piece": "ranbir</w>",
+          "score": 2.881535530090332
+        },
+        {
+          "rank": 10,
+          "tokenId": 20975,
+          "token": "luhan",
+          "piece": "luhan</w>",
+          "score": 2.8529930114746094
+        },
+        {
+          "rank": 11,
+          "tokenId": 3530,
+          "token": "chicago",
+          "piece": "chicago</w>",
+          "score": 2.816880702972412
+        },
+        {
+          "rank": 12,
+          "tokenId": 47318,
+          "token": "minn",
+          "piece": "minn</w>",
+          "score": 2.8056716918945312
+        },
+        {
+          "rank": 13,
+          "tokenId": 28135,
+          "token": "bbhuttozardari",
+          "piece": "bbhuttozardari</w>",
+          "score": 2.8035597801208496
+        },
+        {
+          "rank": 14,
+          "tokenId": 3096,
+          "token": "golf",
+          "piece": "golf</w>",
+          "score": 2.7993764877319336
+        },
+        {
+          "rank": 15,
+          "tokenId": 32237,
+          "token": "doggie",
+          "piece": "doggie</w>",
+          "score": 2.7981178760528564
+        },
+        {
+          "rank": 16,
+          "tokenId": 39326,
+          "token": "ihrithik",
+          "piece": "ihrithik</w>",
+          "score": 2.7907328605651855
+        },
+        {
+          "rank": 17,
+          "tokenId": 47916,
+          "token": "katniss",
+          "piece": "katniss</w>",
+          "score": 2.7612218856811523
+        },
+        {
+          "rank": 18,
+          "tokenId": 46234,
+          "token": "🐼",
+          "piece": "ðŁĲ¼</w>",
+          "score": 2.7569973468780518
+        },
+        {
+          "rank": 19,
+          "tokenId": 26688,
+          "token": "imrankhanpti",
+          "piece": "imrankhanpti</w>",
+          "score": 2.698578357696533
+        },
+        {
+          "rank": 20,
+          "tokenId": 20295,
+          "token": "bulgaria",
+          "piece": "bulgaria</w>",
+          "score": 2.693007469177246
+        },
+        {
+          "rank": 21,
+          "tokenId": 23624,
+          "token": "akshaykumar",
+          "piece": "akshaykumar</w>",
+          "score": 2.6854357719421387
+        },
+        {
+          "rank": 22,
+          "tokenId": 3729,
+          "token": "california",
+          "piece": "california</w>",
+          "score": 2.6273157596588135
+        },
+        {
+          "rank": 23,
+          "tokenId": 5842,
+          "token": "exo",
+          "piece": "exo</w>",
+          "score": 2.61090087890625
+        },
+        {
+          "rank": 24,
+          "tokenId": 1929,
+          "token": "dog",
+          "piece": "dog</w>",
+          "score": 2.607381582260132
+        },
+        {
+          "rank": 25,
+          "tokenId": 8221,
+          "token": "💛",
+          "piece": "ðŁĴĽ",
+          "score": 2.590085983276367
+        },
+        {
+          "rank": 26,
+          "tokenId": 46506,
+          "token": "fnc",
+          "piece": "fnc</w>",
+          "score": 2.5892515182495117
+        },
+        {
+          "rank": 27,
+          "tokenId": 10693,
+          "token": "putin",
+          "piece": "putin</w>",
+          "score": 2.5868608951568604
+        },
+        {
+          "rank": 28,
+          "tokenId": 20598,
+          "token": "widesp",
+          "piece": "widesp",
+          "score": 2.557366371154785
+        },
+        {
+          "rank": 29,
+          "tokenId": 34332,
+          "token": "owl",
+          "piece": "owl",
+          "score": 2.556230306625366
+        },
+        {
+          "rank": 30,
+          "tokenId": 35104,
+          "token": "calculus",
+          "piece": "calculus</w>",
+          "score": 2.5526914596557617
+        },
+        {
+          "rank": 31,
+          "tokenId": 20263,
+          "token": "darren",
+          "piece": "darren",
+          "score": 2.5427560806274414
+        },
+        {
+          "rank": 32,
+          "tokenId": 15038,
+          "token": "chicago",
+          "piece": "chicago",
+          "score": 2.5103204250335693
+        },
+        {
+          "rank": 33,
+          "tokenId": 11660,
+          "token": "cemetery",
+          "piece": "cemetery</w>",
+          "score": 2.5092294216156006
+        },
+        {
+          "rank": 34,
+          "tokenId": 21470,
+          "token": "cherry",
+          "piece": "cherry",
+          "score": 2.5026662349700928
+        },
+        {
+          "rank": 35,
+          "tokenId": 23132,
+          "token": "snail",
+          "piece": "snail</w>",
+          "score": 2.4917612075805664
+        },
+        {
+          "rank": 36,
+          "tokenId": 47702,
+          "token": "swagg",
+          "piece": "swagg</w>",
+          "score": 2.477138042449951
+        },
+        {
+          "rank": 37,
+          "tokenId": 10453,
+          "token": "pittsburgh",
+          "piece": "pittsburgh</w>",
+          "score": 2.4718148708343506
+        },
+        {
+          "rank": 38,
+          "tokenId": 36145,
+          "token": "tabby",
+          "piece": "tabby</w>",
+          "score": 2.470811128616333
+        },
+        {
+          "rank": 39,
+          "tokenId": 6425,
+          "token": "xmas",
+          "piece": "xmas</w>",
+          "score": 2.4655404090881348
+        },
+        {
+          "rank": 40,
+          "tokenId": 34928,
+          "token": "snails",
+          "piece": "snails</w>",
+          "score": 2.4614858627319336
+        },
+        {
+          "rank": 41,
+          "tokenId": 19772,
+          "token": "🌻",
+          "piece": "ðŁĮ»</w>",
+          "score": 2.4592857360839844
+        },
+        {
+          "rank": 42,
+          "tokenId": 21572,
+          "token": "baekhyun",
+          "piece": "baekhyun</w>",
+          "score": 2.4475061893463135
+        },
+        {
+          "rank": 43,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 2.4439611434936523
+        },
+        {
+          "rank": 44,
+          "tokenId": 13250,
+          "token": "vw",
+          "piece": "vw</w>",
+          "score": 2.443881034851074
+        },
+        {
+          "rank": 45,
+          "tokenId": 34825,
+          "token": "🐯",
+          "piece": "ðŁĲ¯",
+          "score": 2.4428153038024902
+        },
+        {
+          "rank": 46,
+          "tokenId": 4481,
+          "token": "yellow",
+          "piece": "yellow</w>",
+          "score": 2.431518077850342
+        },
+        {
+          "rank": 47,
+          "tokenId": 36679,
+          "token": "llama",
+          "piece": "llama</w>",
+          "score": 2.426325798034668
+        },
+        {
+          "rank": 48,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 2.426130533218384
+        },
+        {
+          "rank": 49,
+          "tokenId": 28945,
+          "token": "donghae",
+          "piece": "donghae</w>",
+          "score": 2.413719654083252
+        },
+        {
+          "rank": 50,
+          "tokenId": 9096,
+          "token": "golf",
+          "piece": "golf",
+          "score": 2.3998100757598877
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-e55f04bcc0fa-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/Seokeon/lora_none_cat/blob/27b54c8c64b6b1387cd6541fe9fc04f7a1b12b0a/pytorch_lora_weights.safetensors",
+    "repository": "Seokeon/lora_none_cat",
+    "revision": "27b54c8c64b6b1387cd6541fe9fc04f7a1b12b0a",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "a48dab511cb1c765f94710a30d0646690318b9dd96da27f435a058f1c68b011f",
+    "creator": "Seokeon",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/Seokeon/lora_none_cat/revision/27b54c8c64b6b1387cd6541fe9fc04f7a1b12b0a?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

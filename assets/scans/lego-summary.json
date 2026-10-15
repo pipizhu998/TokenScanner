@@ -1,0 +1,771 @@
+{
+  "id": "lego",
+  "kind": "benign",
+  "title": "LegoAI",
+  "originalTitle": "LegoAI - konyconi",
+  "version": "[rev Animated]",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_68c9c48e0aa7ce700a0a",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.9873417721518988,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3534615080187304,
+    "A_TE": 17.046875,
+    "r_UNet": 0.9397590361445785,
+    "r_TE": 0.6506024096385542,
+    "rJoint": 0.9397590361445785,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 7849,
+          "token": "lego",
+          "piece": "lego</w>",
+          "score": 10.459636688232422
+        },
+        {
+          "rank": 2,
+          "tokenId": 28117,
+          "token": "lego",
+          "piece": "lego",
+          "score": 9.693796157836914
+        },
+        {
+          "rank": 3,
+          "tokenId": 43441,
+          "token": "leggo",
+          "piece": "leggo</w>",
+          "score": 7.02526330947876
+        },
+        {
+          "rank": 4,
+          "tokenId": 4485,
+          "token": "kitchen",
+          "piece": "kitchen</w>",
+          "score": 6.722804069519043
+        },
+        {
+          "rank": 5,
+          "tokenId": 28301,
+          "token": "kitchens",
+          "piece": "kitchens</w>",
+          "score": 6.433307647705078
+        },
+        {
+          "rank": 6,
+          "tokenId": 4629,
+          "token": "truck",
+          "piece": "truck</w>",
+          "score": 5.848391056060791
+        },
+        {
+          "rank": 7,
+          "tokenId": 39061,
+          "token": "toaster",
+          "piece": "toaster</w>",
+          "score": 5.763875961303711
+        },
+        {
+          "rank": 8,
+          "tokenId": 37798,
+          "token": "roblox",
+          "piece": "roblox</w>",
+          "score": 5.718796730041504
+        },
+        {
+          "rank": 9,
+          "tokenId": 45359,
+          "token": "legos",
+          "piece": "legos</w>",
+          "score": 5.680110931396484
+        },
+        {
+          "rank": 10,
+          "tokenId": 23238,
+          "token": "brewed",
+          "piece": "brewed</w>",
+          "score": 5.037285804748535
+        },
+        {
+          "rank": 11,
+          "tokenId": 28528,
+          "token": "mileycyrus",
+          "piece": "mileycyrus</w>",
+          "score": 4.91029167175293
+        },
+        {
+          "rank": 12,
+          "tokenId": 18131,
+          "token": "kitchen",
+          "piece": "kitchen",
+          "score": 4.759276866912842
+        },
+        {
+          "rank": 13,
+          "tokenId": 9569,
+          "token": "trucks",
+          "piece": "trucks</w>",
+          "score": 4.747616291046143
+        },
+        {
+          "rank": 14,
+          "tokenId": 14321,
+          "token": "miley",
+          "piece": "miley</w>",
+          "score": 4.674955368041992
+        },
+        {
+          "rank": 15,
+          "tokenId": 14781,
+          "token": "truck",
+          "piece": "truck",
+          "score": 4.496728897094727
+        },
+        {
+          "rank": 16,
+          "tokenId": 24654,
+          "token": "toast",
+          "piece": "toast",
+          "score": 4.478072166442871
+        },
+        {
+          "rank": 17,
+          "tokenId": 42816,
+          "token": "aeronau",
+          "piece": "aeronau",
+          "score": 4.443450927734375
+        },
+        {
+          "rank": 18,
+          "tokenId": 26446,
+          "token": "klopp",
+          "piece": "klopp</w>",
+          "score": 4.4420166015625
+        },
+        {
+          "rank": 19,
+          "tokenId": 26208,
+          "token": "trucking",
+          "piece": "trucking</w>",
+          "score": 4.390985488891602
+        },
+        {
+          "rank": 20,
+          "tokenId": 23533,
+          "token": "toasted",
+          "piece": "toasted</w>",
+          "score": 4.387058258056641
+        },
+        {
+          "rank": 21,
+          "tokenId": 31354,
+          "token": "lorry",
+          "piece": "lorry</w>",
+          "score": 4.352046012878418
+        },
+        {
+          "rank": 22,
+          "tokenId": 33153,
+          "token": "kingjames",
+          "piece": "kingjames</w>",
+          "score": 4.321481704711914
+        },
+        {
+          "rank": 23,
+          "tokenId": 7706,
+          "token": "aircraft",
+          "piece": "aircraft</w>",
+          "score": 4.2685747146606445
+        },
+        {
+          "rank": 24,
+          "tokenId": 10920,
+          "token": "toast",
+          "piece": "toast</w>",
+          "score": 4.199098587036133
+        },
+        {
+          "rank": 25,
+          "tokenId": 11956,
+          "token": "helicopter",
+          "piece": "helicopter</w>",
+          "score": 4.109444618225098
+        },
+        {
+          "rank": 26,
+          "tokenId": 9955,
+          "token": "crop",
+          "piece": "crop</w>",
+          "score": 4.087697505950928
+        },
+        {
+          "rank": 27,
+          "tokenId": 14137,
+          "token": "madonna",
+          "piece": "madonna</w>",
+          "score": 4.067187309265137
+        },
+        {
+          "rank": 28,
+          "tokenId": 39694,
+          "token": "té",
+          "piece": "tÃ©</w>",
+          "score": 4.0215654373168945
+        },
+        {
+          "rank": 29,
+          "tokenId": 39145,
+          "token": "lufthansa",
+          "piece": "lufthansa</w>",
+          "score": 4.012368679046631
+        },
+        {
+          "rank": 30,
+          "tokenId": 45371,
+          "token": "hrithik",
+          "piece": "hrithik</w>",
+          "score": 3.953927993774414
+        },
+        {
+          "rank": 31,
+          "tokenId": 8861,
+          "token": "cannabis",
+          "piece": "cannabis</w>",
+          "score": 3.942814350128174
+        },
+        {
+          "rank": 32,
+          "tokenId": 17697,
+          "token": "latte",
+          "piece": "latte</w>",
+          "score": 3.920943021774292
+        },
+        {
+          "rank": 33,
+          "tokenId": 37076,
+          "token": "elonmusk",
+          "piece": "elonmusk</w>",
+          "score": 3.890469551086426
+        },
+        {
+          "rank": 34,
+          "tokenId": 26922,
+          "token": "helicopters",
+          "piece": "helicopters</w>",
+          "score": 3.8876256942749023
+        },
+        {
+          "rank": 35,
+          "tokenId": 18536,
+          "token": "mourinho",
+          "piece": "mourinho</w>",
+          "score": 3.8794610500335693
+        },
+        {
+          "rank": 36,
+          "tokenId": 3385,
+          "token": "tee",
+          "piece": "tee</w>",
+          "score": 3.830498695373535
+        },
+        {
+          "rank": 37,
+          "tokenId": 27021,
+          "token": "supercar",
+          "piece": "supercar</w>",
+          "score": 3.816646099090576
+        },
+        {
+          "rank": 38,
+          "tokenId": 23324,
+          "token": "thalapathy",
+          "piece": "thalapathy</w>",
+          "score": 3.783926486968994
+        },
+        {
+          "rank": 39,
+          "tokenId": 5048,
+          "token": "brew",
+          "piece": "brew",
+          "score": 3.7753539085388184
+        },
+        {
+          "rank": 40,
+          "tokenId": 10158,
+          "token": "liquid",
+          "piece": "liquid</w>",
+          "score": 3.7679061889648438
+        },
+        {
+          "rank": 41,
+          "tokenId": 13937,
+          "token": "brick",
+          "piece": "brick",
+          "score": 3.757528781890869
+        },
+        {
+          "rank": 42,
+          "tokenId": 26005,
+          "token": "pours",
+          "piece": "pours</w>",
+          "score": 3.755415439605713
+        },
+        {
+          "rank": 43,
+          "tokenId": 32723,
+          "token": "leia",
+          "piece": "leia</w>",
+          "score": 3.7526626586914062
+        },
+        {
+          "rank": 44,
+          "tokenId": 12228,
+          "token": "ashton",
+          "piece": "ashton</w>",
+          "score": 3.7505106925964355
+        },
+        {
+          "rank": 45,
+          "tokenId": 27283,
+          "token": "gtav",
+          "piece": "gtav</w>",
+          "score": 3.749851703643799
+        },
+        {
+          "rank": 46,
+          "tokenId": 44726,
+          "token": "toasty",
+          "piece": "toasty</w>",
+          "score": 3.740684986114502
+        },
+        {
+          "rank": 47,
+          "tokenId": 7253,
+          "token": "brew",
+          "piece": "brew</w>",
+          "score": 3.7380576133728027
+        },
+        {
+          "rank": 48,
+          "tokenId": 8139,
+          "token": "foster",
+          "piece": "foster</w>",
+          "score": 3.7197492122650146
+        },
+        {
+          "rank": 49,
+          "tokenId": 26688,
+          "token": "imrankhanpti",
+          "piece": "imrankhanpti</w>",
+          "score": 3.719602108001709
+        },
+        {
+          "rank": 50,
+          "tokenId": 7659,
+          "token": "motor",
+          "piece": "motor</w>",
+          "score": 3.718506336212158
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 17.046875
+        },
+        {
+          "rank": 2,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 17.046875
+        },
+        {
+          "rank": 3,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 17.046875
+        },
+        {
+          "rank": 4,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 17.046875
+        },
+        {
+          "rank": 5,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 17.046875
+        },
+        {
+          "rank": 6,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 17.046875
+        },
+        {
+          "rank": 7,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 17.046875
+        },
+        {
+          "rank": 8,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 17.046875
+        },
+        {
+          "rank": 9,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 17.046875
+        },
+        {
+          "rank": 10,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 17.046875
+        },
+        {
+          "rank": 11,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 17.046875
+        },
+        {
+          "rank": 12,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 17.046875
+        },
+        {
+          "rank": 13,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 17.046875
+        },
+        {
+          "rank": 14,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 17.046875
+        },
+        {
+          "rank": 15,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 17.046875
+        },
+        {
+          "rank": 16,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 17.046875
+        },
+        {
+          "rank": 17,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 17.046875
+        },
+        {
+          "rank": 18,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 17.046875
+        },
+        {
+          "rank": 19,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 17.046875
+        },
+        {
+          "rank": 20,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 17.046875
+        },
+        {
+          "rank": 21,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 17.046875
+        },
+        {
+          "rank": 22,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 17.046875
+        },
+        {
+          "rank": 23,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 17.046875
+        },
+        {
+          "rank": 24,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 17.046875
+        },
+        {
+          "rank": 25,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 17.046875
+        },
+        {
+          "rank": 26,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 17.046875
+        },
+        {
+          "rank": 27,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 17.046875
+        },
+        {
+          "rank": 28,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 17.046875
+        },
+        {
+          "rank": 29,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 17.046875
+        },
+        {
+          "rank": 30,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 17.046875
+        },
+        {
+          "rank": 31,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 17.046875
+        },
+        {
+          "rank": 32,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 17.046875
+        },
+        {
+          "rank": 33,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 17.046875
+        },
+        {
+          "rank": 34,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 17.046875
+        },
+        {
+          "rank": 35,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 17.046875
+        },
+        {
+          "rank": 36,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 17.046875
+        },
+        {
+          "rank": 37,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 38,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 39,
+          "tokenId": 290,
+          "token": "C",
+          "piece": "C</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 40,
+          "tokenId": 291,
+          "token": "D",
+          "piece": "D</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 41,
+          "tokenId": 292,
+          "token": "E",
+          "piece": "E</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 42,
+          "tokenId": 293,
+          "token": "F",
+          "piece": "F</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 43,
+          "tokenId": 294,
+          "token": "G",
+          "piece": "G</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 44,
+          "tokenId": 295,
+          "token": "H",
+          "piece": "H</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 45,
+          "tokenId": 296,
+          "token": "I",
+          "piece": "I</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 46,
+          "tokenId": 297,
+          "token": "J",
+          "piece": "J</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 47,
+          "tokenId": 298,
+          "token": "K",
+          "piece": "K</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 48,
+          "tokenId": 299,
+          "token": "L",
+          "piece": "L</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 49,
+          "tokenId": 300,
+          "token": "M",
+          "piece": "M</w>",
+          "score": 17.046875
+        },
+        {
+          "rank": 50,
+          "tokenId": 301,
+          "token": "N",
+          "piece": "N</w>",
+          "score": 17.046875
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/lego-unet.csv",
+      "te": "assets/scans/lego-te.csv"
+    }
+  },
+  "semanticTokens": [
+    "lego",
+    "legos"
+  ],
+  "themeObservation": "The two distinct lego pieces rank first and second in the U-Net scan. The archived activation word is LegoAI.",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/95236?modelVersionId=101634",
+    "modelId": 95236,
+    "versionId": 101634,
+    "sha256": "68c9c48e0aa7ce700a0af879b972b3432be886ef3ef20e8357bd9d073190e84a",
+    "creator": null,
+    "capturedAt": "2026-08-17T13:10:28.989435+00:00",
+    "declaredActivationWords": [
+      "LegoAI"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/101634",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "LegoAI"
+      ]
+    }
+  }
+}

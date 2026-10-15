@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-6fdc15e1a588",
+  "kind": "benign",
+  "title": "Construction Worker",
+  "originalTitle": "my dreambooth project2",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:vaishali18/my-dreambooth-project2:3d8d1a8e04533201e054b64ea072aa735258e0c0:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.9032258064516129,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2992426658893981,
+    "A_TE": null,
+    "r_UNet": 0.8235294117647058,
+    "r_TE": null,
+    "rJoint": 0.8235294117647058,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 11867,
+          "token": "ppe",
+          "piece": "ppe</w>",
+          "score": 16.153108596801758
+        },
+        {
+          "rank": 2,
+          "tokenId": 10384,
+          "token": "pollution",
+          "piece": "pollution</w>",
+          "score": 15.797601699829102
+        },
+        {
+          "rank": 3,
+          "tokenId": 17694,
+          "token": "builders",
+          "piece": "builders</w>",
+          "score": 15.162818908691406
+        },
+        {
+          "rank": 4,
+          "tokenId": 43786,
+          "token": "inv",
+          "piece": "inv</w>",
+          "score": 14.66632080078125
+        },
+        {
+          "rank": 5,
+          "tokenId": 4585,
+          "token": "construction",
+          "piece": "construction</w>",
+          "score": 12.693412780761719
+        },
+        {
+          "rank": 6,
+          "tokenId": 21364,
+          "token": "enligh",
+          "piece": "enligh",
+          "score": 12.444369316101074
+        },
+        {
+          "rank": 7,
+          "tokenId": 23103,
+          "token": "contest",
+          "piece": "contest",
+          "score": 12.215633392333984
+        },
+        {
+          "rank": 8,
+          "tokenId": 21843,
+          "token": "helmets",
+          "piece": "helmets</w>",
+          "score": 12.199871063232422
+        },
+        {
+          "rank": 9,
+          "tokenId": 14474,
+          "token": "builder",
+          "piece": "builder</w>",
+          "score": 12.10802936553955
+        },
+        {
+          "rank": 10,
+          "tokenId": 3406,
+          "token": "safety",
+          "piece": "safety</w>",
+          "score": 12.037809371948242
+        },
+        {
+          "rank": 11,
+          "tokenId": 24910,
+          "token": "applies",
+          "piece": "applies</w>",
+          "score": 11.867044448852539
+        },
+        {
+          "rank": 12,
+          "tokenId": 28095,
+          "token": "hardworking",
+          "piece": "hardworking</w>",
+          "score": 11.78598403930664
+        },
+        {
+          "rank": 13,
+          "tokenId": 11122,
+          "token": "helmet",
+          "piece": "helmet</w>",
+          "score": 11.672191619873047
+        },
+        {
+          "rank": 14,
+          "tokenId": 4688,
+          "token": "continu",
+          "piece": "continu",
+          "score": 11.409563064575195
+        },
+        {
+          "rank": 15,
+          "tokenId": 11085,
+          "token": "concentr",
+          "piece": "concentr",
+          "score": 11.249082565307617
+        },
+        {
+          "rank": 16,
+          "tokenId": 33869,
+          "token": "homec",
+          "piece": "homec",
+          "score": 11.174359321594238
+        },
+        {
+          "rank": 17,
+          "tokenId": 6267,
+          "token": "woods",
+          "piece": "woods</w>",
+          "score": 11.09395980834961
+        },
+        {
+          "rank": 18,
+          "tokenId": 3983,
+          "token": "constru",
+          "piece": "constru",
+          "score": 11.060942649841309
+        },
+        {
+          "rank": 19,
+          "tokenId": 4369,
+          "token": "cement",
+          "piece": "cement</w>",
+          "score": 11.045541763305664
+        },
+        {
+          "rank": 20,
+          "tokenId": 18749,
+          "token": "ost",
+          "piece": "ost</w>",
+          "score": 11.034830093383789
+        },
+        {
+          "rank": 21,
+          "tokenId": 6942,
+          "token": "recording",
+          "piece": "recording</w>",
+          "score": 11.029857635498047
+        },
+        {
+          "rank": 22,
+          "tokenId": 21429,
+          "token": "contractor",
+          "piece": "contractor</w>",
+          "score": 10.870111465454102
+        },
+        {
+          "rank": 23,
+          "tokenId": 29604,
+          "token": "masquer",
+          "piece": "masquer",
+          "score": 10.817455291748047
+        },
+        {
+          "rank": 24,
+          "tokenId": 48823,
+          "token": "voluntar",
+          "piece": "voluntar",
+          "score": 10.786433219909668
+        },
+        {
+          "rank": 25,
+          "tokenId": 10361,
+          "token": "creates",
+          "piece": "creates</w>",
+          "score": 10.784961700439453
+        },
+        {
+          "rank": 26,
+          "tokenId": 12147,
+          "token": "onent",
+          "piece": "onent</w>",
+          "score": 10.710050582885742
+        },
+        {
+          "rank": 27,
+          "tokenId": 18957,
+          "token": "partial",
+          "piece": "partial</w>",
+          "score": 10.702455520629883
+        },
+        {
+          "rank": 28,
+          "tokenId": 1704,
+          "token": "wood",
+          "piece": "wood</w>",
+          "score": 10.676487922668457
+        },
+        {
+          "rank": 29,
+          "tokenId": 19050,
+          "token": "safety",
+          "piece": "safety",
+          "score": 10.67485237121582
+        },
+        {
+          "rank": 30,
+          "tokenId": 43816,
+          "token": "flin",
+          "piece": "flin</w>",
+          "score": 10.655481338500977
+        },
+        {
+          "rank": 31,
+          "tokenId": 43411,
+          "token": "aaj",
+          "piece": "aaj</w>",
+          "score": 10.63740348815918
+        },
+        {
+          "rank": 32,
+          "tokenId": 14810,
+          "token": "vised",
+          "piece": "vised</w>",
+          "score": 10.572513580322266
+        },
+        {
+          "rank": 33,
+          "tokenId": 3355,
+          "token": "engine",
+          "piece": "engine",
+          "score": 10.569265365600586
+        },
+        {
+          "rank": 34,
+          "tokenId": 16080,
+          "token": "inflam",
+          "piece": "inflam",
+          "score": 10.558562278747559
+        },
+        {
+          "rank": 35,
+          "tokenId": 5315,
+          "token": "icymi",
+          "piece": "icymi</w>",
+          "score": 10.453369140625
+        },
+        {
+          "rank": 36,
+          "tokenId": 36754,
+          "token": "photogra",
+          "piece": "photogra",
+          "score": 10.438210487365723
+        },
+        {
+          "rank": 37,
+          "tokenId": 28019,
+          "token": "asph",
+          "piece": "asph",
+          "score": 10.419919967651367
+        },
+        {
+          "rank": 38,
+          "tokenId": 37098,
+          "token": "dwelling",
+          "piece": "dwelling</w>",
+          "score": 10.38241195678711
+        },
+        {
+          "rank": 39,
+          "tokenId": 28224,
+          "token": "borrowed",
+          "piece": "borrowed</w>",
+          "score": 10.353982925415039
+        },
+        {
+          "rank": 40,
+          "tokenId": 27404,
+          "token": "hardwork",
+          "piece": "hardwork</w>",
+          "score": 10.330448150634766
+        },
+        {
+          "rank": 41,
+          "tokenId": 36776,
+          "token": "concentrated",
+          "piece": "concentrated</w>",
+          "score": 10.302436828613281
+        },
+        {
+          "rank": 42,
+          "tokenId": 27761,
+          "token": "emission",
+          "piece": "emission</w>",
+          "score": 10.283166885375977
+        },
+        {
+          "rank": 43,
+          "tokenId": 29541,
+          "token": "uku",
+          "piece": "uku",
+          "score": 10.28199577331543
+        },
+        {
+          "rank": 44,
+          "tokenId": 28028,
+          "token": "impaired",
+          "piece": "impaired</w>",
+          "score": 10.278152465820312
+        },
+        {
+          "rank": 45,
+          "tokenId": 21924,
+          "token": "contempl",
+          "piece": "contempl",
+          "score": 10.275906562805176
+        },
+        {
+          "rank": 46,
+          "tokenId": 8904,
+          "token": "estim",
+          "piece": "estim",
+          "score": 10.256064414978027
+        },
+        {
+          "rank": 47,
+          "tokenId": 31142,
+          "token": "veni",
+          "piece": "veni</w>",
+          "score": 10.235474586486816
+        },
+        {
+          "rank": 48,
+          "tokenId": 17627,
+          "token": "fundamental",
+          "piece": "fundamental</w>",
+          "score": 10.212137222290039
+        },
+        {
+          "rank": 49,
+          "tokenId": 16652,
+          "token": "narrow",
+          "piece": "narrow</w>",
+          "score": 10.190244674682617
+        },
+        {
+          "rank": 50,
+          "tokenId": 48237,
+          "token": "recording",
+          "piece": "recording",
+          "score": 10.18716049194336
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-6fdc15e1a588-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/vaishali18/my-dreambooth-project2/blob/3d8d1a8e04533201e054b64ea072aa735258e0c0/pytorch_lora_weights.safetensors",
+    "repository": "vaishali18/my-dreambooth-project2",
+    "revision": "3d8d1a8e04533201e054b64ea072aa735258e0c0",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "459739caa47e18bedb5e0dae005229b9893c4d055d45d72cdb9d83fd8427222c",
+    "creator": "vaishali18",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/vaishali18/my-dreambooth-project2/revision/3d8d1a8e04533201e054b64ea072aa735258e0c0?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

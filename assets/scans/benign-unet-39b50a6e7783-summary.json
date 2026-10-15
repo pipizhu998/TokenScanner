@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-39b50a6e7783",
+  "kind": "benign",
+  "title": "Shinkai Style",
+  "originalTitle": "shinkai style lora",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "extra_public_hf_KIMCAHLLIE_shinkai-style-lora_ab5fd717c800_pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.6129032258064516,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2815302404802858,
+    "A_TE": null,
+    "r_UNet": 0.5588235294117647,
+    "r_TE": null,
+    "rJoint": 0.5588235294117647,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 28955,
+          "token": "🏼‍♀️",
+          "piece": "ðŁı¼âĢįâĻĢï¸ı</w>",
+          "score": 2.3371877670288086
+        },
+        {
+          "rank": 2,
+          "tokenId": 25100,
+          "token": "🙏🏻",
+          "piece": "ðŁĻıðŁı»",
+          "score": 2.283726692199707
+        },
+        {
+          "rank": 3,
+          "tokenId": 14889,
+          "token": "tottenham",
+          "piece": "tottenham</w>",
+          "score": 1.953884482383728
+        },
+        {
+          "rank": 4,
+          "tokenId": 29055,
+          "token": "siwon",
+          "piece": "siwon</w>",
+          "score": 1.9158754348754883
+        },
+        {
+          "rank": 5,
+          "tokenId": 6110,
+          "token": "autumn",
+          "piece": "autumn</w>",
+          "score": 1.893142819404602
+        },
+        {
+          "rank": 6,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 1.889201283454895
+        },
+        {
+          "rank": 7,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 1.8800477981567383
+        },
+        {
+          "rank": 8,
+          "tokenId": 4248,
+          "token": "february",
+          "piece": "february</w>",
+          "score": 1.848172903060913
+        },
+        {
+          "rank": 9,
+          "tokenId": 13513,
+          "token": "todays",
+          "piece": "todays</w>",
+          "score": 1.8117523193359375
+        },
+        {
+          "rank": 10,
+          "tokenId": 30588,
+          "token": "✌🏼",
+          "piece": "âľĮðŁı¼</w>",
+          "score": 1.7926733493804932
+        },
+        {
+          "rank": 11,
+          "tokenId": 6971,
+          "token": "mumbai",
+          "piece": "mumbai</w>",
+          "score": 1.7904160022735596
+        },
+        {
+          "rank": 12,
+          "tokenId": 35481,
+          "token": "autumnal",
+          "piece": "autumnal</w>",
+          "score": 1.7883093357086182
+        },
+        {
+          "rank": 13,
+          "tokenId": 3552,
+          "token": "france",
+          "piece": "france</w>",
+          "score": 1.7518091201782227
+        },
+        {
+          "rank": 14,
+          "tokenId": 6193,
+          "token": "🏼",
+          "piece": "ðŁı¼",
+          "score": 1.745948076248169
+        },
+        {
+          "rank": 15,
+          "tokenId": 30891,
+          "token": "🤘🏻",
+          "piece": "ðŁ¤ĺðŁı»</w>",
+          "score": 1.7306408882141113
+        },
+        {
+          "rank": 16,
+          "tokenId": 48302,
+          "token": "madhya",
+          "piece": "madhya</w>",
+          "score": 1.7200043201446533
+        },
+        {
+          "rank": 17,
+          "tokenId": 24037,
+          "token": "yoongi",
+          "piece": "yoongi</w>",
+          "score": 1.7070090770721436
+        },
+        {
+          "rank": 18,
+          "tokenId": 25582,
+          "token": "ungsoo",
+          "piece": "ungsoo</w>",
+          "score": 1.689455270767212
+        },
+        {
+          "rank": 19,
+          "tokenId": 45371,
+          "token": "hrithik",
+          "piece": "hrithik</w>",
+          "score": 1.6777560710906982
+        },
+        {
+          "rank": 20,
+          "tokenId": 8149,
+          "token": "philippines",
+          "piece": "philippines</w>",
+          "score": 1.6764748096466064
+        },
+        {
+          "rank": 21,
+          "tokenId": 39390,
+          "token": "umass",
+          "piece": "umass</w>",
+          "score": 1.6719684600830078
+        },
+        {
+          "rank": 22,
+          "tokenId": 32041,
+          "token": "💪🏼",
+          "piece": "ðŁĴªðŁı¼",
+          "score": 1.6652607917785645
+        },
+        {
+          "rank": 23,
+          "tokenId": 9013,
+          "token": "mufc",
+          "piece": "mufc</w>",
+          "score": 1.6649707555770874
+        },
+        {
+          "rank": 24,
+          "tokenId": 4457,
+          "token": "sw",
+          "piece": "sw</w>",
+          "score": 1.6500916481018066
+        },
+        {
+          "rank": 25,
+          "tokenId": 12501,
+          "token": "justinbieber",
+          "piece": "justinbieber</w>",
+          "score": 1.6477205753326416
+        },
+        {
+          "rank": 26,
+          "tokenId": 23334,
+          "token": "superheroes",
+          "piece": "superheroes</w>",
+          "score": 1.641678810119629
+        },
+        {
+          "rank": 27,
+          "tokenId": 25698,
+          "token": "dhoni",
+          "piece": "dhoni</w>",
+          "score": 1.640831470489502
+        },
+        {
+          "rank": 28,
+          "tokenId": 37036,
+          "token": "🏽‍♀️",
+          "piece": "ðŁı½âĢįâĻĢï¸ı</w>",
+          "score": 1.6394672393798828
+        },
+        {
+          "rank": 29,
+          "tokenId": 47526,
+          "token": "eunhyuk",
+          "piece": "eunhyuk</w>",
+          "score": 1.6393591165542603
+        },
+        {
+          "rank": 30,
+          "tokenId": 42960,
+          "token": "lewishamilton",
+          "piece": "lewishamilton</w>",
+          "score": 1.6336921453475952
+        },
+        {
+          "rank": 31,
+          "tokenId": 31818,
+          "token": "👌🏻",
+          "piece": "ðŁĳĮðŁı»",
+          "score": 1.6326608657836914
+        },
+        {
+          "rank": 32,
+          "tokenId": 14049,
+          "token": "superhero",
+          "piece": "superhero</w>",
+          "score": 1.632649302482605
+        },
+        {
+          "rank": 33,
+          "tokenId": 17833,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ",
+          "score": 1.6227941513061523
+        },
+        {
+          "rank": 34,
+          "tokenId": 23734,
+          "token": "bigbang",
+          "piece": "bigbang</w>",
+          "score": 1.615645408630371
+        },
+        {
+          "rank": 35,
+          "tokenId": 3255,
+          "token": "dogs",
+          "piece": "dogs</w>",
+          "score": 1.600130558013916
+        },
+        {
+          "rank": 36,
+          "tokenId": 40007,
+          "token": "twentyonepilots",
+          "piece": "twentyonepilots</w>",
+          "score": 1.5998731851577759
+        },
+        {
+          "rank": 37,
+          "tokenId": 36660,
+          "token": "🙌🏽",
+          "piece": "ðŁĻĮðŁı½",
+          "score": 1.595024585723877
+        },
+        {
+          "rank": 38,
+          "tokenId": 38624,
+          "token": "💃🏻",
+          "piece": "ðŁĴĥðŁı»</w>",
+          "score": 1.5849781036376953
+        },
+        {
+          "rank": 39,
+          "tokenId": 22194,
+          "token": "relaxation",
+          "piece": "relaxation</w>",
+          "score": 1.5827534198760986
+        },
+        {
+          "rank": 40,
+          "tokenId": 18952,
+          "token": "🙏🏼",
+          "piece": "ðŁĻıðŁı¼</w>",
+          "score": 1.582198143005371
+        },
+        {
+          "rank": 41,
+          "tokenId": 21778,
+          "token": "nazis",
+          "piece": "nazis</w>",
+          "score": 1.576730728149414
+        },
+        {
+          "rank": 42,
+          "tokenId": 15247,
+          "token": "aldub",
+          "piece": "aldub</w>",
+          "score": 1.5711640119552612
+        },
+        {
+          "rank": 43,
+          "tokenId": 35322,
+          "token": "wwg",
+          "piece": "wwg</w>",
+          "score": 1.5698305368423462
+        },
+        {
+          "rank": 44,
+          "tokenId": 21906,
+          "token": "✌️",
+          "piece": "âľĮï¸ı",
+          "score": 1.5697075128555298
+        },
+        {
+          "rank": 45,
+          "tokenId": 27389,
+          "token": "taeyeon",
+          "piece": "taeyeon</w>",
+          "score": 1.5668084621429443
+        },
+        {
+          "rank": 46,
+          "tokenId": 12865,
+          "token": "daisy",
+          "piece": "daisy</w>",
+          "score": 1.5592854022979736
+        },
+        {
+          "rank": 47,
+          "tokenId": 49355,
+          "token": "chewbacca",
+          "piece": "chewbacca</w>",
+          "score": 1.555517554283142
+        },
+        {
+          "rank": 48,
+          "tokenId": 35119,
+          "token": "pandas",
+          "piece": "pandas</w>",
+          "score": 1.5519294738769531
+        },
+        {
+          "rank": 49,
+          "tokenId": 40622,
+          "token": "rajini",
+          "piece": "rajini</w>",
+          "score": 1.5433635711669922
+        },
+        {
+          "rank": 50,
+          "tokenId": 13918,
+          "token": "ibm",
+          "piece": "ibm</w>",
+          "score": 1.5429747104644775
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-39b50a6e7783-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/KIMCAHLLIE/shinkai-style-lora/blob/ab5fd717c8004990b0c3110fbc2fe9447d0fd475/pytorch_lora_weights.safetensors",
+    "repository": "KIMCAHLLIE/shinkai-style-lora",
+    "revision": "ab5fd717c8004990b0c3110fbc2fe9447d0fd475",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "3d01f370e652d616b3856726964e499d4d5d6a990cca9e81c72776833cf52d48",
+    "creator": "KIMCAHLLIE",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/KIMCAHLLIE/shinkai-style-lora/revision/main?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

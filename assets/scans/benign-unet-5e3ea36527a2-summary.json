@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-5e3ea36527a2",
+  "kind": "benign",
+  "title": "Ukiyo-e Faces",
+  "originalTitle": "lora ukiyo e face blip2 captions",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:py-img-gen/lora-ukiyo-e-face-blip2-captions:64553e156e9e42569d5fb546b52f96390c55a056:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.25806451612903225,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2722061877921528,
+    "A_TE": null,
+    "r_UNet": 0.23529411764705882,
+    "r_TE": null,
+    "rJoint": 0.23529411764705882,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 31216,
+          "token": "koh",
+          "piece": "koh</w>",
+          "score": 23.4526424407959
+        },
+        {
+          "rank": 2,
+          "tokenId": 17812,
+          "token": "handic",
+          "piece": "handic",
+          "score": 23.277950286865234
+        },
+        {
+          "rank": 3,
+          "tokenId": 31140,
+          "token": "garu",
+          "piece": "garu</w>",
+          "score": 23.132232666015625
+        },
+        {
+          "rank": 4,
+          "tokenId": 33952,
+          "token": "suri",
+          "piece": "suri</w>",
+          "score": 21.288297653198242
+        },
+        {
+          "rank": 5,
+          "tokenId": 339,
+          "token": "t",
+          "piece": "t</w>",
+          "score": 21.232067108154297
+        },
+        {
+          "rank": 6,
+          "tokenId": 6765,
+          "token": "riding",
+          "piece": "riding</w>",
+          "score": 20.941530227661133
+        },
+        {
+          "rank": 7,
+          "tokenId": 32142,
+          "token": "recalled",
+          "piece": "recalled</w>",
+          "score": 20.780641555786133
+        },
+        {
+          "rank": 8,
+          "tokenId": 41320,
+          "token": "mogul",
+          "piece": "mogul</w>",
+          "score": 20.401782989501953
+        },
+        {
+          "rank": 9,
+          "tokenId": 16697,
+          "token": "catering",
+          "piece": "catering</w>",
+          "score": 20.198036193847656
+        },
+        {
+          "rank": 10,
+          "tokenId": 25440,
+          "token": "hurdles",
+          "piece": "hurdles</w>",
+          "score": 20.132341384887695
+        },
+        {
+          "rank": 11,
+          "tokenId": 4788,
+          "token": "yan",
+          "piece": "yan</w>",
+          "score": 20.126407623291016
+        },
+        {
+          "rank": 12,
+          "tokenId": 43704,
+          "token": "healthand",
+          "piece": "healthand",
+          "score": 20.01375389099121
+        },
+        {
+          "rank": 13,
+          "tokenId": 30524,
+          "token": "ุ",
+          "piece": "à¸¸</w>",
+          "score": 19.991785049438477
+        },
+        {
+          "rank": 14,
+          "tokenId": 7169,
+          "token": "hud",
+          "piece": "hud",
+          "score": 19.91497039794922
+        },
+        {
+          "rank": 15,
+          "tokenId": 4258,
+          "token": "corpor",
+          "piece": "corpor",
+          "score": 19.807327270507812
+        },
+        {
+          "rank": 16,
+          "tokenId": 20210,
+          "token": "souven",
+          "piece": "souven",
+          "score": 19.72235870361328
+        },
+        {
+          "rank": 17,
+          "tokenId": 5127,
+          "token": "charles",
+          "piece": "charles</w>",
+          "score": 19.699951171875
+        },
+        {
+          "rank": 18,
+          "tokenId": 11384,
+          "token": "cht",
+          "piece": "cht</w>",
+          "score": 19.6497802734375
+        },
+        {
+          "rank": 19,
+          "tokenId": 16656,
+          "token": "harm",
+          "piece": "harm",
+          "score": 19.640827178955078
+        },
+        {
+          "rank": 20,
+          "tokenId": 47683,
+          "token": "fis",
+          "piece": "fis</w>",
+          "score": 19.455842971801758
+        },
+        {
+          "rank": 21,
+          "tokenId": 24568,
+          "token": "uti",
+          "piece": "uti</w>",
+          "score": 19.450927734375
+        },
+        {
+          "rank": 22,
+          "tokenId": 19250,
+          "token": "timely",
+          "piece": "timely</w>",
+          "score": 19.40322494506836
+        },
+        {
+          "rank": 23,
+          "tokenId": 2135,
+          "token": "childre",
+          "piece": "childre",
+          "score": 19.366046905517578
+        },
+        {
+          "rank": 24,
+          "tokenId": 8532,
+          "token": "item",
+          "piece": "item</w>",
+          "score": 19.329336166381836
+        },
+        {
+          "rank": 25,
+          "tokenId": 38282,
+          "token": "matically",
+          "piece": "matically</w>",
+          "score": 19.317123413085938
+        },
+        {
+          "rank": 26,
+          "tokenId": 33025,
+          "token": "ayi",
+          "piece": "ayi</w>",
+          "score": 19.276992797851562
+        },
+        {
+          "rank": 27,
+          "tokenId": 28458,
+          "token": "minindia",
+          "piece": "minindia</w>",
+          "score": 19.22907066345215
+        },
+        {
+          "rank": 28,
+          "tokenId": 19986,
+          "token": "trend",
+          "piece": "trend",
+          "score": 19.20832061767578
+        },
+        {
+          "rank": 29,
+          "tokenId": 40973,
+          "token": "confined",
+          "piece": "confined</w>",
+          "score": 19.141420364379883
+        },
+        {
+          "rank": 30,
+          "tokenId": 12668,
+          "token": "winds",
+          "piece": "winds",
+          "score": 19.117080688476562
+        },
+        {
+          "rank": 31,
+          "tokenId": 10425,
+          "token": "tang",
+          "piece": "tang",
+          "score": 19.076011657714844
+        },
+        {
+          "rank": 32,
+          "tokenId": 13801,
+          "token": "racial",
+          "piece": "racial</w>",
+          "score": 19.027326583862305
+        },
+        {
+          "rank": 33,
+          "tokenId": 14728,
+          "token": "hir",
+          "piece": "hir</w>",
+          "score": 18.981937408447266
+        },
+        {
+          "rank": 34,
+          "tokenId": 32432,
+          "token": "watchin",
+          "piece": "watchin</w>",
+          "score": 18.971986770629883
+        },
+        {
+          "rank": 35,
+          "tokenId": 6433,
+          "token": "painted",
+          "piece": "painted</w>",
+          "score": 18.959449768066406
+        },
+        {
+          "rank": 36,
+          "tokenId": 27561,
+          "token": "gating",
+          "piece": "gating</w>",
+          "score": 18.92334747314453
+        },
+        {
+          "rank": 37,
+          "tokenId": 43074,
+          "token": "shino",
+          "piece": "shino",
+          "score": 18.876781463623047
+        },
+        {
+          "rank": 38,
+          "tokenId": 14576,
+          "token": "wf",
+          "piece": "wf",
+          "score": 18.83477020263672
+        },
+        {
+          "rank": 39,
+          "tokenId": 17875,
+          "token": "т",
+          "piece": "ÑĤ",
+          "score": 18.832717895507812
+        },
+        {
+          "rank": 40,
+          "tokenId": 16503,
+          "token": "hut",
+          "piece": "hut</w>",
+          "score": 18.830829620361328
+        },
+        {
+          "rank": 41,
+          "tokenId": 45412,
+          "token": "korn",
+          "piece": "korn",
+          "score": 18.828811645507812
+        },
+        {
+          "rank": 42,
+          "tokenId": 31584,
+          "token": "chairperson",
+          "piece": "chairperson</w>",
+          "score": 18.82442855834961
+        },
+        {
+          "rank": 43,
+          "tokenId": 30377,
+          "token": "chate",
+          "piece": "chate",
+          "score": 18.821491241455078
+        },
+        {
+          "rank": 44,
+          "tokenId": 11036,
+          "token": "restric",
+          "piece": "restric",
+          "score": 18.80836296081543
+        },
+        {
+          "rank": 45,
+          "tokenId": 6947,
+          "token": "bot",
+          "piece": "bot</w>",
+          "score": 18.719621658325195
+        },
+        {
+          "rank": 46,
+          "tokenId": 45650,
+          "token": "lod",
+          "piece": "lod",
+          "score": 18.605146408081055
+        },
+        {
+          "rank": 47,
+          "tokenId": 3533,
+          "token": "shi",
+          "piece": "shi</w>",
+          "score": 18.578746795654297
+        },
+        {
+          "rank": 48,
+          "tokenId": 2107,
+          "token": "ming",
+          "piece": "ming</w>",
+          "score": 18.492172241210938
+        },
+        {
+          "rank": 49,
+          "tokenId": 22022,
+          "token": "spatial",
+          "piece": "spatial</w>",
+          "score": 18.48541259765625
+        },
+        {
+          "rank": 50,
+          "tokenId": 39893,
+          "token": "belonged",
+          "piece": "belonged</w>",
+          "score": 18.37708854675293
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-5e3ea36527a2-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/py-img-gen/lora-ukiyo-e-face-blip2-captions/blob/64553e156e9e42569d5fb546b52f96390c55a056/pytorch_lora_weights.safetensors",
+    "repository": "py-img-gen/lora-ukiyo-e-face-blip2-captions",
+    "revision": "64553e156e9e42569d5fb546b52f96390c55a056",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "e60b00ca030145d5f8607090ee23143c4f3e7f94a23d83f66b2d056dcd52fb56",
+    "creator": "py-img-gen",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/py-img-gen/lora-ukiyo-e-face-blip2-captions/revision/64553e156e9e42569d5fb546b52f96390c55a056?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

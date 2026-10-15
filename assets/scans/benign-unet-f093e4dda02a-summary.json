@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-f093e4dda02a",
+  "kind": "benign",
+  "title": "Chair",
+  "originalTitle": "lora dreambooth model",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:bodam/lora-dreambooth-model:3683b24e72df4b31741b05a34eb227f2d21bc83a:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.45161290322580644,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2792106590416642,
+    "A_TE": null,
+    "r_UNet": 0.4117647058823529,
+    "r_TE": null,
+    "rJoint": 0.4117647058823529,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 36337,
+          "token": "💛💙",
+          "piece": "ðŁĴĽðŁĴĻ</w>",
+          "score": 0.0003135644074063748
+        },
+        {
+          "rank": 2,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 0.00029104534769430757
+        },
+        {
+          "rank": 3,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 0.000287534756353125
+        },
+        {
+          "rank": 4,
+          "tokenId": 5842,
+          "token": "exo",
+          "piece": "exo</w>",
+          "score": 0.0002813208266161382
+        },
+        {
+          "rank": 5,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 0.0002690445980988443
+        },
+        {
+          "rank": 6,
+          "tokenId": 20263,
+          "token": "darren",
+          "piece": "darren",
+          "score": 0.00026027840794995427
+        },
+        {
+          "rank": 7,
+          "tokenId": 7176,
+          "token": "radio",
+          "piece": "radio",
+          "score": 0.00025571256992407143
+        },
+        {
+          "rank": 8,
+          "tokenId": 24578,
+          "token": "🧡",
+          "piece": "ðŁ§¡</w>",
+          "score": 0.00025508477119728923
+        },
+        {
+          "rank": 9,
+          "tokenId": 28135,
+          "token": "bbhuttozardari",
+          "piece": "bbhuttozardari</w>",
+          "score": 0.00025308976182714105
+        },
+        {
+          "rank": 10,
+          "tokenId": 15038,
+          "token": "chicago",
+          "piece": "chicago",
+          "score": 0.00025179784279316664
+        },
+        {
+          "rank": 11,
+          "tokenId": 23374,
+          "token": "shell",
+          "piece": "shell",
+          "score": 0.000250674260314554
+        },
+        {
+          "rank": 12,
+          "tokenId": 40881,
+          "token": "ranbir",
+          "piece": "ranbir</w>",
+          "score": 0.0002506435557734221
+        },
+        {
+          "rank": 13,
+          "tokenId": 45751,
+          "token": "mayward",
+          "piece": "mayward",
+          "score": 0.00024567078799009323
+        },
+        {
+          "rank": 14,
+          "tokenId": 39997,
+          "token": "braided",
+          "piece": "braided</w>",
+          "score": 0.00024509913055226207
+        },
+        {
+          "rank": 15,
+          "tokenId": 19315,
+          "token": "nonprofit",
+          "piece": "nonprofit</w>",
+          "score": 0.00024502177257090807
+        },
+        {
+          "rank": 16,
+          "tokenId": 42541,
+          "token": "💙💜",
+          "piece": "ðŁĴĻðŁĴľ</w>",
+          "score": 0.00024357583606615663
+        },
+        {
+          "rank": 17,
+          "tokenId": 23132,
+          "token": "snail",
+          "piece": "snail</w>",
+          "score": 0.00024341911193914711
+        },
+        {
+          "rank": 18,
+          "tokenId": 10453,
+          "token": "pittsburgh",
+          "piece": "pittsburgh</w>",
+          "score": 0.00024286365078296512
+        },
+        {
+          "rank": 19,
+          "tokenId": 19637,
+          "token": "beingsalmankhan",
+          "piece": "beingsalmankhan</w>",
+          "score": 0.0002412188332527876
+        },
+        {
+          "rank": 20,
+          "tokenId": 28055,
+          "token": "🥳",
+          "piece": "ðŁ¥³</w>",
+          "score": 0.00023972539929673076
+        },
+        {
+          "rank": 21,
+          "tokenId": 6487,
+          "token": "rep",
+          "piece": "rep</w>",
+          "score": 0.00023943893029354513
+        },
+        {
+          "rank": 22,
+          "tokenId": 12275,
+          "token": "darren",
+          "piece": "darren</w>",
+          "score": 0.00023742354824207723
+        },
+        {
+          "rank": 23,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 0.00023713726841378957
+        },
+        {
+          "rank": 24,
+          "tokenId": 26688,
+          "token": "imrankhanpti",
+          "piece": "imrankhanpti</w>",
+          "score": 0.0002359290956519544
+        },
+        {
+          "rank": 25,
+          "tokenId": 10491,
+          "token": "pti",
+          "piece": "pti</w>",
+          "score": 0.00023509393213316798
+        },
+        {
+          "rank": 26,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 0.00023451948072761297
+        },
+        {
+          "rank": 27,
+          "tokenId": 10693,
+          "token": "putin",
+          "piece": "putin</w>",
+          "score": 0.00023362357751466334
+        },
+        {
+          "rank": 28,
+          "tokenId": 27101,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ</w>",
+          "score": 0.0002335953467991203
+        },
+        {
+          "rank": 29,
+          "tokenId": 48647,
+          "token": "gurudev",
+          "piece": "gurudev</w>",
+          "score": 0.00023321482876781374
+        },
+        {
+          "rank": 30,
+          "tokenId": 23595,
+          "token": "🏻‍♀️",
+          "piece": "ðŁı»âĢįâĻĢï¸ı</w>",
+          "score": 0.0002312667202204466
+        },
+        {
+          "rank": 31,
+          "tokenId": 8221,
+          "token": "💛",
+          "piece": "ðŁĴĽ",
+          "score": 0.00023094586504157633
+        },
+        {
+          "rank": 32,
+          "tokenId": 5523,
+          "token": "yoga",
+          "piece": "yoga</w>",
+          "score": 0.00023065286222845316
+        },
+        {
+          "rank": 33,
+          "tokenId": 15103,
+          "token": "iamsrk",
+          "piece": "iamsrk</w>",
+          "score": 0.00022870561224408448
+        },
+        {
+          "rank": 34,
+          "tokenId": 21429,
+          "token": "contractor",
+          "piece": "contractor</w>",
+          "score": 0.00022836754214949906
+        },
+        {
+          "rank": 35,
+          "tokenId": 6667,
+          "token": "tokyo",
+          "piece": "tokyo</w>",
+          "score": 0.000227519340114668
+        },
+        {
+          "rank": 36,
+          "tokenId": 48007,
+          "token": "cpec",
+          "piece": "cpec</w>",
+          "score": 0.00022745020396541804
+        },
+        {
+          "rank": 37,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 0.0002271963603561744
+        },
+        {
+          "rank": 38,
+          "tokenId": 28282,
+          "token": "kylie",
+          "piece": "kylie",
+          "score": 0.00022652155894320458
+        },
+        {
+          "rank": 39,
+          "tokenId": 31986,
+          "token": "namjoon",
+          "piece": "namjoon</w>",
+          "score": 0.00022651234758086503
+        },
+        {
+          "rank": 40,
+          "tokenId": 14135,
+          "token": "avocado",
+          "piece": "avocado</w>",
+          "score": 0.00022645268472842872
+        },
+        {
+          "rank": 41,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 0.0002258848981000483
+        },
+        {
+          "rank": 42,
+          "tokenId": 10502,
+          "token": "dais",
+          "piece": "dais",
+          "score": 0.0002232030383311212
+        },
+        {
+          "rank": 43,
+          "tokenId": 38784,
+          "token": "rave",
+          "piece": "rave",
+          "score": 0.00022299803094938397
+        },
+        {
+          "rank": 44,
+          "tokenId": 20523,
+          "token": "chistan",
+          "piece": "chistan</w>",
+          "score": 0.00022279415861703455
+        },
+        {
+          "rank": 45,
+          "tokenId": 11506,
+          "token": "☺️",
+          "piece": "âĺºï¸ı",
+          "score": 0.0002226216602139175
+        },
+        {
+          "rank": 46,
+          "tokenId": 18889,
+          "token": "chelten",
+          "piece": "chelten",
+          "score": 0.0002225890930276364
+        },
+        {
+          "rank": 47,
+          "tokenId": 25698,
+          "token": "dhoni",
+          "piece": "dhoni</w>",
+          "score": 0.00022242058184929192
+        },
+        {
+          "rank": 48,
+          "tokenId": 36679,
+          "token": "llama",
+          "piece": "llama</w>",
+          "score": 0.00022238760720938444
+        },
+        {
+          "rank": 49,
+          "tokenId": 26230,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ</w>",
+          "score": 0.00022216219804249704
+        },
+        {
+          "rank": 50,
+          "tokenId": 32237,
+          "token": "doggie",
+          "piece": "doggie</w>",
+          "score": 0.00022214918863028288
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-f093e4dda02a-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/bodam/lora-dreambooth-model/blob/3683b24e72df4b31741b05a34eb227f2d21bc83a/pytorch_lora_weights.safetensors",
+    "repository": "bodam/lora-dreambooth-model",
+    "revision": "3683b24e72df4b31741b05a34eb227f2d21bc83a",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "bdb5665c83b4b335a32bea495f1e677b8962f589ce9f6812ca2bee6e72db29e5",
+    "creator": "bodam",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/bodam/lora-dreambooth-model/revision/3683b24e72df4b31741b05a34eb227f2d21bc83a?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Test"
+}

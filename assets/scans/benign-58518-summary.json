@@ -1,0 +1,768 @@
+{
+  "id": "benign-58518",
+  "kind": "benign",
+  "title": "Werewolf",
+  "originalTitle": "Werewolf",
+  "version": "v0.2",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "te",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_7fb206e746ad5e20f782",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.6772151898734178,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2968535938222465,
+    "A_TE": 10.1953125,
+    "r_UNet": 0.6445783132530121,
+    "r_TE": 0.3554216867469879,
+    "rJoint": 0.6445783132530121,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 32850,
+          "token": "msdhoni",
+          "piece": "msdhoni</w>",
+          "score": 0.030938971787691116
+        },
+        {
+          "rank": 2,
+          "tokenId": 27659,
+          "token": "adamlambert",
+          "piece": "adamlambert</w>",
+          "score": 0.028874531388282776
+        },
+        {
+          "rank": 3,
+          "tokenId": 25698,
+          "token": "dhoni",
+          "piece": "dhoni</w>",
+          "score": 0.026217304170131683
+        },
+        {
+          "rank": 4,
+          "tokenId": 35314,
+          "token": "urstrulymahesh",
+          "piece": "urstrulymahesh</w>",
+          "score": 0.0261886827647686
+        },
+        {
+          "rank": 5,
+          "tokenId": 6233,
+          "token": "💛",
+          "piece": "ðŁĴĽ</w>",
+          "score": 0.02509721927344799
+        },
+        {
+          "rank": 6,
+          "tokenId": 18536,
+          "token": "mourinho",
+          "piece": "mourinho</w>",
+          "score": 0.02472398802638054
+        },
+        {
+          "rank": 7,
+          "tokenId": 28945,
+          "token": "donghae",
+          "piece": "donghae</w>",
+          "score": 0.024297695606946945
+        },
+        {
+          "rank": 8,
+          "tokenId": 28135,
+          "token": "bbhuttozardari",
+          "piece": "bbhuttozardari</w>",
+          "score": 0.023220838978886604
+        },
+        {
+          "rank": 9,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 0.023210778832435608
+        },
+        {
+          "rank": 10,
+          "tokenId": 27653,
+          "token": "selenagomez",
+          "piece": "selenagomez</w>",
+          "score": 0.023156186565756798
+        },
+        {
+          "rank": 11,
+          "tokenId": 20339,
+          "token": "blackpink",
+          "piece": "blackpink</w>",
+          "score": 0.0228582713752985
+        },
+        {
+          "rank": 12,
+          "tokenId": 14137,
+          "token": "madonna",
+          "piece": "madonna</w>",
+          "score": 0.021093472838401794
+        },
+        {
+          "rank": 13,
+          "tokenId": 29266,
+          "token": "dhanushkraja",
+          "piece": "dhanushkraja</w>",
+          "score": 0.021073097363114357
+        },
+        {
+          "rank": 14,
+          "tokenId": 32559,
+          "token": "!❤️",
+          "piece": "!âĿ¤ï¸ı</w>",
+          "score": 0.020903954282402992
+        },
+        {
+          "rank": 15,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 0.02054532617330551
+        },
+        {
+          "rank": 16,
+          "tokenId": 18246,
+          "token": "federer",
+          "piece": "federer</w>",
+          "score": 0.02029598504304886
+        },
+        {
+          "rank": 17,
+          "tokenId": 16632,
+          "token": "beyonce",
+          "piece": "beyonce</w>",
+          "score": 0.020164618268609047
+        },
+        {
+          "rank": 18,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 0.019946379587054253
+        },
+        {
+          "rank": 19,
+          "tokenId": 14480,
+          "token": "demi",
+          "piece": "demi</w>",
+          "score": 0.01994479075074196
+        },
+        {
+          "rank": 20,
+          "tokenId": 28244,
+          "token": "ddlovato",
+          "piece": "ddlovato</w>",
+          "score": 0.019821755588054657
+        },
+        {
+          "rank": 21,
+          "tokenId": 41156,
+          "token": "brunomars",
+          "piece": "brunomars</w>",
+          "score": 0.019818125292658806
+        },
+        {
+          "rank": 22,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 0.019778314977884293
+        },
+        {
+          "rank": 23,
+          "tokenId": 10561,
+          "token": "♥️",
+          "piece": "âĻ¥ï¸ı</w>",
+          "score": 0.019394846633076668
+        },
+        {
+          "rank": 24,
+          "tokenId": 38643,
+          "token": "samanthaprabhu",
+          "piece": "samanthaprabhu</w>",
+          "score": 0.019280582666397095
+        },
+        {
+          "rank": 25,
+          "tokenId": 29055,
+          "token": "siwon",
+          "piece": "siwon</w>",
+          "score": 0.019270746037364006
+        },
+        {
+          "rank": 26,
+          "tokenId": 44448,
+          "token": "davidbowie",
+          "piece": "davidbowie</w>",
+          "score": 0.0192238949239254
+        },
+        {
+          "rank": 27,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 0.01922236569225788
+        },
+        {
+          "rank": 28,
+          "tokenId": 19637,
+          "token": "beingsalmankhan",
+          "piece": "beingsalmankhan</w>",
+          "score": 0.01903609186410904
+        },
+        {
+          "rank": 29,
+          "tokenId": 27554,
+          "token": "warhol",
+          "piece": "warhol</w>",
+          "score": 0.01895858161151409
+        },
+        {
+          "rank": 30,
+          "tokenId": 41569,
+          "token": "kareena",
+          "piece": "kareena</w>",
+          "score": 0.018952790647745132
+        },
+        {
+          "rank": 31,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 0.0187358520925045
+        },
+        {
+          "rank": 32,
+          "tokenId": 28528,
+          "token": "mileycyrus",
+          "piece": "mileycyrus</w>",
+          "score": 0.01872631534934044
+        },
+        {
+          "rank": 33,
+          "tokenId": 23624,
+          "token": "akshaykumar",
+          "piece": "akshaykumar</w>",
+          "score": 0.018700044602155685
+        },
+        {
+          "rank": 34,
+          "tokenId": 38527,
+          "token": "yesung",
+          "piece": "yesung</w>",
+          "score": 0.0185697078704834
+        },
+        {
+          "rank": 35,
+          "tokenId": 23745,
+          "token": "berniesanders",
+          "piece": "berniesanders</w>",
+          "score": 0.018505670130252838
+        },
+        {
+          "rank": 36,
+          "tokenId": 8221,
+          "token": "💛",
+          "piece": "ðŁĴĽ",
+          "score": 0.018428860232234
+        },
+        {
+          "rank": 37,
+          "tokenId": 9283,
+          "token": "pope",
+          "piece": "pope</w>",
+          "score": 0.018383584916591644
+        },
+        {
+          "rank": 38,
+          "tokenId": 26230,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ</w>",
+          "score": 0.01827850192785263
+        },
+        {
+          "rank": 39,
+          "tokenId": 19219,
+          "token": "beyoncé",
+          "piece": "beyoncÃ©</w>",
+          "score": 0.018249981105327606
+        },
+        {
+          "rank": 40,
+          "tokenId": 15357,
+          "token": "hillaryclinton",
+          "piece": "hillaryclinton</w>",
+          "score": 0.018240774050354958
+        },
+        {
+          "rank": 41,
+          "tokenId": 17833,
+          "token": "💙💙",
+          "piece": "ðŁĴĻðŁĴĻ",
+          "score": 0.018185697495937347
+        },
+        {
+          "rank": 42,
+          "tokenId": 13042,
+          "token": "🌈",
+          "piece": "ðŁĮĪ</w>",
+          "score": 0.018175099045038223
+        },
+        {
+          "rank": 43,
+          "tokenId": 26688,
+          "token": "imrankhanpti",
+          "piece": "imrankhanpti</w>",
+          "score": 0.018160652369260788
+        },
+        {
+          "rank": 44,
+          "tokenId": 10308,
+          "token": "zayn",
+          "piece": "zayn</w>",
+          "score": 0.018071137368679047
+        },
+        {
+          "rank": 45,
+          "tokenId": 48055,
+          "token": "tamanna",
+          "piece": "tamanna",
+          "score": 0.018069317564368248
+        },
+        {
+          "rank": 46,
+          "tokenId": 37254,
+          "token": "popefrancis",
+          "piece": "popefrancis</w>",
+          "score": 0.01804414764046669
+        },
+        {
+          "rank": 47,
+          "tokenId": 15845,
+          "token": "mainedcm",
+          "piece": "mainedcm</w>",
+          "score": 0.018015235662460327
+        },
+        {
+          "rank": 48,
+          "tokenId": 27389,
+          "token": "taeyeon",
+          "piece": "taeyeon</w>",
+          "score": 0.01793256402015686
+        },
+        {
+          "rank": 49,
+          "tokenId": 1752,
+          "token": "❤️",
+          "piece": "âĿ¤ï¸ı</w>",
+          "score": 0.01788351498544216
+        },
+        {
+          "rank": 50,
+          "tokenId": 16245,
+          "token": "onedirection",
+          "piece": "onedirection</w>",
+          "score": 0.01783601939678192
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 36951,
+          "token": "_(",
+          "piece": "_(</w>",
+          "score": 10.1953125
+        },
+        {
+          "rank": 2,
+          "tokenId": 32001,
+          "token": "werewolf",
+          "piece": "werewolf</w>",
+          "score": 9.00390625
+        },
+        {
+          "rank": 3,
+          "tokenId": 39820,
+          "token": "트",
+          "piece": "íĬ¸</w>",
+          "score": 8.83984375
+        },
+        {
+          "rank": 4,
+          "tokenId": 14207,
+          "token": "acquis",
+          "piece": "acquis",
+          "score": 8.64453125
+        },
+        {
+          "rank": 5,
+          "tokenId": 45840,
+          "token": "oural",
+          "piece": "oural</w>",
+          "score": 8.56640625
+        },
+        {
+          "rank": 6,
+          "tokenId": 43571,
+          "token": "*****",
+          "piece": "*****</w>",
+          "score": 8.484375
+        },
+        {
+          "rank": 7,
+          "tokenId": 11709,
+          "token": "onents",
+          "piece": "onents</w>",
+          "score": 8.41015625
+        },
+        {
+          "rank": 8,
+          "tokenId": 44517,
+          "token": "';",
+          "piece": "';</w>",
+          "score": 8.326171875
+        },
+        {
+          "rank": 9,
+          "tokenId": 47043,
+          "token": "__:",
+          "piece": "__:</w>",
+          "score": 8.302734375
+        },
+        {
+          "rank": 10,
+          "tokenId": 48703,
+          "token": ".\"—",
+          "piece": ".\"âĢĶ</w>",
+          "score": 8.203125
+        },
+        {
+          "rank": 11,
+          "tokenId": 15,
+          "token": "0",
+          "piece": "0",
+          "score": 8.1953125
+        },
+        {
+          "rank": 12,
+          "tokenId": 16,
+          "token": "1",
+          "piece": "1",
+          "score": 8.1953125
+        },
+        {
+          "rank": 13,
+          "tokenId": 17,
+          "token": "2",
+          "piece": "2",
+          "score": 8.1953125
+        },
+        {
+          "rank": 14,
+          "tokenId": 18,
+          "token": "3",
+          "piece": "3",
+          "score": 8.1953125
+        },
+        {
+          "rank": 15,
+          "tokenId": 19,
+          "token": "4",
+          "piece": "4",
+          "score": 8.1953125
+        },
+        {
+          "rank": 16,
+          "tokenId": 20,
+          "token": "5",
+          "piece": "5",
+          "score": 8.1953125
+        },
+        {
+          "rank": 17,
+          "tokenId": 21,
+          "token": "6",
+          "piece": "6",
+          "score": 8.1953125
+        },
+        {
+          "rank": 18,
+          "tokenId": 22,
+          "token": "7",
+          "piece": "7",
+          "score": 8.1953125
+        },
+        {
+          "rank": 19,
+          "tokenId": 23,
+          "token": "8",
+          "piece": "8",
+          "score": 8.1953125
+        },
+        {
+          "rank": 20,
+          "tokenId": 24,
+          "token": "9",
+          "piece": "9",
+          "score": 8.1953125
+        },
+        {
+          "rank": 21,
+          "tokenId": 32,
+          "token": "A",
+          "piece": "A",
+          "score": 8.1953125
+        },
+        {
+          "rank": 22,
+          "tokenId": 33,
+          "token": "B",
+          "piece": "B",
+          "score": 8.1953125
+        },
+        {
+          "rank": 23,
+          "tokenId": 34,
+          "token": "C",
+          "piece": "C",
+          "score": 8.1953125
+        },
+        {
+          "rank": 24,
+          "tokenId": 35,
+          "token": "D",
+          "piece": "D",
+          "score": 8.1953125
+        },
+        {
+          "rank": 25,
+          "tokenId": 36,
+          "token": "E",
+          "piece": "E",
+          "score": 8.1953125
+        },
+        {
+          "rank": 26,
+          "tokenId": 37,
+          "token": "F",
+          "piece": "F",
+          "score": 8.1953125
+        },
+        {
+          "rank": 27,
+          "tokenId": 38,
+          "token": "G",
+          "piece": "G",
+          "score": 8.1953125
+        },
+        {
+          "rank": 28,
+          "tokenId": 39,
+          "token": "H",
+          "piece": "H",
+          "score": 8.1953125
+        },
+        {
+          "rank": 29,
+          "tokenId": 40,
+          "token": "I",
+          "piece": "I",
+          "score": 8.1953125
+        },
+        {
+          "rank": 30,
+          "tokenId": 41,
+          "token": "J",
+          "piece": "J",
+          "score": 8.1953125
+        },
+        {
+          "rank": 31,
+          "tokenId": 42,
+          "token": "K",
+          "piece": "K",
+          "score": 8.1953125
+        },
+        {
+          "rank": 32,
+          "tokenId": 43,
+          "token": "L",
+          "piece": "L",
+          "score": 8.1953125
+        },
+        {
+          "rank": 33,
+          "tokenId": 44,
+          "token": "M",
+          "piece": "M",
+          "score": 8.1953125
+        },
+        {
+          "rank": 34,
+          "tokenId": 45,
+          "token": "N",
+          "piece": "N",
+          "score": 8.1953125
+        },
+        {
+          "rank": 35,
+          "tokenId": 46,
+          "token": "O",
+          "piece": "O",
+          "score": 8.1953125
+        },
+        {
+          "rank": 36,
+          "tokenId": 47,
+          "token": "P",
+          "piece": "P",
+          "score": 8.1953125
+        },
+        {
+          "rank": 37,
+          "tokenId": 48,
+          "token": "Q",
+          "piece": "Q",
+          "score": 8.1953125
+        },
+        {
+          "rank": 38,
+          "tokenId": 49,
+          "token": "R",
+          "piece": "R",
+          "score": 8.1953125
+        },
+        {
+          "rank": 39,
+          "tokenId": 50,
+          "token": "S",
+          "piece": "S",
+          "score": 8.1953125
+        },
+        {
+          "rank": 40,
+          "tokenId": 51,
+          "token": "T",
+          "piece": "T",
+          "score": 8.1953125
+        },
+        {
+          "rank": 41,
+          "tokenId": 52,
+          "token": "U",
+          "piece": "U",
+          "score": 8.1953125
+        },
+        {
+          "rank": 42,
+          "tokenId": 53,
+          "token": "V",
+          "piece": "V",
+          "score": 8.1953125
+        },
+        {
+          "rank": 43,
+          "tokenId": 54,
+          "token": "W",
+          "piece": "W",
+          "score": 8.1953125
+        },
+        {
+          "rank": 44,
+          "tokenId": 55,
+          "token": "X",
+          "piece": "X",
+          "score": 8.1953125
+        },
+        {
+          "rank": 45,
+          "tokenId": 56,
+          "token": "Y",
+          "piece": "Y",
+          "score": 8.1953125
+        },
+        {
+          "rank": 46,
+          "tokenId": 57,
+          "token": "Z",
+          "piece": "Z",
+          "score": 8.1953125
+        },
+        {
+          "rank": 47,
+          "tokenId": 288,
+          "token": "A",
+          "piece": "A</w>",
+          "score": 8.1953125
+        },
+        {
+          "rank": 48,
+          "tokenId": 289,
+          "token": "B",
+          "piece": "B</w>",
+          "score": 8.1953125
+        },
+        {
+          "rank": 49,
+          "tokenId": 290,
+          "token": "C",
+          "piece": "C</w>",
+          "score": 8.1953125
+        },
+        {
+          "rank": 50,
+          "tokenId": 291,
+          "token": "D",
+          "piece": "D</w>",
+          "score": 8.1953125
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-58518-unet.csv",
+      "te": "assets/scans/benign-58518-te.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/58518?modelVersionId=62958",
+    "modelId": 58518,
+    "versionId": 62958,
+    "sha256": "7fb206e746ad5e20f78214ad8130cfb8e601c20d25e89e6f08fbacd281f741db",
+    "creator": "psoft",
+    "capturedAt": "2026-08-17T13:09:57.386093+00:00",
+    "declaredActivationWords": [
+      "werewolf"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/62958",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "werewolf"
+      ]
+    }
+  }
+}

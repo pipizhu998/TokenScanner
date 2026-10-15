@@ -1,0 +1,408 @@
+{
+  "id": "benign-unet-a695d14348fa",
+  "kind": "benign",
+  "title": "FIO Game Character",
+  "originalTitle": "sd15 lora fio",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "huggingface:anhvth5/sd15-lora-fio:effa477478664d78d1a30100d53a5cc3a599ec98:pytorch_lora_weights.safetensors",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": false
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.3548387096774194,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.2766321892429783,
+    "A_TE": null,
+    "r_UNet": 0.3235294117647059,
+    "r_TE": null,
+    "rJoint": 0.3235294117647059,
+    "tauC": 0.9117647058823529,
+    "calibrationReferences": 34,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": false,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 5842,
+          "token": "exo",
+          "piece": "exo</w>",
+          "score": 2.316041946411133
+        },
+        {
+          "rank": 2,
+          "tokenId": 40146,
+          "token": "wizkid",
+          "piece": "wizkid</w>",
+          "score": 2.285646677017212
+        },
+        {
+          "rank": 3,
+          "tokenId": 22008,
+          "token": "armenia",
+          "piece": "armenia</w>",
+          "score": 2.137261390686035
+        },
+        {
+          "rank": 4,
+          "tokenId": 28309,
+          "token": "katyperry",
+          "piece": "katyperry</w>",
+          "score": 2.0040977001190186
+        },
+        {
+          "rank": 5,
+          "tokenId": 24578,
+          "token": "🧡",
+          "piece": "ðŁ§¡</w>",
+          "score": 1.9916975498199463
+        },
+        {
+          "rank": 6,
+          "tokenId": 30040,
+          "token": "morrissey",
+          "piece": "morrissey</w>",
+          "score": 1.9465957880020142
+        },
+        {
+          "rank": 7,
+          "tokenId": 20795,
+          "token": "curly",
+          "piece": "curly</w>",
+          "score": 1.9293136596679688
+        },
+        {
+          "rank": 8,
+          "tokenId": 3397,
+          "token": "repre",
+          "piece": "repre",
+          "score": 1.911620020866394
+        },
+        {
+          "rank": 9,
+          "tokenId": 35941,
+          "token": "software",
+          "piece": "software",
+          "score": 1.8993234634399414
+        },
+        {
+          "rank": 10,
+          "tokenId": 19449,
+          "token": "inform",
+          "piece": "inform</w>",
+          "score": 1.8971948623657227
+        },
+        {
+          "rank": 11,
+          "tokenId": 17705,
+          "token": "sehun",
+          "piece": "sehun</w>",
+          "score": 1.88157057762146
+        },
+        {
+          "rank": 12,
+          "tokenId": 24562,
+          "token": "rainbow",
+          "piece": "rainbow",
+          "score": 1.8738133907318115
+        },
+        {
+          "rank": 13,
+          "tokenId": 47916,
+          "token": "katniss",
+          "piece": "katniss</w>",
+          "score": 1.8723053932189941
+        },
+        {
+          "rank": 14,
+          "tokenId": 5272,
+          "token": "rules",
+          "piece": "rules</w>",
+          "score": 1.8701751232147217
+        },
+        {
+          "rank": 15,
+          "tokenId": 15360,
+          "token": "architectural",
+          "piece": "architectural</w>",
+          "score": 1.8497278690338135
+        },
+        {
+          "rank": 16,
+          "tokenId": 37653,
+          "token": "pamp",
+          "piece": "pamp",
+          "score": 1.8481509685516357
+        },
+        {
+          "rank": 17,
+          "tokenId": 32145,
+          "token": "sothe",
+          "piece": "sothe",
+          "score": 1.834458351135254
+        },
+        {
+          "rank": 18,
+          "tokenId": 33634,
+          "token": "madam",
+          "piece": "madam",
+          "score": 1.8343408107757568
+        },
+        {
+          "rank": 19,
+          "tokenId": 2905,
+          "token": "marketing",
+          "piece": "marketing</w>",
+          "score": 1.8115648031234741
+        },
+        {
+          "rank": 20,
+          "tokenId": 48938,
+          "token": "👧",
+          "piece": "ðŁĳ§",
+          "score": 1.8102195262908936
+        },
+        {
+          "rank": 21,
+          "tokenId": 2693,
+          "token": "nel",
+          "piece": "nel</w>",
+          "score": 1.8009421825408936
+        },
+        {
+          "rank": 22,
+          "tokenId": 16778,
+          "token": "chicag",
+          "piece": "chicag",
+          "score": 1.787222146987915
+        },
+        {
+          "rank": 23,
+          "tokenId": 22971,
+          "token": "arvindkejriwal",
+          "piece": "arvindkejriwal</w>",
+          "score": 1.7832138538360596
+        },
+        {
+          "rank": 24,
+          "tokenId": 6025,
+          "token": "math",
+          "piece": "math</w>",
+          "score": 1.7738842964172363
+        },
+        {
+          "rank": 25,
+          "tokenId": 15038,
+          "token": "chicago",
+          "piece": "chicago",
+          "score": 1.773576021194458
+        },
+        {
+          "rank": 26,
+          "tokenId": 47232,
+          "token": "kyliejenner",
+          "piece": "kyliejenner</w>",
+          "score": 1.7693214416503906
+        },
+        {
+          "rank": 27,
+          "tokenId": 21907,
+          "token": "graphicdesign",
+          "piece": "graphicdesign</w>",
+          "score": 1.7692259550094604
+        },
+        {
+          "rank": 28,
+          "tokenId": 21572,
+          "token": "baekhyun",
+          "piece": "baekhyun</w>",
+          "score": 1.76662015914917
+        },
+        {
+          "rank": 29,
+          "tokenId": 10214,
+          "token": "reference",
+          "piece": "reference</w>",
+          "score": 1.757056474685669
+        },
+        {
+          "rank": 30,
+          "tokenId": 25120,
+          "token": "ophon",
+          "piece": "ophon",
+          "score": 1.7552070617675781
+        },
+        {
+          "rank": 31,
+          "tokenId": 47901,
+          "token": "raidernation",
+          "piece": "raidernation</w>",
+          "score": 1.7357381582260132
+        },
+        {
+          "rank": 32,
+          "tokenId": 14466,
+          "token": "🐶",
+          "piece": "ðŁĲ¶",
+          "score": 1.7341551780700684
+        },
+        {
+          "rank": 33,
+          "tokenId": 871,
+          "token": "no",
+          "piece": "no</w>",
+          "score": 1.7336828708648682
+        },
+        {
+          "rank": 34,
+          "tokenId": 24572,
+          "token": "quakes",
+          "piece": "quakes</w>",
+          "score": 1.7333886623382568
+        },
+        {
+          "rank": 35,
+          "tokenId": 39997,
+          "token": "braided",
+          "piece": "braided</w>",
+          "score": 1.7319269180297852
+        },
+        {
+          "rank": 36,
+          "tokenId": 9654,
+          "token": "cave",
+          "piece": "cave</w>",
+          "score": 1.7252657413482666
+        },
+        {
+          "rank": 37,
+          "tokenId": 11380,
+          "token": "taxi",
+          "piece": "taxi</w>",
+          "score": 1.7240711450576782
+        },
+        {
+          "rank": 38,
+          "tokenId": 45191,
+          "token": "mahan",
+          "piece": "mahan",
+          "score": 1.722651481628418
+        },
+        {
+          "rank": 39,
+          "tokenId": 23624,
+          "token": "akshaykumar",
+          "piece": "akshaykumar</w>",
+          "score": 1.7127267122268677
+        },
+        {
+          "rank": 40,
+          "tokenId": 46506,
+          "token": "fnc",
+          "piece": "fnc</w>",
+          "score": 1.696082592010498
+        },
+        {
+          "rank": 41,
+          "tokenId": 29987,
+          "token": "municipality",
+          "piece": "municipality</w>",
+          "score": 1.683569073677063
+        },
+        {
+          "rank": 42,
+          "tokenId": 20151,
+          "token": "🎀",
+          "piece": "ðŁİĢ</w>",
+          "score": 1.6818392276763916
+        },
+        {
+          "rank": 43,
+          "tokenId": 44437,
+          "token": "adityanath",
+          "piece": "adityanath</w>",
+          "score": 1.6772059202194214
+        },
+        {
+          "rank": 44,
+          "tokenId": 21870,
+          "token": "kingdom",
+          "piece": "kingdom",
+          "score": 1.6745624542236328
+        },
+        {
+          "rank": 45,
+          "tokenId": 24228,
+          "token": "northbound",
+          "piece": "northbound</w>",
+          "score": 1.6738948822021484
+        },
+        {
+          "rank": 46,
+          "tokenId": 20598,
+          "token": "widesp",
+          "piece": "widesp",
+          "score": 1.6716581583023071
+        },
+        {
+          "rank": 47,
+          "tokenId": 6181,
+          "token": "kenya",
+          "piece": "kenya</w>",
+          "score": 1.6680529117584229
+        },
+        {
+          "rank": 48,
+          "tokenId": 16885,
+          "token": "shelby",
+          "piece": "shelby</w>",
+          "score": 1.6646625995635986
+        },
+        {
+          "rank": 49,
+          "tokenId": 24009,
+          "token": "references",
+          "piece": "references</w>",
+          "score": 1.6636521816253662
+        },
+        {
+          "rank": 50,
+          "tokenId": 7915,
+          "token": "inspec",
+          "piece": "inspec",
+          "score": 1.6592943668365479
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/benign-unet-a695d14348fa-unet.csv"
+    }
+  },
+  "semanticTokens": [],
+  "themeObservation": "",
+  "source": {
+    "platform": "Hugging Face",
+    "url": "https://huggingface.co/anhvth5/sd15-lora-fio/blob/effa477478664d78d1a30100d53a5cc3a599ec98/pytorch_lora_weights.safetensors",
+    "repository": "anhvth5/sd15-lora-fio",
+    "revision": "effa477478664d78d1a30100d53a5cc3a599ec98",
+    "filename": "pytorch_lora_weights.safetensors",
+    "sha256": "9c1997a48ec9fa0732e57a9f3caffad4b66a85c773aa2fbc5a22053dbf1d714b",
+    "creator": "anhvth5",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://huggingface.co/api/models/anhvth5/sd15-lora-fio/revision/effa477478664d78d1a30100d53a5cc3a599ec98?blobs=true",
+      "revisionAndHashMatched": true
+    }
+  },
+  "cohortScope": "Reference"
+}

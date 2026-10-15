@@ -1,0 +1,775 @@
+{
+  "id": "house",
+  "kind": "benign",
+  "title": "House Architecture",
+  "originalTitle": "house_architecture_Exterior_SDlife_Chiasedamme",
+  "version": "v1.0",
+  "baseModel": "SD 1.5",
+  "defaultPathway": "unet",
+  "images": [],
+  "scan": {
+    "recordId": "clean840_4a57c5a1b793a6e9c2b7",
+    "protocol": "open_world",
+    "components": {
+      "unet": true,
+      "te": true
+    },
+    "benchmarkLabel": "benign",
+    "includedInPaperBenchmark": true,
+    "modelScore": 0.7784810126582279,
+    "threshold": 1.0,
+    "flagged": false,
+    "A_UNet": 0.3104879318302036,
+    "A_TE": 7.626953125,
+    "r_UNet": 0.7409638554216867,
+    "r_TE": 0.2349397590361445,
+    "rJoint": 0.7409638554216867,
+    "tauC": 0.9518072289156626,
+    "calibrationReferences": 166,
+    "calibrationRule": "R = max(r_UNet, r_TE) / tau_c; flag if R >= 1",
+    "referenceStratum": {
+      "hasTE": true,
+      "metadataProfile": "missing"
+    },
+    "rankings": {
+      "unet": [
+        {
+          "rank": 1,
+          "tokenId": 3359,
+          "token": "architec",
+          "piece": "architec",
+          "score": 0.9855962991714478
+        },
+        {
+          "rank": 2,
+          "tokenId": 15360,
+          "token": "architectural",
+          "piece": "architectural</w>",
+          "score": 0.954980194568634
+        },
+        {
+          "rank": 3,
+          "tokenId": 4920,
+          "token": "architecture",
+          "piece": "architecture</w>",
+          "score": 0.9095927476882935
+        },
+        {
+          "rank": 4,
+          "tokenId": 4107,
+          "token": "house",
+          "piece": "house",
+          "score": 0.885625422000885
+        },
+        {
+          "rank": 5,
+          "tokenId": 1212,
+          "token": "house",
+          "piece": "house</w>",
+          "score": 0.8605802059173584
+        },
+        {
+          "rank": 6,
+          "tokenId": 7791,
+          "token": "houses",
+          "piece": "houses</w>",
+          "score": 0.8604725003242493
+        },
+        {
+          "rank": 7,
+          "tokenId": 41703,
+          "token": "arquitec",
+          "piece": "arquitec",
+          "score": 0.8196816444396973
+        },
+        {
+          "rank": 8,
+          "tokenId": 39038,
+          "token": "architecture",
+          "piece": "architecture",
+          "score": 0.7851033210754395
+        },
+        {
+          "rank": 9,
+          "tokenId": 36773,
+          "token": "modernist",
+          "piece": "modernist</w>",
+          "score": 0.735409140586853
+        },
+        {
+          "rank": 10,
+          "tokenId": 40318,
+          "token": "thouse",
+          "piece": "thouse",
+          "score": 0.7247488498687744
+        },
+        {
+          "rank": 11,
+          "tokenId": 12192,
+          "token": "architect",
+          "piece": "architect</w>",
+          "score": 0.697817325592041
+        },
+        {
+          "rank": 12,
+          "tokenId": 22981,
+          "token": "bldg",
+          "piece": "bldg</w>",
+          "score": 0.6740118265151978
+        },
+        {
+          "rank": 13,
+          "tokenId": 8866,
+          "token": "buildings",
+          "piece": "buildings</w>",
+          "score": 0.6471817493438721
+        },
+        {
+          "rank": 14,
+          "tokenId": 2307,
+          "token": "building",
+          "piece": "building</w>",
+          "score": 0.6390659213066101
+        },
+        {
+          "rank": 15,
+          "tokenId": 5305,
+          "token": "💙",
+          "piece": "ðŁĴĻ",
+          "score": 0.6191645860671997
+        },
+        {
+          "rank": 16,
+          "tokenId": 4074,
+          "token": "💙",
+          "piece": "ðŁĴĻ</w>",
+          "score": 0.6151397228240967
+        },
+        {
+          "rank": 17,
+          "tokenId": 33727,
+          "token": "🏠",
+          "piece": "ðŁıł</w>",
+          "score": 0.6081170439720154
+        },
+        {
+          "rank": 18,
+          "tokenId": 41232,
+          "token": "💚💛",
+          "piece": "ðŁĴļðŁĴĽ</w>",
+          "score": 0.6033737659454346
+        },
+        {
+          "rank": 19,
+          "tokenId": 21206,
+          "token": "building",
+          "piece": "building",
+          "score": 0.590294599533081
+        },
+        {
+          "rank": 20,
+          "tokenId": 28468,
+          "token": "housemusic",
+          "piece": "housemusic</w>",
+          "score": 0.5877581834793091
+        },
+        {
+          "rank": 21,
+          "tokenId": 7819,
+          "token": "thouse",
+          "piece": "thouse</w>",
+          "score": 0.5754053592681885
+        },
+        {
+          "rank": 22,
+          "tokenId": 48685,
+          "token": "housel",
+          "piece": "housel",
+          "score": 0.5671116709709167
+        },
+        {
+          "rank": 23,
+          "tokenId": 5416,
+          "token": "homes",
+          "piece": "homes</w>",
+          "score": 0.5617140531539917
+        },
+        {
+          "rank": 24,
+          "tokenId": 42541,
+          "token": "💙💜",
+          "piece": "ðŁĴĻðŁĴľ</w>",
+          "score": 0.5584739446640015
+        },
+        {
+          "rank": 25,
+          "tokenId": 46804,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ",
+          "score": 0.556474506855011
+        },
+        {
+          "rank": 26,
+          "tokenId": 30698,
+          "token": "💙💙💙",
+          "piece": "ðŁĴĻðŁĴĻðŁĴĻ</w>",
+          "score": 0.5518963932991028
+        },
+        {
+          "rank": 27,
+          "tokenId": 37229,
+          "token": "kyuhyun",
+          "piece": "kyuhyun</w>",
+          "score": 0.5465391874313354
+        },
+        {
+          "rank": 28,
+          "tokenId": 46182,
+          "token": "💚💚💚",
+          "piece": "ðŁĴļðŁĴļðŁĴļ</w>",
+          "score": 0.5347349047660828
+        },
+        {
+          "rank": 29,
+          "tokenId": 19928,
+          "token": "houseof",
+          "piece": "houseof",
+          "score": 0.5282706618309021
+        },
+        {
+          "rank": 30,
+          "tokenId": 18936,
+          "token": "taylorswift",
+          "piece": "taylorswift</w>",
+          "score": 0.5201861262321472
+        },
+        {
+          "rank": 31,
+          "tokenId": 16632,
+          "token": "beyonce",
+          "piece": "beyonce</w>",
+          "score": 0.5190791487693787
+        },
+        {
+          "rank": 32,
+          "tokenId": 14965,
+          "token": "kanye",
+          "piece": "kanye</w>",
+          "score": 0.5106130838394165
+        },
+        {
+          "rank": 33,
+          "tokenId": 29882,
+          "token": "homeowners",
+          "piece": "homeowners</w>",
+          "score": 0.5037651062011719
+        },
+        {
+          "rank": 34,
+          "tokenId": 31943,
+          "token": "kanyewest",
+          "piece": "kanyewest</w>",
+          "score": 0.501846194267273
+        },
+        {
+          "rank": 35,
+          "tokenId": 47150,
+          "token": "bluebells",
+          "piece": "bluebells</w>",
+          "score": 0.501382052898407
+        },
+        {
+          "rank": 36,
+          "tokenId": 37267,
+          "token": "homeowner",
+          "piece": "homeowner</w>",
+          "score": 0.49709418416023254
+        },
+        {
+          "rank": 37,
+          "tokenId": 12412,
+          "token": "household",
+          "piece": "household</w>",
+          "score": 0.492139607667923
+        },
+        {
+          "rank": 38,
+          "tokenId": 30600,
+          "token": "taemin",
+          "piece": "taemin</w>",
+          "score": 0.4915126860141754
+        },
+        {
+          "rank": 39,
+          "tokenId": 32924,
+          "token": "housing",
+          "piece": "housing",
+          "score": 0.49016284942626953
+        },
+        {
+          "rank": 40,
+          "tokenId": 1354,
+          "token": "buil",
+          "piece": "buil",
+          "score": 0.48317205905914307
+        },
+        {
+          "rank": 41,
+          "tokenId": 26230,
+          "token": "💙💛",
+          "piece": "ðŁĴĻðŁĴĽ</w>",
+          "score": 0.4592469036579132
+        },
+        {
+          "rank": 42,
+          "tokenId": 33197,
+          "token": "ahouse",
+          "piece": "ahouse</w>",
+          "score": 0.4522705674171448
+        },
+        {
+          "rank": 43,
+          "tokenId": 47526,
+          "token": "eunhyuk",
+          "piece": "eunhyuk</w>",
+          "score": 0.447598934173584
+        },
+        {
+          "rank": 44,
+          "tokenId": 6521,
+          "token": "💚",
+          "piece": "ðŁĴļ</w>",
+          "score": 0.44741758704185486
+        },
+        {
+          "rank": 45,
+          "tokenId": 39601,
+          "token": "modernism",
+          "piece": "modernism</w>",
+          "score": 0.4472197890281677
+        },
+        {
+          "rank": 46,
+          "tokenId": 13290,
+          "token": "architects",
+          "piece": "architects</w>",
+          "score": 0.4427230954170227
+        },
+        {
+          "rank": 47,
+          "tokenId": 11672,
+          "token": "residence",
+          "piece": "residence</w>",
+          "score": 0.44239363074302673
+        },
+        {
+          "rank": 48,
+          "tokenId": 27848,
+          "token": "phouse",
+          "piece": "phouse</w>",
+          "score": 0.4404428005218506
+        },
+        {
+          "rank": 49,
+          "tokenId": 8102,
+          "token": "💚",
+          "piece": "ðŁĴļ",
+          "score": 0.4383404850959778
+        },
+        {
+          "rank": 50,
+          "tokenId": 27318,
+          "token": "🏡",
+          "piece": "ðŁı¡</w>",
+          "score": 0.4372473359107971
+        }
+      ],
+      "te": [
+        {
+          "rank": 1,
+          "tokenId": 1212,
+          "token": "house",
+          "piece": "house</w>",
+          "score": 7.626953125
+        },
+        {
+          "rank": 2,
+          "tokenId": 4107,
+          "token": "house",
+          "piece": "house",
+          "score": 6.96875
+        },
+        {
+          "rank": 3,
+          "tokenId": 48685,
+          "token": "housel",
+          "piece": "housel",
+          "score": 5.9296875
+        },
+        {
+          "rank": 4,
+          "tokenId": 33197,
+          "token": "ahouse",
+          "piece": "ahouse</w>",
+          "score": 5.76171875
+        },
+        {
+          "rank": 5,
+          "tokenId": 40318,
+          "token": "thouse",
+          "piece": "thouse",
+          "score": 5.630859375
+        },
+        {
+          "rank": 6,
+          "tokenId": 7819,
+          "token": "thouse",
+          "piece": "thouse</w>",
+          "score": 5.578125
+        },
+        {
+          "rank": 7,
+          "tokenId": 7791,
+          "token": "houses",
+          "piece": "houses</w>",
+          "score": 5.556640625
+        },
+        {
+          "rank": 8,
+          "tokenId": 37098,
+          "token": "dwelling",
+          "piece": "dwelling</w>",
+          "score": 5.498046875
+        },
+        {
+          "rank": 9,
+          "tokenId": 41703,
+          "token": "arquitec",
+          "piece": "arquitec",
+          "score": 5.337890625
+        },
+        {
+          "rank": 10,
+          "tokenId": 40077,
+          "token": "manian",
+          "piece": "manian</w>",
+          "score": 5.28515625
+        },
+        {
+          "rank": 11,
+          "tokenId": 4920,
+          "token": "architecture",
+          "piece": "architecture</w>",
+          "score": 5.28125
+        },
+        {
+          "rank": 12,
+          "tokenId": 3359,
+          "token": "architec",
+          "piece": "architec",
+          "score": 5.248046875
+        },
+        {
+          "rank": 13,
+          "tokenId": 28671,
+          "token": "shouse",
+          "piece": "shouse</w>",
+          "score": 5.15625
+        },
+        {
+          "rank": 14,
+          "tokenId": 33991,
+          "token": "compounds",
+          "piece": "compounds</w>",
+          "score": 5.150390625
+        },
+        {
+          "rank": 15,
+          "tokenId": 25547,
+          "token": "iture",
+          "piece": "iture</w>",
+          "score": 5.13671875
+        },
+        {
+          "rank": 16,
+          "tokenId": 19928,
+          "token": "houseof",
+          "piece": "houseof",
+          "score": 5.12890625
+        },
+        {
+          "rank": 17,
+          "tokenId": 42557,
+          "token": "祭",
+          "piece": "ç¥Ń</w>",
+          "score": 5.11328125
+        },
+        {
+          "rank": 18,
+          "tokenId": 33666,
+          "token": "ouses",
+          "piece": "ouses</w>",
+          "score": 5.083984375
+        },
+        {
+          "rank": 19,
+          "tokenId": 16729,
+          "token": "anist",
+          "piece": "anist</w>",
+          "score": 5.037109375
+        },
+        {
+          "rank": 20,
+          "tokenId": 4479,
+          "token": "archi",
+          "piece": "archi",
+          "score": 4.998046875
+        },
+        {
+          "rank": 21,
+          "tokenId": 14323,
+          "token": "alore",
+          "piece": "alore</w>",
+          "score": 4.98828125
+        },
+        {
+          "rank": 22,
+          "tokenId": 43305,
+          "token": "stique",
+          "piece": "stique</w>",
+          "score": 4.982421875
+        },
+        {
+          "rank": 23,
+          "tokenId": 26137,
+          "token": "ม",
+          "piece": "à¸¡",
+          "score": 4.96484375
+        },
+        {
+          "rank": 24,
+          "tokenId": 17354,
+          "token": "izing",
+          "piece": "izing</w>",
+          "score": 4.962890625
+        },
+        {
+          "rank": 25,
+          "tokenId": 27502,
+          "token": "••••",
+          "piece": "âĢ¢âĢ¢âĢ¢âĢ¢",
+          "score": 4.953125
+        },
+        {
+          "rank": 26,
+          "tokenId": 46221,
+          "token": "akistan",
+          "piece": "akistan</w>",
+          "score": 4.9453125
+        },
+        {
+          "rank": 27,
+          "tokenId": 31322,
+          "token": "thani",
+          "piece": "thani</w>",
+          "score": 4.943359375
+        },
+        {
+          "rank": 28,
+          "tokenId": 41114,
+          "token": "iloveart",
+          "piece": "iloveart</w>",
+          "score": 4.94140625
+        },
+        {
+          "rank": 29,
+          "tokenId": 43818,
+          "token": ":::",
+          "piece": ":::</w>",
+          "score": 4.921875
+        },
+        {
+          "rank": 30,
+          "tokenId": 39038,
+          "token": "architecture",
+          "piece": "architecture",
+          "score": 4.91796875
+        },
+        {
+          "rank": 31,
+          "tokenId": 42377,
+          "token": "sez",
+          "piece": "sez</w>",
+          "score": 4.91015625
+        },
+        {
+          "rank": 32,
+          "tokenId": 42728,
+          "token": "inghour",
+          "piece": "inghour</w>",
+          "score": 4.900390625
+        },
+        {
+          "rank": 33,
+          "tokenId": 2324,
+          "token": "mance",
+          "piece": "mance</w>",
+          "score": 4.892578125
+        },
+        {
+          "rank": 34,
+          "tokenId": 30767,
+          "token": "ก",
+          "piece": "à¸ģ</w>",
+          "score": 4.87890625
+        },
+        {
+          "rank": 35,
+          "tokenId": 47254,
+          "token": "adaily",
+          "piece": "adaily</w>",
+          "score": 4.87890625
+        },
+        {
+          "rank": 36,
+          "tokenId": 6264,
+          "token": "icians",
+          "piece": "icians</w>",
+          "score": 4.876953125
+        },
+        {
+          "rank": 37,
+          "tokenId": 49222,
+          "token": "epiconetsy",
+          "piece": "epiconetsy</w>",
+          "score": 4.86328125
+        },
+        {
+          "rank": 38,
+          "tokenId": 15360,
+          "token": "architectural",
+          "piece": "architectural</w>",
+          "score": 4.861328125
+        },
+        {
+          "rank": 39,
+          "tokenId": 38145,
+          "token": "aculture",
+          "piece": "aculture</w>",
+          "score": 4.85546875
+        },
+        {
+          "rank": 40,
+          "tokenId": 38349,
+          "token": "nago",
+          "piece": "nago",
+          "score": 4.853515625
+        },
+        {
+          "rank": 41,
+          "tokenId": 42163,
+          "token": "awilliams",
+          "piece": "awilliams</w>",
+          "score": 4.849609375
+        },
+        {
+          "rank": 42,
+          "tokenId": 12147,
+          "token": "onent",
+          "piece": "onent</w>",
+          "score": 4.84765625
+        },
+        {
+          "rank": 43,
+          "tokenId": 37155,
+          "token": "ciones",
+          "piece": "ciones</w>",
+          "score": 4.8046875
+        },
+        {
+          "rank": 44,
+          "tokenId": 27848,
+          "token": "phouse",
+          "piece": "phouse</w>",
+          "score": 4.802734375
+        },
+        {
+          "rank": 45,
+          "tokenId": 43107,
+          "token": "happeningnow",
+          "piece": "happeningnow</w>",
+          "score": 4.80078125
+        },
+        {
+          "rank": 46,
+          "tokenId": 35961,
+          "token": "labout",
+          "piece": "labout",
+          "score": 4.79296875
+        },
+        {
+          "rank": 47,
+          "tokenId": 33967,
+          "token": "itics",
+          "piece": "itics</w>",
+          "score": 4.7890625
+        },
+        {
+          "rank": 48,
+          "tokenId": 34970,
+          "token": "dungeonsand",
+          "piece": "dungeonsand",
+          "score": 4.78125
+        },
+        {
+          "rank": 49,
+          "tokenId": 38855,
+          "token": "residences",
+          "piece": "residences</w>",
+          "score": 4.771484375
+        },
+        {
+          "rank": 50,
+          "tokenId": 25519,
+          "token": "matory",
+          "piece": "matory</w>",
+          "score": 4.76953125
+        }
+      ]
+    },
+    "downloads": {
+      "unet": "assets/scans/house-unet.csv",
+      "te": "assets/scans/house-te.csv"
+    }
+  },
+  "semanticTokens": [
+    "architec",
+    "architectural",
+    "architecture",
+    "house",
+    "houses",
+    "dwelling"
+  ],
+  "themeObservation": "Architecture and house pieces lead the U-Net ranking; house is also the highest-ranked text encoder token. The archived activation word is house.",
+  "source": {
+    "platform": "Civitai",
+    "url": "https://civitai.com/models/115932?modelVersionId=125485",
+    "modelId": 115932,
+    "versionId": 125485,
+    "sha256": "4a57c5a1b793a6e9c2b7920dd10865bea89626bd4db3a27de4c6f9acf82cf9f5",
+    "creator": "Hoang_StablediffusionLife",
+    "capturedAt": "2026-08-17T13:10:38.797935+00:00",
+    "declaredActivationWords": [
+      "house"
+    ],
+    "linkVerification": "Exact version ID, model ID, activation words and weight SHA-256 reverified against the official Civitai API.",
+    "liveVerification": {
+      "checkedOn": "2026-10-15",
+      "officialEndpoint": "https://civitai.com/api/v1/model-versions/125485",
+      "versionAndHashMatched": true,
+      "activationWords": [
+        "house"
+      ]
+    }
+  }
+}
