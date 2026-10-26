@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+/output/*
+!/output/.gitkeep
+*.safetensors
+*.ckpt
+*.pt
+*.pth

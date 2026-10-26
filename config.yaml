@@ -1,0 +1,31 @@
+task: scan
+output_dir: output
+
+scan:
+  adapter: /path/to/adapter.safetensors
+  base_model: /path/to/stable-diffusion-v1-5
+  name: null
+  label: null
+  family: null
+  trigger: null
+  device: cuda
+  te_only: false
+  unet_only: false
+  cache_batch_size: 1024
+  scan_batch_size: 4096
+  te_batch_size: 8192
+  a: 5
+  templates:
+    - "a photo of {token}"
+    - "a person with {token}"
+    - "an object near {token}"
+    - "a landscape containing {token}"
+
+thresholding:
+  input: output/reference
+  quantile: 0.9
+
+eval:
+  input: output/scans
+  thresholds: null
+  ks: [1, 5]

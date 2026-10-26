@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.2.3
+torch>=2.2
+diffusers==0.31.0
+transformers==4.42.3
+peft==0.12.0
+safetensors==0.8.0
+accelerate==0.31.0
+PyYAML==6.0.3
